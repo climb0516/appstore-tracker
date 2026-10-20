@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:47:33+08:00",
+ "updated": "2026-10-20T19:01:22+08:00",
  "regions": [
   {
    "id": "hk",
@@ -875,28 +875,28 @@
    "review_stats": {
     "total": 500,
     "window": "recent",
-    "sample": 216,
-    "avg": 4.77,
+    "sample": 215,
+    "avg": 4.79,
     "dist": {
-     "1": 5,
+     "1": 4,
      "2": 2,
      "3": 2,
      "4": 19,
      "5": 188
     },
-    "neg": 7,
+    "neg": 6,
     "topics": {
      "crash": 1,
      "battery": 1,
      "login": 0,
-     "quote": 3,
-     "money": 1,
+     "quote": 2,
+     "money": 0,
      "fee": 0,
      "support": 0,
      "order": 2,
-     "ui": 2,
+     "ui": 1,
      "account": 1,
-     "ads": 1
+     "ads": 0
     },
     "versions": [
      {
@@ -1394,7 +1394,7 @@
      "order": 9,
      "ui": 6,
      "account": 2,
-     "ads": 9
+     "ads": 1
     },
     "versions": [
      {
@@ -1796,7 +1796,7 @@
      "order": 1,
      "ui": 2,
      "account": 4,
-     "ads": 5
+     "ads": 1
     },
     "versions": [
      {
@@ -2115,7 +2115,7 @@
      "order": 0,
      "ui": 6,
      "account": 0,
-     "ads": 1
+     "ads": 0
     },
     "versions": [
      {
@@ -2324,7 +2324,7 @@
      "order": 10,
      "ui": 25,
      "account": 1,
-     "ads": 27
+     "ads": 1
     },
     "versions": [
      {
@@ -2585,16 +2585,16 @@
      "review": false
     },
     {
-     "title": "Interactive Brokers Group Inc(IBKR)股票10月7日盤中下跌4.78%：關鍵驅動因素揭曉",
-     "source": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLVlFZHBhMVpjcHdUVUlnQzFWdXJKOHdBd2Z0c2VEZV9WbWdkblM0LUNRT3FwM19ialItYkhoa0tGOW9EN29EaU5UM0tZZFRGYTVqZ1ZyVFMwSWtkLWdwenBORWZNY2g0TlhmX3Y3TjF3VHNNcno0NXZBbXRnS21rdUtsY1FxV29GNFEyeFkwMHJ3Z2pjUFE?oc=5",
+     "title": "【22:52 即時新聞】Interactive Brokers Group(IBKR) 盤中重挫逾5% 技術面仍陷空方格局",
+     "source": "CMoney投資網誌",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWtfMXpQUl9zWmlBandzZW5pRk1xUGZOeUJNZmxnRzNRaUV3aDNvRVk3OUJ0VkhTQ0FxakZnazZTb1Y1QTJaYWszUFlGOG1lYWdIRXJOa2RZNEhramRGMS05WmxpMXgybEh0S1ZRa3ZNb0FvUkJPWFVCTlZrbTd5TXhGcGlFZHk0VVEwaUZ3?oc=5",
      "date": "2026-10-07T15:00:00+08:00",
      "review": false
     },
     {
-     "title": "【22:52 即時新聞】Interactive Brokers Group(IBKR) 盤中重挫逾5% 技術面仍陷空方格局",
-     "source": "CMoney投資網誌",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWtfMXpQUl9zWmlBandzZW5pRk1xUGZOeUJNZmxnRzNRaUV3aDNvRVk3OUJ0VkhTQ0FxakZnazZTb1Y1QTJaYWszUFlGOG1lYWdIRXJOa2RZNEhramRGMS05WmxpMXgybEh0S1ZRa3ZNb0FvUkJPWFVCTlZrbTd5TXhGcGlFZHk0VVEwaUZ3?oc=5",
+     "title": "Interactive Brokers Group Inc(IBKR)股票10月7日盤中下跌4.78%：關鍵驅動因素揭曉",
+     "source": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLVlFZHBhMVpjcHdUVUlnQzFWdXJKOHdBd2Z0c2VEZV9WbWdkblM0LUNRT3FwM19ialItYkhoa0tGOW9EN29EaU5UM0tZZFRGYTVqZ1ZyVFMwSWtkLWdwenBORWZNY2g0TlhmX3Y3TjF3VHNNcno0NXZBbXRnS21rdUtsY1FxV29GNFEyeFkwMHJ3Z2pjUFE?oc=5",
      "date": "2026-10-07T15:00:00+08:00",
      "review": false
     },
@@ -2745,7 +2745,7 @@
      "order": 0,
      "ui": 0,
      "account": 0,
-     "ads": 1
+     "ads": 0
     },
     "versions": [
      {
@@ -3060,7 +3060,7 @@
      "order": 8,
      "ui": 9,
      "account": 0,
-     "ads": 19
+     "ads": 2
     },
     "versions": [
      {
@@ -3138,6 +3138,13 @@
     "newest": "2026-10-19"
    },
    "news": [
+    {
+     "title": "ADI Predictstreet Review: Is the Prediction Markets App Legit?",
+     "source": "NEXT.io",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wRWRKZlJ3R1Y1cThlT2ZNWlU4YXBzX2NaRzNJX1dpUEVCOUdJV0FBWkc5Z0FRTG5XYTR6WnpQODdlemJsbXFfZVJESVJ5bnVqd3pZMVBfV2NpbTNteUV3UDl5NA?oc=5",
+     "date": "2026-10-18T15:00:00+08:00",
+     "review": true
+    },
     {
      "title": "Give Online Stores a Virtual Card Number – Here’s Where to Get One",
      "source": "Money Crashers",
@@ -3340,13 +3347,6 @@
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT2lXUE5GX3U4NlN3R1V4OG13dGhHaXJEdWt0SHlfalJLTmJSZnFRVHN4ODVlb19rUWtlOHdJZk5JWTQ4bFN1LWVBSGVma1NyUnl6STZlS3dUQ3Rtam9vZUowdTZoU1B6Z3J0NkltZzFqa0VMX09oSUlsU01YU01PNkpRSG5heVNYeXBVS3NMZWdJOEh4ZklMR3AxZVRhVUdWZXVQSmhzZjFwQVRQZmxQeGYyRQ?oc=5",
      "date": "2026-10-08T20:29:23+08:00",
      "review": false
-    },
-    {
-     "title": "Gemini, ProphetX, WeBull Limit Contracts in Connecticut",
-     "source": "DeFi Rate",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOVFMZzlOZE5ER1A1ZFk3UUR2ZzQ0X2pmSGd6SWNKMmxrMWpqWlVEdTl0YW1NT3FiOVprU0FuNV90bUxreVlLMnZUVzVIVGV0S29HcjA5RWljQUtyWllkYmhpRnk0VnFMWF84REVBSEtCZmptQzA0OUlxU20yYm5MTk9Idmx0NVlWLXE3TGtvMGpHdDBEZzIwbGVPSUlLLVYtUUI4?oc=5",
-     "date": "2026-10-08T15:54:23+08:00",
-     "review": false
     }
    ],
    "history": [
@@ -3483,7 +3483,7 @@
      "order": 9,
      "ui": 38,
      "account": 1,
-     "ads": 40
+     "ads": 5
     },
     "versions": [
      {
@@ -3560,6 +3560,13 @@
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TX0hWSVM4aDY0ZV9HY0NMbHZEMHFHT0lLZC1qUk1LQkNmN3M4aGJSaS1NTHoybDVrUExJWTR4d3BtZ0g4SWVLZFdMejZOTzB1N3VHYVZ1Wl9QWlhuNGNEWA?oc=5",
      "date": "2026-10-17T15:00:00+08:00",
      "review": true
+    },
+    {
+     "title": "Where is Gemini Prediction Market Legal in the US?",
+     "source": "Phandroid",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qSVc1ODlpcWE2d0toRVlvbFR2QkdvY1hjSWpzdGw1aXpCUHo0cE43V3VRNk10UVdxRzRlb0hYZWQzS01MZGtxdmZwZjdoeEdrVGpRQllwTUtCNDQ1X3BRUGxFdEo?oc=5",
+     "date": "2026-10-17T15:00:00+08:00",
+     "review": false
     },
     {
      "title": "Novig election markets explained for 2026: Your guide to political prediction App",
@@ -3728,13 +3735,6 @@
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSmJUd3VUQkt2MzBWZ2dTa0dfMTlPN1cyRDZGZWVyUUVoaG1IUHMxam5fUTJSQ2t6a0JiR2pfZUY5SDRGS3lxbXU4bXhEYjZEVXlOV1pJdXNtN2JYRGVzRU9vV0p6U2tLOEd2RnFHdkdVZHBCN2FtM3JhMlVBOVp2RWlpeHkzMjhwYzdCQnBPM21rZw?oc=5",
      "date": "2026-10-12T23:10:06+08:00",
      "review": false
-    },
-    {
-     "title": "Robinhood has underperformed this year. Evercore ISI says the stock is a buy",
-     "source": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnFvZFdNeXJuc0lMdlJ0WUVva05QQVBkVjludjdvWTJLdC1sT0E3ckRaMjJXVDJLNTNmYjRmZ01VT0RxWThVU1dibE15QkVxVmFQQUIyWWpBN2dOTWIxdUZkeFluWkJYNXJTbkdwVVUySjQxYWs1amdhZDV1SHJFeXhWMGtocjFlbTJPSnIwS1R1c280bjVqeE5mTUwwWmZuZTFIQXBXNUdOaFBIRXFKUXpn?oc=5",
-     "date": "2026-10-12T19:10:16+08:00",
-     "review": false
     }
    ],
    "history": [
@@ -3883,7 +3883,7 @@
      "order": 0,
      "ui": 9,
      "account": 3,
-     "ads": 5
+     "ads": 3
     },
     "versions": [
      {
@@ -4293,7 +4293,7 @@
      "order": 0,
      "ui": 1,
      "account": 0,
-     "ads": 6
+     "ads": 1
     },
     "versions": [
      {
@@ -4398,6 +4398,13 @@
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBENTRlQ0dZeE03QTJBM25waXl2emhGcFBDdVN6U3oxYzZ0VFFtTmJaaXY4NTAwTF95dVozaVR2WndNaGRBQnpyS0hGV1JyVlRHbnVaOFNEUVJxTTZ6Rm5ad1lVMXlTZ3hGYmNPX0pfQUoyQ2lNV1FSV29IUk5kQQ?oc=5",
      "date": "2026-10-19T05:00:39+08:00",
      "review": false
+    },
+    {
+     "title": "ADI Predictstreet Review: Is the Prediction Markets App Legit?",
+     "source": "NEXT.io",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wRWRKZlJ3R1Y1cThlT2ZNWlU4YXBzX2NaRzNJX1dpUEVCOUdJV0FBWkc5Z0FRTG5XYTR6WnpQODdlemJsbXFfZVJESVJ5bnVqd3pZMVBfV2NpbTNteUV3UDl5NA?oc=5",
+     "date": "2026-10-18T15:00:00+08:00",
+     "review": true
     },
     {
      "title": "KuCoin enhances app Feed section to include interactive market insights and new listings",
@@ -4572,13 +4579,6 @@
      "source": "Invezz",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95RTBmbm1qdkhQVUlkWnBmTTdWNzByZEg3a0xNTFAwc1liVnhGaTlkWk12VGVZdWJKZHNTQ0t2TzBUbmY3TThNc2lPNndsclRwQk1MSTFKQlA4Q3F1LU1JNDZSd0xUZXdWbG41Qlg5SHRQMERfM0w0d1lmSncwOUU?oc=5",
      "date": "2026-10-13T15:00:00+08:00",
-     "review": false
-    },
-    {
-     "title": "Plus500 Is Building a US ‘Super-App’ and Buying a Broker to Stock the Shelves",
-     "source": "Finance Magnates",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVhNNXA4UEphc2FfM0lMQW1SQmJzNUtrVURsbHBVU1g4bGxwcGR4SnZJUENsQjJKUlJSd2hCcF9rU0FZejdrc2lBLV9ya2JSSW9zYjFXTHIwLTF3MlZ6SW9CR0pMQURYbHY5LXpNMWxfU1Z3eU5PVWlXRWdYbjJwSHdkMFFkQS1xdHVDaGQyNGZ3MmIxWnpDa2JIX2RGMDJzUmtqbEZlSHFjNl9LZGVueDNvZlQ?oc=5",
-     "date": "2026-10-13T14:28:12+08:00",
      "review": false
     }
    ],
@@ -5606,7 +5606,7 @@
     ]
    },
    "prev_day": null,
-   "updated": "2026-10-20T18:47:33+08:00"
+   "updated": "2026-10-20T19:01:22+08:00"
   },
   "us": {
    "entries": [
@@ -6616,7 +6616,7 @@
     ]
    },
    "prev_day": null,
-   "updated": "2026-10-20T18:47:33+08:00"
+   "updated": "2026-10-20T19:01:22+08:00"
   }
  }
 }
