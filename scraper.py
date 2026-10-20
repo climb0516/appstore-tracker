@@ -118,7 +118,7 @@ TOPICS = [
     ("order",   "下单交易",   r"下單|下单|成交|落單|交易失敗|order|execution|filled|trade fail"),
     ("ui",      "界面更新",   r"介面|界面|改版|更新後|更新后|新版|舊版|旧版|UI\b|interface|layout|update|redesign"),
     ("account", "开户审核",   r"開戶|开户|審核|审核|KYC|account (opening|approval)|verify (my )?identity"),
-    ("ads",     "广告推送",   r"廣告|广告|推送|通知太多|ads?\b|spam|notification"),
+    ("ads",     "广告推送",   r"廣告|广告|推送|通知太多|\bads?\b|\badvert|spam|too many notifications|push notification"),
 ]
 TOPIC_RE = [(tid, re.compile(rx, re.I)) for tid, _, rx in TOPICS]
 
