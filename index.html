@@ -16,6 +16,7 @@
     :root {
       --bg: #060a0a;
       --panel: rgba(18,26,26,0.72);
+      --panel-solid: #111918;
       --hover: rgba(255,255,255,0.04);
       --line: rgba(255,255,255,0.07);
       --line-2: rgba(255,255,255,0.13);
@@ -36,6 +37,7 @@
     :root[data-theme="light"] {
       --bg: #f6f9f8;
       --panel: rgba(255,255,255,0.88);
+      --panel-solid: #ffffff;
       --hover: rgba(10,40,35,0.035);
       --line: rgba(10,40,35,0.08);
       --line-2: rgba(10,40,35,0.15);
@@ -126,7 +128,8 @@
     .tab:hover { color: var(--text-1); }
     .tab.active { background: var(--hover); color: var(--text-1); box-shadow: inset 0 0 0 1px var(--line-2); }
 
-    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+    /* 卡片不用 backdrop-filter：画像页卡片很多时 Chrome 合成层会丢，部分卡片整块渲染成空白 */
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
     .new { font-size: 10.5px; line-height: 16px; padding: 0 5px; border-radius: 4px; color: #fff; background: var(--new); font-weight: 700; vertical-align: 1px; white-space: nowrap; }
     .muted { color: var(--text-3); }
     .warn { color: #f59e0b; }
@@ -197,6 +200,89 @@
     .rank-row .nm small { display: block; font-size: 11.5px; color: var(--text-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .rank-row .dl { width: 52px; flex: none; text-align: right; font-size: 12px; font-variant-numeric: tabular-nums; }
 
+    /* ── Profile ── */
+    .pf-head { padding: 18px 20px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+    .pf-head .app-icon { width: 64px; height: 64px; border-radius: 14px; box-shadow: 0 0 0 1px var(--line); }
+    .pf-head h2 { font-size: 20px; font-weight: 800; letter-spacing: -0.01em; }
+    .pf-head h2 a:hover { color: var(--accent); }
+    .pf-head p { font-size: 12.5px; color: var(--text-3); }
+    .pf-kpis { margin-left: auto; display: flex; gap: 18px; flex-wrap: wrap; }
+    .pf-kpis div { text-align: right; }
+    .pf-kpis b { display: block; font-size: 17px; font-variant-numeric: tabular-nums; }
+    .pf-kpis span { font-size: 11px; color: var(--text-3); }
+    .pf-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
+    .pf-sec { padding: 16px 18px; min-width: 0; }
+    .pf-sec.wide { grid-column: 1 / -1; }
+    .pf-sec h3 { font-size: 14px; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+    .pf-sec h3 small { font-weight: 500; font-size: 11.5px; color: var(--text-3); margin-left: auto; }
+    .pf-intro { font-size: 13.5px; color: var(--text-2); line-height: 1.7; overflow-wrap: anywhere; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--text-3); margin-top: 10px; }
+    .meta-row b { color: var(--text-2); font-weight: 600; }
+    .ftags { display: flex; flex-direction: column; gap: 8px; }
+    .ftags .grp { display: flex; gap: 8px; align-items: baseline; }
+    .ftags .grp > span { width: 32px; flex: none; font-size: 11.5px; color: var(--text-3); }
+    .ftags .grp div { display: flex; flex-wrap: wrap; gap: 5px; }
+    .ftag { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--hover); border: 1px solid var(--line); white-space: nowrap; }
+    .ftag.notes { border-color: color-mix(in srgb, var(--accent) 55%, transparent); color: var(--accent); }
+    .hl-list { list-style: none; display: flex; flex-direction: column; gap: 7px; counter-reset: hl; }
+    .hl-list li { font-size: 13px; color: var(--text-2); padding-left: 26px; position: relative; overflow-wrap: anywhere; line-height: 1.6; }
+    .hl-list li::before { counter-increment: hl; content: counter(hl); position: absolute; left: 0; top: 1px; width: 18px; height: 18px; border-radius: 6px; background: var(--grad); color: #04201a; font-size: 11px; font-weight: 800; display: grid; place-items: center; }
+    .shots { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
+    .shots img { height: 300px; border-radius: 12px; flex: none; border: 1px solid var(--line); background: var(--hover); }
+    .bars { display: flex; flex-direction: column; gap: 5px; }
+    .bar-row { display: grid; grid-template-columns: 64px 1fr 44px; gap: 10px; align-items: center; font-size: 12px; color: var(--text-2); }
+    .bar { height: 7px; background: var(--hover); border-radius: 4px; overflow: hidden; }
+    .bar i { display: block; height: 100%; border-radius: 4px; background: var(--accent); }
+    .bar.star i { background: var(--star); }
+    .bar.neg i { background: var(--down); }
+    .bar-row span:last-child { text-align: right; color: var(--text-3); font-variant-numeric: tabular-nums; }
+    .rv { padding: 10px 0; border-top: 1px solid var(--line); }
+    .rv:first-child { border-top: none; padding-top: 0; }
+    .rv-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 11.5px; color: var(--text-3); }
+    .rv-meta .stars { color: var(--star); letter-spacing: 1px; font-size: 12px; }
+    .rv-meta .stars.low { color: var(--down); }
+    .rv b { display: block; font-size: 13.5px; margin: 2px 0; overflow-wrap: anywhere; }
+    .rv p { font-size: 12.5px; color: var(--text-2); overflow-wrap: anywhere; }
+    .nw { display: flex; gap: 10px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--line); font-size: 13px; }
+    .nw:first-child { border-top: none; padding-top: 0; }
+    .nw a { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+    .nw a:hover { color: var(--accent); }
+    .nw small { font-size: 11.5px; color: var(--text-3); white-space: nowrap; }
+    .rev-tag { font-size: 10.5px; font-weight: 700; padding: 0 5px; line-height: 16px; border-radius: 4px; color: #fff; background: #8b5cf6; white-space: nowrap; }
+    .pick { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+    .pick button { display: flex; gap: 10px; align-items: center; padding: 12px; text-align: left; cursor: pointer; }
+    .pick button:hover { border-color: var(--accent); }
+    .chip-btn { font-size: 12.5px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); cursor: pointer; color: var(--text-2); }
+    .chip-btn.on { border-color: var(--accent); color: var(--text-1); background: color-mix(in srgb, var(--accent) 14%, transparent); }
+    .toolbar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+    .toolbar .muted { font-size: 12px; margin-left: auto; }
+
+    /* ── Matrix / heat tables ── */
+    .matrix th { cursor: default; text-align: center; vertical-align: bottom; }
+    .matrix th:first-child, .matrix td:first-child { text-align: left; position: sticky; left: 0; background: var(--panel-solid, var(--bg)); z-index: 1; }
+    .matrix th .app-icon { display: block; margin: 0 auto 4px; }
+    .matrix td { text-align: center; }
+    .matrix tr.grp td { font-size: 11.5px; color: var(--text-3); font-weight: 600; background: var(--hover); text-align: left; }
+    .yes { color: var(--accent); font-weight: 800; }
+    .yes.notes { color: var(--up); }
+    .no { color: var(--text-3); opacity: .5; }
+    .heat { border-radius: 6px; padding: 3px 8px; display: inline-block; min-width: 44px; font-variant-numeric: tabular-nums; }
+    .rk-cell { font-weight: 700; font-variant-numeric: tabular-nums; }
+    .rk-cell.g1 { color: var(--up); } .rk-cell.g2 { color: var(--accent); } .rk-cell.g3 { color: var(--text-2); font-weight: 500; }
+    .mini-stack { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--hover); margin: 8px 0 6px; }
+    .mini-stack i { display: block; height: 100%; }
+    .rv-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .rv-card { padding: 14px 16px; }
+    .rv-card .top { display: flex; gap: 10px; align-items: center; }
+    .rv-card .top b { font-size: 14px; }
+    .rv-card .big { margin-left: auto; font-size: 20px; font-weight: 800; font-variant-numeric: tabular-nums; }
+    .rv-card small { font-size: 11.5px; color: var(--text-3); display: block; }
+    .rv-card .chips2 { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+    .rv-card .chips2 span { font-size: 11px; padding: 1px 7px; border-radius: 999px; background: color-mix(in srgb, var(--down) 14%, transparent); color: var(--down); }
+    .section-title { font-size: 13px; color: var(--text-3); margin: 22px 0 10px; display: flex; align-items: center; gap: 8px; }
+    .section-title:first-child { margin-top: 0; }
+    .section-title b { color: var(--text-1); font-size: 14.5px; }
+
     /* ── Right widgets ── */
     .widget { padding: 14px 16px 12px; }
     .widget + .widget { margin-top: 16px; }
@@ -232,6 +318,11 @@
       .tabs::-webkit-scrollbar { display: none; }
       .tab { padding: 6px 10px; }
       .app-grid { grid-template-columns: minmax(0, 1fr); }
+      .pf-grid { grid-template-columns: minmax(0, 1fr); }
+      .pf-kpis { margin-left: 0; width: 100%; justify-content: space-between; }
+      .pf-kpis div { text-align: left; }
+      .shots img { height: 240px; }
+      .rv-cards { grid-template-columns: minmax(0, 1fr); }
       .rel { padding: 14px; gap: 12px; }
     }
   </style>
@@ -280,9 +371,13 @@
         </div>
         <div class="tabs" id="tabs">
           <button class="tab" data-view="overview">总览</button>
-          <button class="tab" data-view="timeline">更新时间线</button>
+          <button class="tab" data-view="profile">竞品画像</button>
+          <button class="tab" data-view="features">功能矩阵</button>
+          <button class="tab" data-view="reviews">用户评价</button>
+          <button class="tab" data-view="media">媒体报道</button>
+          <button class="tab" data-view="chart">排名</button>
+          <button class="tab" data-view="timeline">更新</button>
           <button class="tab" data-view="compare">对比表</button>
-          <button class="tab" data-view="chart">财经榜</button>
         </div>
       </div>
       <div id="content"><div class="loading">正在加载…</div></div>
@@ -314,7 +409,9 @@ const store = {
 
 const DAY = 86400000;
 const NEW_DAYS = 7;
-const VIEWS = ['overview', 'timeline', 'compare', 'chart'];
+const VIEWS = ['overview', 'profile', 'features', 'reviews', 'media', 'chart', 'timeline', 'compare'];
+const RV_FILTERS = [['neg', '差评 1–2★', r => r.rating <= 2], ['mid', '中评 3★', r => r.rating === 3], ['pos', '好评 4–5★', r => r.rating >= 4], ['all', '全部', () => true]];
+const RV_PAGE = 30;
 const COLS = [
   // key, 标题, 取值, 默认降序
   ['name',    'App',      a => a.name, false],
@@ -335,6 +432,11 @@ const state = {
   app: 'all',
   q: '',
   sort: store.get('sort', ['days', false]),
+  reviews: null,          // reviews.json 体积较大，进入相关视图时才加载
+  revLoading: false,
+  rvFilter: 'neg',
+  rvPage: 1,
+  mediaReviewOnly: false,
 };
 
 // ── 主题 ──
@@ -422,7 +524,237 @@ function renderOverview() {
         <div class="spark">排名走势${spark(a.daily.map(d => d.rank), true, 'var(--accent)')}</div>
         <div class="spark">评分人数走势${spark(a.daily.map(d => d.count), false, 'var(--star)')}</div>
       </div>
+      <div class="meta-row">
+        ${a.review_stats && a.review_stats.total ? `<span>近期口碑 <b><span class="star">★</span> ${a.review_stats.avg.toFixed(2)}</b></span>` : ''}
+        ${topTopics(a, 1).length ? `<span>最多吐槽 <b class="down">${esc(topTopics(a, 1)[0].name)}</b></span>` : ''}
+        <span>功能 <b>${Object.keys(a.features || {}).length}</b> 项</span>
+        <span>报道 <b>${(a.news || []).length}</b> 篇</span>
+        <button class="chip-btn" data-profile="${esc(a.key)}" style="margin-left:auto">查看画像 →</button>
+      </div>
     </section>`).join('')}</div>`;
+}
+
+// ── 公共：评论 / 功能 / 报道 ──
+const stars = n => `<span class="stars ${n <= 2 ? 'low' : ''}">${'★'.repeat(n)}${'☆'.repeat(5 - n)}</span>`;
+const pct = (n, d) => d ? Math.round(n / d * 100) : 0;
+const topicName = id => (state.data.topics.find(t => t.id === id) || {}).name || id;
+
+function topTopics(a, n = 3) {
+  const s = a.review_stats || {};
+  return Object.entries(s.topics || {}).filter(([, v]) => v > 0).sort((x, y) => y[1] - x[1]).slice(0, n)
+    .map(([id, v]) => ({ id, name: topicName(id), count: v, pct: pct(v, s.neg) }));
+}
+
+async function ensureReviews() {
+  if (state.reviews || state.revLoading) return;
+  state.revLoading = true;
+  try {
+    const res = await fetch('reviews.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    state.reviews = (await res.json()).apps || {};
+  } catch (e) {
+    state.reviews = {};
+    state.reviewsError = e.message;
+  } finally {
+    state.revLoading = false;
+    if (['profile', 'reviews'].includes(state.view)) render();
+  }
+}
+const appReviews = key => (state.reviews || {})[key] || [];
+
+function distBars(s) {
+  const total = Object.values(s.dist || {}).reduce((x, y) => x + y, 0);
+  return `<div class="bars">${[5, 4, 3, 2, 1].map(k => {
+    const v = (s.dist || {})[k] || 0;
+    return `<div class="bar-row"><span>${'★'.repeat(k)}</span><div class="bar star"><i style="width:${pct(v, total)}%"></i></div><span>${pct(v, total)}%</span></div>`;
+  }).join('')}</div>`;
+}
+
+function reviewItem(r, a) {
+  return `<div class="rv">
+    <div class="rv-meta">${a ? icon(a) + `<b style="display:inline;font-size:12px;margin:0">${esc(a.name)}</b>` : ''}${stars(r.rating)}
+      <span>v${esc(r.version)}</span><span>${esc(fmtDate(r.date))}</span>${r.votes ? `<span>👍 ${r.votes}</span>` : ''}</div>
+    ${r.title ? `<b>${esc(r.title)}</b>` : ''}<p>${esc(r.content)}</p>
+  </div>`;
+}
+
+function newsItem(n, a) {
+  return `<div class="nw">${a ? icon(a) : ''}${n.review ? '<span class="rev-tag">评测</span>' : ''}
+    <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+    <small>${esc(n.source)} · ${esc(fmtDate(n.date))}</small></div>`;
+}
+
+// ── 视图：竞品画像 ──
+function renderProfile() {
+  const apps = regionApps();
+  const a = apps.find(x => x.key === state.app);
+  if (!a) {
+    return `<div class="section-title"><b>选择一个 App 查看画像</b>也可以点左侧列表</div>
+      <div class="pick">${apps.map(x => `<button class="card" data-app="${esc(x.key)}">${icon(x, 'md')}<div><b>${esc(x.name)}</b><br><small class="muted">${esc(x.seller)}</small></div></button>`).join('')}</div>`;
+  }
+  ensureReviews();
+  const s = a.review_stats || {};
+  const groups = [...new Set(state.data.features.map(f => f.group))];
+  const feats = groups.map(g => {
+    const tags = state.data.features.filter(f => f.group === g && a.features[f.id]);
+    return tags.length ? `<div class="grp"><span>${g}</span><div>${tags.map(f => {
+      const v = a.features[f.id];
+      return `<span class="ftag ${v.src === 'notes' ? 'notes' : ''}" title="${v.src === 'notes' ? `更新说明 ${esc(v.version)}（${esc(v.since)}）提及` : '商店描述中提及'}">${esc(f.name)}</span>`;
+    }).join('')}</div></div>` : '';
+  }).join('');
+  const revs = appReviews(a.key);
+  const neg = revs.filter(r => r.rating <= 2).slice(0, 5);
+  const pos = revs.filter(r => r.rating >= 4 && r.content.length > 15).slice(0, 3);
+  const kw = state.data.keywords[state.region] || {};
+  const intro = a.intro || (a.highlights || [])[0] || a.title;
+
+  return `<section class="card pf-head">${icon(a)}
+      <div><h2><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a></h2><p>${esc(a.title)}<br>${esc(a.seller)}</p></div>
+      <div class="pf-kpis">
+        <div><b><span class="star">★</span> ${a.rating.toFixed(2)}</b><span>${fmtInt(a.rating_count)} 人评分</span></div>
+        <div><b>${s.total ? s.avg.toFixed(2) : '—'}</b><span>${s.window === 'recent' ? '近 90 天' : '已收集'}评论均分</span></div>
+        <div><b>${fmtRank(a.rank)}</b><span>${esc(regionName())}财经榜</span></div>
+        <div><b>${esc(a.version)}</b><span>${esc(daysAgo(a.version_date))}发版</span></div>
+      </div>
+    </section>
+    <div class="pf-grid">
+      <section class="card pf-sec wide"><h3>🎯 定位</h3>
+        <p class="pf-intro">${esc(intro)}</p>
+        <div class="meta-row"><span>上架 <b>${esc(a.released || '—')}</b></span><span>包体 <b>${fmtSize(a.size)}</b></span>
+          <span>最低系统 <b>iOS ${esc(a.min_os)}</b></span><span>支持语言 <b>${a.languages || '—'}</b> 种</span></div>
+      </section>
+      <section class="card pf-sec"><h3>🧩 主要功能<small>${Object.keys(a.features).length} 项 · 依据商店描述与更新说明</small></h3>
+        <div class="ftags">${feats || '<span class="muted">未识别到功能关键词</span>'}</div>
+        <p class="note">绿色描边的是在更新说明里提到过的（悬停看版本）。</p>
+      </section>
+      <section class="card pf-sec"><h3>✨ 突出卖点<small>商店描述原文</small></h3>
+        ${(a.highlights || []).length ? `<ol class="hl-list">${a.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ol>` : '<p class="muted">商店描述里没有列表形式的卖点</p>'}
+      </section>
+      ${(a.screenshots || []).length ? `<section class="card pf-sec wide"><h3>🖼️ 商店截图<small>截图上的宣传语就是主推卖点</small></h3>
+        <div class="shots">${a.screenshots.map(u => `<img src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer">`).join('')}</div></section>` : ''}
+      <section class="card pf-sec"><h3>💬 用户评价<small>${s.total ? `已收集 ${s.total} 条 · ${esc(s.oldest)} 起` : ''}</small></h3>
+        ${s.total ? `${distBars(s)}
+          <div class="section-title" style="margin-top:16px"><b>差评主题</b>${s.neg} 条 1–2★</div>
+          <div class="bars">${topTopics(a, 6).map(t => `<div class="bar-row"><span>${esc(t.name)}</span><div class="bar neg"><i style="width:${t.pct}%"></i></div><span>${t.pct}%</span></div>`).join('') || '<span class="muted">差评太少，暂无主题</span>'}</div>`
+          : '<p class="muted">暂无评论数据（苹果未返回，或今天抓取时被限流，之后每天会补抓）</p>'}
+      </section>
+      <section class="card pf-sec"><h3>📊 版本口碑<small>每个版本的评论均分</small></h3>
+        ${(s.versions || []).length ? `<div class="table-wrap"><table><thead><tr><th>版本</th><th class="num">评论</th><th class="num">均分</th><th class="num">差评</th><th class="num">最近</th></tr></thead>
+          <tbody>${s.versions.map(v => `<tr><td>${esc(v.version)}</td><td class="num">${v.count}</td>
+            <td class="num ${v.avg < 3 ? 'down' : v.avg >= 4.5 ? 'up' : ''}">${v.avg.toFixed(2)}</td><td class="num">${v.neg}</td><td class="num muted">${esc(v.last)}</td></tr>`).join('')}</tbody></table></div>`
+          : '<p class="muted">样本不足（每个版本至少 3 条评论才统计）</p>'}
+      </section>
+      <section class="card pf-sec"><h3>👎 最新差评</h3>
+        ${!state.reviews ? '<p class="muted">评论加载中…</p>' : neg.map(r => reviewItem(r)).join('') || '<p class="muted">暂无差评</p>'}
+      </section>
+      <section class="card pf-sec"><h3>👍 最新好评</h3>
+        ${!state.reviews ? '<p class="muted">评论加载中…</p>' : pos.map(r => reviewItem(r)).join('') || '<p class="muted">暂无好评</p>'}
+      </section>
+      <section class="card pf-sec"><h3>📰 媒体评价<small>近 30 天 · 已排除自家渠道</small></h3>
+        ${(a.news || []).slice(0, 8).map(n => newsItem(n)).join('') || '<p class="muted">近 30 天没有第三方媒体报道</p>'}
+      </section>
+      <section class="card pf-sec"><h3>🔍 搜索可见度<small>App Store 关键词排名</small></h3>
+        <div class="bars">${Object.entries(kw).map(([k, ranks]) => {
+          const r = ranks[String(a.id)];
+          return `<div class="bar-row"><span>${esc(k)}</span><div class="bar"><i style="width:${r ? Math.max(4, 100 - (r - 1) * 2) : 0}%"></i></div><span>${r ? '#' + r : '—'}</span></div>`;
+        }).join('')}</div>
+        <p class="note">「—」表示不在搜索结果前 100 名。</p>
+      </section>
+      <section class="card pf-sec wide"><h3>🚀 最近版本<small>${a.history.length} 条记录</small></h3>
+        ${a.history.slice(0, 3).map(h => `<div class="rv"><div class="rv-meta"><b style="display:inline;font-size:13px;margin:0;color:var(--accent)">${esc(h.version)}</b><span>${esc(fmtDate(h.date))}</span></div><p style="white-space:pre-line">${esc(h.notes || '（没有填写更新说明）')}</p></div>`).join('')}
+      </section>
+    </div>`;
+}
+
+// ── 视图：功能矩阵 ──
+function renderFeatures() {
+  const apps = regionApps().filter(a => state.app === 'all' || a.key === state.app);
+  const feats = state.data.features.filter(f => matchQ(f.name, f.group));
+  const groups = [...new Set(feats.map(f => f.group))];
+  return `<div class="card table-wrap"><table class="matrix">
+    <thead><tr><th>功能</th>${apps.map(a => `<th>${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
+    <tbody>${groups.map(g => `<tr class="grp"><td colspan="${apps.length + 1}">${g}</td></tr>` +
+      feats.filter(f => f.group === g).map(f => `<tr><td>${esc(f.name)}</td>${apps.map(a => {
+        const v = (a.features || {})[f.id];
+        return `<td>${v ? `<span class="yes ${v.src === 'notes' ? 'notes' : ''}" title="${v.src === 'notes' ? `更新说明 ${esc(v.version)}（${esc(v.since)}）提及` : '商店描述中提及'}">✓</span>` : '<span class="no">–</span>'}</td>`;
+      }).join('')}</tr>`).join('')).join('')}
+      <tr class="grp"><td>合计</td>${apps.map(a => `<td>${Object.keys(a.features || {}).length}</td>`).join('')}</tr>
+    </tbody></table></div>
+    <p class="note">依据各家在 App Store 描述和更新说明里宣称的内容自动识别（关键词匹配），「–」只代表没有提到，不等于不支持。绿色 ✓ 表示在更新说明里提到过。</p>`;
+}
+
+// ── 视图：用户评价 ──
+function renderReviews() {
+  ensureReviews();
+  const apps = regionApps().filter(a => state.app === 'all' || a.key === state.app);
+  const cards = apps.map(a => {
+    const s = a.review_stats || {};
+    if (!s.total) return `<div class="card rv-card"><div class="top">${icon(a)}<b>${esc(a.name)}</b></div><small style="margin-top:8px">暂无评论数据</small></div>`;
+    const tot = Object.values(s.dist).reduce((x, y) => x + y, 0);
+    const colors = { 5: 'var(--up)', 4: '#84cc16', 3: 'var(--star)', 2: '#f97316', 1: 'var(--down)' };
+    return `<div class="card rv-card">
+      <div class="top">${icon(a)}<b>${esc(a.name)}</b><span class="big"><span class="star">★</span> ${s.avg.toFixed(2)}</span></div>
+      <div class="mini-stack">${[5, 4, 3, 2, 1].map(k => `<i style="width:${pct(s.dist[k], tot)}%;background:${colors[k]}" title="${k}★ ${s.dist[k]} 条"></i>`).join('')}</div>
+      <small>${s.window === 'recent' ? '近 90 天' : '全部已收集'} ${s.sample} 条 · 差评 ${pct(s.neg, s.sample)}%</small>
+      <div class="chips2">${topTopics(a).map(t => `<span>${esc(t.name)} ${t.pct}%</span>`).join('')}</div>
+    </div>`;
+  }).join('');
+
+  const withNeg = apps.filter(a => (a.review_stats || {}).neg);
+  const heat = withNeg.length ? `<div class="section-title"><b>差评主题对比</b>各 App 1–2★ 评论中提到该主题的比例</div>
+    <div class="card table-wrap"><table class="matrix">
+      <thead><tr><th>主题</th>${withNeg.map(a => `<th>${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
+      <tbody>${state.data.topics.map(t => `<tr><td>${esc(t.name)}</td>${withNeg.map(a => {
+        const s = a.review_stats, p = pct(s.topics[t.id] || 0, s.neg);
+        return `<td><span class="heat" style="background:color-mix(in srgb, var(--down) ${Math.min(p * 1.4, 70)}%, transparent)">${p ? p + '%' : '–'}</span></td>`;
+      }).join('')}</tr>`).join('')}
+      <tr class="grp"><td>差评样本</td>${withNeg.map(a => `<td>${a.review_stats.neg}</td>`).join('')}</tr></tbody></table></div>` : '';
+
+  const f = RV_FILTERS.find(x => x[0] === state.rvFilter) || RV_FILTERS[0];
+  const appByKey = Object.fromEntries(apps.map(a => [a.key, a]));
+  const feed = state.reviews ? apps.flatMap(a => appReviews(a.key).map(r => ({ r, a })))
+    .filter(({ r, a }) => f[2](r) && matchQ(r.title, r.content, a.name, r.version))
+    .sort((x, y) => y.r.date.localeCompare(x.r.date)) : [];
+  const shown = feed.slice(0, state.rvPage * RV_PAGE);
+  return `<div class="rv-cards">${cards}</div>${heat}
+    <div class="section-title"><b>评论流</b>${state.reviews ? `${feed.length} 条` : '加载中…'}</div>
+    <div class="toolbar">${RV_FILTERS.map(x => `<button class="chip-btn ${x[0] === state.rvFilter ? 'on' : ''}" data-rv="${x[0]}">${x[1]}</button>`).join('')}
+      <span class="muted">支持搜索评论内容</span></div>
+    <div class="card pf-sec">${shown.map(({ r, a }) => reviewItem(r, appByKey[a.key])).join('') || `<p class="muted">${state.reviews ? '没有符合条件的评论' : '评论加载中…'}</p>`}</div>
+    ${feed.length > shown.length ? `<button class="load-more chip-btn" data-rvmore="1" style="display:block;margin:14px auto 0">加载更多（剩余 ${feed.length - shown.length} 条）</button>` : ''}
+    <p class="note">评论来自 App Store 公开评论接口（每个 App 每个地区最多最近 500 条，每天累积）。差评主题按关键词归类，一条评论可能属于多个主题。</p>`;
+}
+
+// ── 视图：媒体报道 ──
+function renderMedia() {
+  const apps = regionApps().filter(a => state.app === 'all' || a.key === state.app);
+  const rows = apps.flatMap(a => (a.news || []).map(n => ({ n, a })))
+    .filter(({ n, a }) => (!state.mediaReviewOnly || n.review) && matchQ(n.title, n.source, a.name))
+    .sort((x, y) => y.n.date.localeCompare(x.n.date));
+  const per = apps.map(a => `<span class="chip-btn" style="cursor:default">${esc(a.name)} ${(a.news || []).length}</span>`).join('');
+  return `<div class="toolbar">
+      <button class="chip-btn ${!state.mediaReviewOnly ? 'on' : ''}" data-media="all">全部报道</button>
+      <button class="chip-btn ${state.mediaReviewOnly ? 'on' : ''}" data-media="review">只看评测 / 对比</button>
+      <span class="muted">${rows.length} 篇</span></div>
+    <div class="toolbar">${per}</div>
+    <div class="card pf-sec">${rows.map(({ n, a }) => newsItem(n, a)).join('') || '<p class="muted">没有符合条件的报道</p>'}</div>
+    <p class="note">来自 Google News 近 30 天的搜索结果，已排除各家自己的资讯频道和官网发布。标题含 review / 評測 / 比較 / vs 的标为「评测」。</p>`;
+}
+
+// ── 关键词排名表（放在排名视图里） ──
+function keywordTable() {
+  const kw = state.data.keywords[state.region] || {};
+  const apps = regionApps();
+  if (!Object.keys(kw).length) return '';
+  const cls = r => !r ? 'no' : r <= 3 ? 'rk-cell g1' : r <= 10 ? 'rk-cell g2' : 'rk-cell g3';
+  return `<div class="section-title"><b>关键词搜索排名</b>在 App Store 搜这个词时排第几（前 100 名）</div>
+    <div class="card table-wrap"><table class="matrix">
+      <thead><tr><th>关键词</th>${apps.map(a => `<th>${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
+      <tbody>${Object.entries(kw).map(([k, ranks]) => `<tr><td>${esc(k)}</td>${apps.map(a => {
+        const r = ranks[String(a.id)];
+        return `<td><span class="${cls(r)}">${r ? '#' + r : '–'}</span></td>`;
+      }).join('')}</tr>`).join('')}</tbody></table></div>
+    <div class="section-title"><b>财经类免费榜</b>前 100</div>`;
 }
 
 // ── 视图：更新时间线 ──
@@ -486,7 +818,7 @@ function renderChart() {
     const d = e.prev_rank - e.rank;
     return d > 0 ? `<span class="up">↑${d}</span>` : d < 0 ? `<span class="down">↓${-d}</span>` : '<span class="muted">–</span>';
   };
-  return `<div class="card rank-list">${rows.map(e => `
+  return `${keywordTable()}<div class="card rank-list">${rows.map(e => `
     <div class="rank-row ${tracked.has(e.id) ? 'tracked' : ''}">
       <span class="rk ${e.rank <= 3 ? 'top' : ''}">${e.rank}</span>
       ${icon(e, 'md')}
@@ -516,7 +848,8 @@ function render() {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.view === state.view));
   renderNav();
   renderWidgets();
-  $('#content').innerHTML = { overview: renderOverview, timeline: renderTimeline, compare: renderCompare, chart: renderChart }[state.view]();
+  $('#content').innerHTML = { overview: renderOverview, profile: renderProfile, features: renderFeatures, reviews: renderReviews,
+    media: renderMedia, timeline: renderTimeline, compare: renderCompare, chart: renderChart }[state.view]();
   const apps = regionApps();
   const week = apps.filter(a => isNew(a.version_date)).length;
   $('#subtitle').textContent = `${regionName()} · 追踪 ${apps.length} 个 App · ${week} 个在 7 天内发版`;
@@ -550,10 +883,14 @@ async function load(isRefresh) {
 
 // ── 事件绑定 ──
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-region],[data-app],[data-view],[data-sort]');
+  const t = e.target.closest('[data-region],[data-app],[data-view],[data-sort],[data-profile],[data-rv],[data-rvmore],[data-media]');
   if (!t || !state.data) return;
   if (t.dataset.region) { state.region = t.dataset.region; state.app = 'all'; store.set('region', state.region); }
-  else if (t.dataset.app) { state.app = t.dataset.app; }
+  else if (t.dataset.app) { state.app = t.dataset.app; state.rvPage = 1; if (state.view === 'overview' && t.dataset.app !== 'all') state.view = 'profile'; }
+  else if (t.dataset.profile) { state.app = t.dataset.profile; state.view = 'profile'; history.replaceState(null, '', '#profile'); window.scrollTo(0, 0); }
+  else if (t.dataset.rv) { state.rvFilter = t.dataset.rv; state.rvPage = 1; }
+  else if (t.dataset.rvmore) { state.rvPage++; }
+  else if (t.dataset.media) { state.mediaReviewOnly = t.dataset.media === 'review'; }
   else if (t.dataset.view) { state.view = t.dataset.view; store.set('view', state.view); history.replaceState(null, '', '#' + state.view); }
   else if (t.dataset.sort) {
     const col = COLS.find(c => c[0] === t.dataset.sort);

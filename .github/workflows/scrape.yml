@@ -28,11 +28,11 @@ jobs:
           python-version: '3.12'
       - name: Run scraper
         run: python scraper.py
-      - name: Commit data.json
+      - name: Commit data.json & reviews.json
         # data.json 里的 updated 每次都变、每天还会新增快照，所以每次运行都会提交，仓库保持活跃、定时任务不会被停用
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json reviews.json
           git diff --cached --quiet || git commit -m "data: snapshot $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
           git push
