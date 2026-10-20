@@ -1,0 +1,2525 @@
+{
+ "updated": "2026-10-20T17:56:53+08:00",
+ "regions": [
+  {
+   "id": "hk",
+   "name": "港区"
+  },
+  {
+   "id": "us",
+   "name": "美区"
+  }
+ ],
+ "sources": [
+  {
+   "id": "chart-hk",
+   "name": "港区财经免费榜",
+   "ok": true,
+   "error": "",
+   "count": 99
+  },
+  {
+   "id": "lookup-hk",
+   "name": "港区 App 详情",
+   "ok": true,
+   "error": "",
+   "count": 8
+  },
+  {
+   "id": "chart-us",
+   "name": "美区财经免费榜",
+   "ok": true,
+   "error": "",
+   "count": 100
+  },
+  {
+   "id": "lookup-us",
+   "name": "美区 App 详情",
+   "ok": true,
+   "error": "",
+   "count": 5
+  }
+ ],
+ "apps": [
+  {
+   "key": "hk:1470042146",
+   "region": "hk",
+   "id": 1470042146,
+   "name": "Longbridge",
+   "title": "Longbridge-港股 美股 期權 ETF 交易",
+   "seller": "Longport Technology HK Limited",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/57/47/d157479c-ae31-dcef-568c-fbe0a789dadc/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/longbridge-%E6%B8%AF%E8%82%A1-%E7%BE%8E%E8%82%A1-%E6%9C%9F%E6%AC%8A-etf-%E4%BA%A4%E6%98%93/id1470042146",
+   "version": "5.3.1",
+   "version_date": "2026-10-16T16:28:26+08:00",
+   "notes": "- 優化加載速度，提升效能\n- 解决了一些已知問題",
+   "rating": 4.698,
+   "rating_count": 1805,
+   "size": 266640384,
+   "min_os": "14.0",
+   "rank": null,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "5.3.1",
+     "date": "2026-10-16T16:28:26+08:00",
+     "notes": "- 優化加載速度，提升效能\n- 解决了一些已知問題",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.698,
+     "count": 1805,
+     "rank": null
+    }
+   ]
+  },
+  {
+   "key": "hk:1605041188",
+   "region": "hk",
+   "id": 1605041188,
+   "name": "LongPort",
+   "title": "LongPort-看清基本面，投研好簡單",
+   "seller": "Longport Technology HK Limited",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/ec/be/70ecbe41-1361-c6b4-3c3a-a3c70b2147e8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/longport-%E7%9C%8B%E6%B8%85%E5%9F%BA%E6%9C%AC%E9%9D%A2-%E6%8A%95%E7%A0%94%E5%A5%BD%E7%B0%A1%E5%96%AE/id1605041188",
+   "version": "4.73.0",
+   "version_date": "2026-07-29T09:56:00+08:00",
+   "notes": "- 啟用全新品牌形象\n- 介面視覺全面升級，涵蓋頁面風格、導航樣式、圖示、字體及配色\n- 優化部分資訊入口位置，瀏覽路徑更清晰\n- 行情圖表上方新增美股 IPO 競價資料顯示，支援查看首日競價期間嘅參考價、配對股數等資料。此功能需要用戶擁有 LV2 美股深度擺盤權限。\n- 加快載入速度，提升效能。\n- 修復部分已知問題。",
+   "rating": 4.75,
+   "rating_count": 4,
+   "size": 218079232,
+   "min_os": "13.0",
+   "rank": null,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "4.73.0",
+     "date": "2026-07-29T09:56:00+08:00",
+     "notes": "- 啟用全新品牌形象\n- 介面視覺全面升級，涵蓋頁面風格、導航樣式、圖示、字體及配色\n- 優化部分資訊入口位置，瀏覽路徑更清晰\n- 行情圖表上方新增美股 IPO 競價資料顯示，支援查看首日競價期間嘅參考價、配對股數等資料。此功能需要用戶擁有 LV2 美股深度擺盤權限。\n- 加快載入速度，提升效能。\n- 修復部分已知問題。",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.75,
+     "count": 4,
+     "rank": null
+    }
+   ]
+  },
+  {
+   "key": "hk:592031984",
+   "region": "hk",
+   "id": 592031984,
+   "name": "富途牛牛",
+   "title": "富途牛牛 - 港股美股 Crypto 期權 ETF 實時報價",
+   "seller": "Shenzhen Futu Network Technology Company Limited",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/d7/43/b7d743c6-a743-4fd4-6c41-3bbfa39460f9/AppIcon-NiuNiu-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/%E5%AF%8C%E9%80%94%E7%89%9B%E7%89%9B-%E6%B8%AF%E8%82%A1%E7%BE%8E%E8%82%A1-crypto-%E6%9C%9F%E6%AC%8A-etf-%E5%AF%A6%E6%99%82%E5%A0%B1%E5%83%B9/id592031984",
+   "version": "16.34.27018",
+   "version_date": "2026-10-12T15:28:09+08:00",
+   "notes": "修復了已知問題。若您有任何體驗問題或建議，可在【設置】- 【幫助】-【功能建議】反饋給我們哦",
+   "rating": 4.69,
+   "rating_count": 102333,
+   "size": 852815872,
+   "min_os": "15.5",
+   "rank": 8,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "16.34.27018",
+     "date": "2026-10-12T15:28:09+08:00",
+     "notes": "修復了已知問題。若您有任何體驗問題或建議，可在【設置】- 【幫助】-【功能建議】反饋給我們哦",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.69,
+     "count": 102333,
+     "rank": 8
+    }
+   ]
+  },
+  {
+   "key": "hk:1023600494",
+   "region": "hk",
+   "id": 1023600494,
+   "name": "Tiger Trade",
+   "title": "Tiger Trade-港美股 期權 ETF 交易",
+   "seller": "Tiger Trade Technology Pte Ltd",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/44/86/664486c5-b9dd-5568-688d-71b0fd880ec1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/tiger-trade-%E6%B8%AF%E7%BE%8E%E8%82%A1-%E6%9C%9F%E6%AC%8A-etf-%E4%BA%A4%E6%98%93/id1023600494",
+   "version": "9.6.5.0",
+   "version_date": "2026-10-19T10:50:27+08:00",
+   "notes": "【優化】ETF 月供體驗升級：更多港股 ETF 可用於月供，高股息、指數、黃金、債券、科技一站配齊；搜「月供」一鍵直達月供入口，搜「ETF」快速進入 ETF 專區。\n【優化】期貨下單頁價格展示：優化限價、觸發價和委託價等價格字段的展示，提升價格信息的清晰度。\n【優化】澳洲孖展賬戶下單支持跨幣種購買力與日末自動換匯提示，借款與還款安排更透明。",
+   "rating": 4.75,
+   "rating_count": 4038,
+   "size": 522087424,
+   "min_os": "15.0",
+   "rank": 47,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "9.6.5.0",
+     "date": "2026-10-19T10:50:27+08:00",
+     "notes": "【優化】ETF 月供體驗升級：更多港股 ETF 可用於月供，高股息、指數、黃金、債券、科技一站配齊；搜「月供」一鍵直達月供入口，搜「ETF」快速進入 ETF 專區。\n【優化】期貨下單頁價格展示：優化限價、觸發價和委託價等價格字段的展示，提升價格信息的清晰度。\n【優化】澳洲孖展賬戶下單支持跨幣種購買力與日末自動換匯提示，借款與還款安排更透明。",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.75,
+     "count": 4038,
+     "rank": 47
+    }
+   ]
+  },
+  {
+   "key": "hk:1557435421",
+   "region": "hk",
+   "id": 1557435421,
+   "name": "Webull",
+   "title": "Webull: 一APP投資港股 美股 期權 ETF 基金",
+   "seller": "Webull Technologies Limited",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/e4/2e/c9e42e40-7b38-6075-b3f3-88066707b446/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/webull-%E4%B8%80app%E6%8A%95%E8%B3%87%E6%B8%AF%E8%82%A1-%E7%BE%8E%E8%82%A1-%E6%9C%9F%E6%AC%8A-etf-%E5%9F%BA%E9%87%91/id1557435421",
+   "version": "12.1.0",
+   "version_date": "2026-09-20T14:13:34+08:00",
+   "notes": "系統效能優化升級",
+   "rating": 4.432,
+   "rating_count": 2021,
+   "size": 368717824,
+   "min_os": "15.5",
+   "rank": 62,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "12.1.0",
+     "date": "2026-09-20T14:13:34+08:00",
+     "notes": "系統效能優化升級",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.432,
+     "count": 2021,
+     "rank": 62
+    }
+   ]
+  },
+  {
+   "key": "hk:1463024118",
+   "region": "hk",
+   "id": 1463024118,
+   "name": "盈立 uSmart",
+   "title": "香港盈立證券-港資科技券商No.1^",
+   "seller": "uSmart Securities Limited",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/3e/07/973e0700-13d9-67ae-1f7a-77ad21b4b95e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/%E9%A6%99%E6%B8%AF%E7%9B%88%E7%AB%8B%E8%AD%89%E5%88%B8-%E6%B8%AF%E8%B3%87%E7%A7%91%E6%8A%80%E5%88%B8%E5%95%86no-1/id1463024118",
+   "version": "10.8.1",
+   "version_date": "2026-09-30T08:11:43+08:00",
+   "notes": "修復了已知問題",
+   "rating": 4.73,
+   "rating_count": 1856,
+   "size": 242554880,
+   "min_os": "15.1",
+   "rank": 36,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "10.8.1",
+     "date": "2026-09-30T08:11:43+08:00",
+     "notes": "修復了已知問題",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.73,
+     "count": 1856,
+     "rank": 36
+    }
+   ]
+  },
+  {
+   "key": "hk:492180369",
+   "region": "hk",
+   "id": 492180369,
+   "name": "雪球",
+   "title": "雪球 - 基金股票私募交流交易平台",
+   "seller": "Snowball Finance Inc",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/23/8d/49238de7-9c23-816a-fb72-35f0e82a411c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/%E9%9B%AA%E7%90%83-%E5%9F%BA%E9%87%91%E8%82%A1%E7%A5%A8%E7%A7%81%E5%8B%9F%E4%BA%A4%E6%B5%81%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0/id492180369",
+   "version": "15.0",
+   "version_date": "2026-10-12T16:33:45+08:00",
+   "notes": "- 【社区】个人页功能优化：个人页支持按时间范围查看内容，查找历史内容更便捷；高级搜索页面新增时间筛选能力，可按指定时间范围查看搜索结果。\n- 【股票】新增北交所 ETF 行情：支持北交所 ETF 行情数据显示，丰富 ETF 行情覆盖范围。",
+   "rating": 4.713,
+   "rating_count": 6711,
+   "size": 613172224,
+   "min_os": "13.0",
+   "rank": null,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "15.0",
+     "date": "2026-10-12T16:33:45+08:00",
+     "notes": "- 【社区】个人页功能优化：个人页支持按时间范围查看内容，查找历史内容更便捷；高级搜索页面新增时间筛选能力，可按指定时间范围查看搜索结果。\n- 【股票】新增北交所 ETF 行情：支持北交所 ETF 行情数据显示，丰富 ETF 行情覆盖范围。",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.713,
+     "count": 6711,
+     "rank": null
+    }
+   ]
+  },
+  {
+   "key": "hk:454558592",
+   "region": "hk",
+   "id": 454558592,
+   "name": "IBKR Mobile",
+   "title": "IBKR Mobile",
+   "seller": "Interactive Brokers LLC",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/26/67/f226671c-1b8f-2ec0-a22b-86878d69eecd/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/hk/app/ibkr-mobile/id454558592",
+   "version": "10.18.2",
+   "version_date": "2026-10-16T23:58:18+08:00",
+   "notes": "Bug fixes and stability improvements",
+   "rating": 4.358,
+   "rating_count": 2888,
+   "size": 62909440,
+   "min_os": "15.0",
+   "rank": 27,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "10.18.2",
+     "date": "2026-10-16T23:58:18+08:00",
+     "notes": "Bug fixes and stability improvements",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.358,
+     "count": 2888,
+     "rank": 27
+    }
+   ]
+  },
+  {
+   "key": "us:1440255819",
+   "region": "us",
+   "id": 1440255819,
+   "name": "moomoo",
+   "title": "moomoo: Investing & Trading",
+   "seller": "Moomoo Technologies Inc.",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/80/ff/8180ff72-3666-d020-3956-4763ed49eff3/AppIcon-MooMoo-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/us/app/moomoo-investing-trading/id1440255819",
+   "version": "16.35.27108",
+   "version_date": "2026-10-16T15:04:21+08:00",
+   "notes": "- Quickly find ongoing events under the new Live tab in Prediction Markets.",
+   "rating": 4.704,
+   "rating_count": 37571,
+   "size": 877021184,
+   "min_os": "15.5",
+   "rank": null,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "16.35.27108",
+     "date": "2026-10-16T15:04:21+08:00",
+     "notes": "- Quickly find ongoing events under the new Live tab in Prediction Markets.",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.704,
+     "count": 37571,
+     "rank": null
+    }
+   ]
+  },
+  {
+   "key": "us:1179213067",
+   "region": "us",
+   "id": 1179213067,
+   "name": "Webull",
+   "title": "Webull: Investing & Trading",
+   "seller": "Webull Technologies Pte. Ltd.",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/84/e5/7984e549-ce98-052e-5666-8b63286d9777/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/us/app/webull-investing-trading/id1179213067",
+   "version": "12.4.6",
+   "version_date": "2026-10-19T08:28:20+08:00",
+   "notes": "Thank you for using the Webull mobile app. The latest version includes:\n\n- Bug fixes and improvements",
+   "rating": 4.7,
+   "rating_count": 342469,
+   "size": 427817984,
+   "min_os": "14.0",
+   "rank": null,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "12.4.6",
+     "date": "2026-10-19T08:28:20+08:00",
+     "notes": "Thank you for using the Webull mobile app. The latest version includes:\n\n- Bug fixes and improvements",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.7,
+     "count": 342469,
+     "rank": null
+    }
+   ]
+  },
+  {
+   "key": "us:938003185",
+   "region": "us",
+   "id": 938003185,
+   "name": "Robinhood",
+   "title": "Robinhood: Trading & Investing",
+   "seller": "Robinhood Markets Inc",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/63/47/5c634741-f013-50f3-541f-685fd61ec0c0/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/us/app/robinhood-trading-investing/id938003185",
+   "version": "2026.42.0",
+   "version_date": "2026-10-20T03:01:23+08:00",
+   "notes": "Here's what's under the hood in our latest update:\n- Bug fixes and improvements",
+   "rating": 4.298,
+   "rating_count": 4886704,
+   "size": 819927040,
+   "min_os": "17.0",
+   "rank": 26,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "2026.42.0",
+     "date": "2026-10-20T03:01:23+08:00",
+     "notes": "Here's what's under the hood in our latest update:\n- Bug fixes and improvements",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.298,
+     "count": 4886704,
+     "rank": 26
+    }
+   ]
+  },
+  {
+   "key": "us:1023600494",
+   "region": "us",
+   "id": 1023600494,
+   "name": "Tiger Trade",
+   "title": "Tiger Trade: Invest Globally",
+   "seller": "Tiger Trade Technology Pte Ltd",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/44/86/664486c5-b9dd-5568-688d-71b0fd880ec1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/us/app/tiger-trade-invest-globally/id1023600494",
+   "version": "9.6.5.0",
+   "version_date": "2026-10-19T10:50:27+08:00",
+   "notes": "[Optimization] ETF recurring investment upgrade: more Hong Kong ETFs now available — high-dividend, index, gold, bond and tech all in one place; search\"Monthly Plan\" for direct access to recurring investment, or \"ETF\" to open the ETF Hub.\n[Optimization] Futures Order Page Price Display: Optimized the display of price fields such as limit price, trigger price, and order price for greater clarity.\n[Optimization] Margin accounts in Australia now support cross-currency buying power for order placement, with end-of-day auto-FX notifications. Repayment arrangements are now more transparent.",
+   "rating": 4.741,
+   "rating_count": 2532,
+   "size": 522087424,
+   "min_os": "15.0",
+   "rank": null,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "9.6.5.0",
+     "date": "2026-10-19T10:50:27+08:00",
+     "notes": "[Optimization] ETF recurring investment upgrade: more Hong Kong ETFs now available — high-dividend, index, gold, bond and tech all in one place; search\"Monthly Plan\" for direct access to recurring investment, or \"ETF\" to open the ETF Hub.\n[Optimization] Futures Order Page Price Display: Optimized the display of price fields such as limit price, trigger price, and order price for greater clarity.\n[Optimization] Margin accounts in Australia now support cross-currency buying power for order placement, with end-of-day auto-FX notifications. Repayment arrangements are now more transparent.",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.741,
+     "count": 2532,
+     "rank": null
+    }
+   ]
+  },
+  {
+   "key": "us:454558592",
+   "region": "us",
+   "id": 454558592,
+   "name": "IBKR Mobile",
+   "title": "IBKR Mobile - Invest Worldwide",
+   "seller": "Interactive Brokers LLC",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/26/67/f226671c-1b8f-2ec0-a22b-86878d69eecd/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg",
+   "url": "https://apps.apple.com/us/app/ibkr-mobile-invest-worldwide/id454558592",
+   "version": "10.18.2",
+   "version_date": "2026-10-16T23:58:18+08:00",
+   "notes": "Bug fixes and stability improvements",
+   "rating": 4.498,
+   "rating_count": 11542,
+   "size": 62909440,
+   "min_os": "15.0",
+   "rank": null,
+   "tracked_since": "2026-10-20",
+   "stale": false,
+   "history": [
+    {
+     "version": "10.18.2",
+     "date": "2026-10-16T23:58:18+08:00",
+     "notes": "Bug fixes and stability improvements",
+     "seen": "2026-10-20T17:56:53+08:00"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-10-20",
+     "rating": 4.498,
+     "count": 11542,
+     "rank": null
+    }
+   ]
+  }
+ ],
+ "charts": {
+  "hk": {
+   "entries": [
+    {
+     "rank": 1,
+     "id": 6761770967,
+     "name": "Ching 清數理財 - 自動記帳・收支",
+     "seller": "I Love Working Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/d9/25/05d92515-aa7c-52e9-1a71-f806036207a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/ching-%E6%B8%85%E6%95%B8%E7%90%86%E8%B2%A1-%E8%87%AA%E5%8B%95%E8%A8%98%E5%B8%B3-%E6%94%B6%E6%94%AF/id6761770967?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 2,
+     "id": 6480176219,
+     "name": "積金易 (eMPF)",
+     "seller": "eMPF Platform Company Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/98/71/2098716e-1b11-733d-6ba9-1ca21701182c/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E7%A9%8D%E9%87%91%E6%98%93-empf/id6480176219?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 3,
+     "id": 1114430602,
+     "name": "Octopus 八達通",
+     "seller": "Octopus Cards",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/ae/9a/0bae9a16-5215-c875-cdb6-f0fa69d3d65a/AppIcon-0-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/octopus-%E5%85%AB%E9%81%94%E9%80%9A/id1114430602?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 4,
+     "id": 1210638245,
+     "name": "AlipayHK (支付寶香港)",
+     "seller": "Alipay Payment Services (HK) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/ad/02/69ad0239-3547-48a1-27b5-59f885a50fa9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/alipayhk-%E6%94%AF%E4%BB%98%E5%AF%B6%E9%A6%99%E6%B8%AF/id1210638245?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 5,
+     "id": 600273928,
+     "name": "云闪付-银行业统一移动支付App",
+     "seller": "中国银联",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/6a/4e/f16a4eb9-1de3-833f-0f56-df39c3df6d09/AppIcon-0-1x_U007ephone-0-1-0-sRGB-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%BA%91%E9%97%AA%E4%BB%98-%E9%93%B6%E8%A1%8C%E4%B8%9A%E7%BB%9F%E4%B8%80%E7%A7%BB%E5%8A%A8%E6%94%AF%E4%BB%98app/id600273928?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 6,
+     "id": 1164066737,
+     "name": "HSBC HK Mobile Banking",
+     "seller": "HSBC Global Services (UK) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/ae/24/14ae2434-3ca0-45dd-7833-85e62b968483/IconHK-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/hsbc-hk-mobile-banking/id1164066737?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 7,
+     "id": 1534534188,
+     "name": "BOCHK 中銀香港",
+     "seller": "Bank of China (Hong Kong) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/5e/d7/9e5ed72f-66cf-386f-9f44-d7ececd69ed6/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/bochk-%E4%B8%AD%E9%8A%80%E9%A6%99%E6%B8%AF/id1534534188?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 8,
+     "id": 592031984,
+     "name": "富途牛牛 - 港股美股 Crypto 期權 ETF 實時報價",
+     "seller": "Shenzhen Futu Network Technology Company Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/d7/43/b7d743c6-a743-4fd4-6c41-3bbfa39460f9/AppIcon-NiuNiu-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%AF%8C%E9%80%94%E7%89%9B%E7%89%9B-%E6%B8%AF%E8%82%A1%E7%BE%8E%E8%82%A1-crypto-%E6%9C%9F%E6%AC%8A-etf-%E5%AF%A6%E6%99%82%E5%A0%B1%E5%83%B9/id592031984?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 9,
+     "id": 1436799971,
+     "name": "幣安 - 買比特幣，就用全球第一投資理財首選加密貨幣交易所",
+     "seller": "Binance Switzerland AG",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/fa/7d/c3fa7d44-91ea-b22c-c71c-faa54c06454f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%B9%A3%E5%AE%89-%E8%B2%B7%E6%AF%94%E7%89%B9%E5%B9%A3-%E5%B0%B1%E7%94%A8%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80%E6%8A%95%E8%B3%87%E7%90%86%E8%B2%A1%E9%A6%96%E9%81%B8%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E4%BA%A4%E6%98%93%E6%89%80/id1436799971?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 10,
+     "id": 399608199,
+     "name": "中国银行",
+     "seller": "中国银行股份有限公司",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/81/13/a981130c-a9d3-1ed8-1828-95d986c0e116/AppIcon-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C/id399608199?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 11,
+     "id": 1315948639,
+     "name": "HSBC HK Reward+",
+     "seller": "HSBC Global Services (UK) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/28/58/d62858c0-1f36-3943-1340-764ccd16dd60/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/hsbc-hk-reward/id1315948639?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 12,
+     "id": 1039256353,
+     "name": "恒生個人流動理財服務",
+     "seller": "Hang Seng Bank Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/88/db/7688db94-5913-e266-9130-bcc98a5bfcf2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E6%81%92%E7%94%9F%E5%80%8B%E4%BA%BA%E6%B5%81%E5%8B%95%E7%90%86%E8%B2%A1%E6%9C%8D%E5%8B%99/id1039256353?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 13,
+     "id": 6767813124,
+     "name": "大象銀行 EleBank",
+     "seller": "Ele Bank Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/d4/b4/fcd4b457-2d32-28c8-fc1f-b8e89cd935c9/Bank-Airstar-HK-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%A4%A7%E8%B1%A1%E9%8A%80%E8%A1%8C-elebank/id6767813124?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 14,
+     "id": 423514795,
+     "name": "中国工商银行",
+     "seller": "Industrial and Commercial Bank of China",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/c1/de/fac1ded2-04a7-bebe-ed95-d40751f65f60/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C/id423514795?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 15,
+     "id": 1327268470,
+     "name": "OKX — 全球千萬用戶的加密資產交易首選",
+     "seller": "OKX Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/77/a6/2177a67a-a6eb-ac21-114a-1d957f706259/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/okx-%E5%85%A8%E7%90%83%E5%8D%83%E8%90%AC%E7%94%A8%E6%88%B6%E7%9A%84%E5%8A%A0%E5%AF%86%E8%B3%87%E7%94%A2%E4%BA%A4%E6%98%93%E9%A6%96%E9%81%B8/id1327268470?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 16,
+     "id": 391965015,
+     "name": "中国建设银行",
+     "seller": "中国建设银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/4b/34/ca4b3447-2f41-cd06-4bb2-b57d38899ccb/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E5%9B%BD%E5%BB%BA%E8%AE%BE%E9%93%B6%E8%A1%8C/id391965015?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 17,
+     "id": 1292514758,
+     "name": "AIA+ HK",
+     "seller": "AIA International Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/1c/31/581c31f2-f56a-9fe0-78dd-c239b2371c3c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/aia-hk/id1292514758?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 18,
+     "id": 6468941332,
+     "name": "电子税务局",
+     "seller": "State Administration of Taxation",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/8b/ea/188bea3d-07de-0940-a8ce-95dcb13eea8d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E7%94%B5%E5%AD%90%E7%A8%8E%E5%8A%A1%E5%B1%80/id6468941332?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 19,
+     "id": 515651240,
+     "name": "中国农业银行",
+     "seller": "中国农业银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/1f/68/141f68e4-112d-40de-0e7a-d1c188d0ce41/AppIcon-Release-1x_U007emarketing-0-6-0-sRGB-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E9%93%B6%E8%A1%8C/id515651240?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 20,
+     "id": 445795688,
+     "name": "SC Mobile Hong Kong",
+     "seller": "Standard Chartered Bank",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/df/5f/6fdf5f56-06af-405f-cb96-796d148d55fa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/sc-mobile-hong-kong/id445795688?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 21,
+     "id": 349866256,
+     "name": "tricount - 分攤團體帳單",
+     "seller": "Tricount",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/d2/c3/a9d2c3e2-42f2-5fb4-4cd2-6a361b596caf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/tricount-%E5%88%86%E6%94%A4%E5%9C%98%E9%AB%94%E5%B8%B3%E5%96%AE/id349866256?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 22,
+     "id": 1505743481,
+     "name": "Mox Bank",
+     "seller": "Mox Bank Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/17/c2/4517c262-9f92-e122-81a6-7db251d3a679/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/mox-bank/id1505743481?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 23,
+     "id": 1184264977,
+     "name": "PayMe by HSBC",
+     "seller": "The Hongkong and Shanghai Banking Corporation Ltd.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/3d/0c/6f3d0c2b-34f9-ee5c-1c42-9e6b2574f882/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/payme-by-hsbc/id1184264977?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 24,
+     "id": 283646709,
+     "name": "PayPal",
+     "seller": "PayPal, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/21/5e/21215efc-d470-db2a-3d13-c50f20b735cc/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/paypal/id283646709?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 25,
+     "id": 1477150600,
+     "name": "ZA Bank",
+     "seller": "ZA Bank Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/29/4b/5e294bd3-5d68-de02-4cb3-f1d7ebd6e380/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/za-bank/id1477150600?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 26,
+     "id": 1470361790,
+     "name": "MobileTmoney",
+     "seller": "Tmoney Co., Ltd",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/c3/33/ccc33354-e760-b931-5a03-6b984eda649d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/mobiletmoney/id1470361790?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 27,
+     "id": 454558592,
+     "name": "IBKR Mobile",
+     "seller": "Interactive Brokers LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/26/67/f226671c-1b8f-2ec0-a22b-86878d69eecd/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/ibkr-mobile/id454558592?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 28,
+     "id": 1403690384,
+     "name": "BoC Pay+",
+     "seller": "Bank of China (Hong Kong) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/48/80/8148806c-bf4a-8d06-65af-ed8c85723714/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/boc-pay/id1403690384?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 29,
+     "id": 1600437761,
+     "name": "環聯信貸報告",
+     "seller": "TransUnion Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/20/6d/87206d48-3cf7-45be-8253-c07520334c16/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E7%92%B0%E8%81%AF%E4%BF%A1%E8%B2%B8%E5%A0%B1%E5%91%8A/id1600437761?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 30,
+     "id": 1475070598,
+     "name": "工銀亞洲",
+     "seller": "Industrial and Commercial Bank of China",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/50/97/cb5097cd-6063-22b0-4bee-f10f84c58586/AppIcon-ASIA-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%B7%A5%E9%8A%80%E4%BA%9E%E6%B4%B2/id1475070598?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 31,
+     "id": 1436002627,
+     "name": "个人所得税",
+     "seller": "State Administration of Taxation",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/ca/bb/1ecabb2f-fa07-e4be-a0d8-13e0c7494349/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AA%E4%BA%BA%E6%89%80%E5%BE%97%E7%A8%8E/id1436002627?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 32,
+     "id": 612261027,
+     "name": "Wise - 港幣匯款轉帳留學繳費投資理財",
+     "seller": "Wise Payments Ltd",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/c1/12/53c112a9-4593-6274-2fd4-766fa23cfa03/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/wise-%E6%B8%AF%E5%B9%A3%E5%8C%AF%E6%AC%BE%E8%BD%89%E5%B8%B3%E7%95%99%E5%AD%B8%E7%B9%B3%E8%B2%BB%E6%8A%95%E8%B3%87%E7%90%86%E8%B2%A1/id612261027?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 33,
+     "id": 392899425,
+     "name": "招商银行",
+     "seller": "招商银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/f1/ae/51f1aef9-a3d1-b2f8-8586-100808733dff/AppIcon26-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C/id392899425?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 34,
+     "id": 1505492952,
+     "name": "Octopus for Tourists",
+     "seller": "Octopus Cards",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/93/48/c593483f-46f9-d424-e765-ec5fe83d7c61/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/octopus-for-tourists/id1505492952?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 35,
+     "id": 1332612057,
+     "name": "AEON HK",
+     "seller": "AEON Credit Service (Asia) Co., Ltd.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/14/42/3f1442e0-c7d0-b832-de19-9bb7f830e0c6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/aeon-hk/id1332612057?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 36,
+     "id": 1463024118,
+     "name": "香港盈立證券-港資科技券商No.1^",
+     "seller": "uSmart Securities Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/3e/07/973e0700-13d9-67ae-1f7a-77ad21b4b95e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E9%A6%99%E6%B8%AF%E7%9B%88%E7%AB%8B%E8%AD%89%E5%88%B8-%E6%B8%AF%E8%B3%87%E7%A7%91%E6%8A%80%E5%88%B8%E5%95%86no-1/id1463024118?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 37,
+     "id": 645797935,
+     "name": "宏利香港及澳門",
+     "seller": "Manulife (International) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/35/a8/0235a879-b3c3-2e71-75c4-13c6d602d0cd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%AE%8F%E5%88%A9%E9%A6%99%E6%B8%AF%E5%8F%8A%E6%BE%B3%E9%96%80/id645797935?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 38,
+     "id": 1156875272,
+     "name": "Suica",
+     "seller": "East Japan Railway Company",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/94/5e/e3945e1a-9f9c-221a-961b-b546a40d172e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/suica/id1156875272?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 39,
+     "id": 902344223,
+     "name": "28Hse.com 香港屋網",
+     "seller": "28Hse Ltd",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/17/23/ed1723cb-a82a-d9fd-a7c9-f4dd00b5085a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/28hse-com-%E9%A6%99%E6%B8%AF%E5%B1%8B%E7%B6%B2/id902344223?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 40,
+     "id": 1503485004,
+     "name": "滙豐保險守滙您",
+     "seller": "HSBC Global Services (UK) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/cb/77/34cb7797-52ea-c560-dc61-3638241f7eca/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E6%BB%99%E8%B1%90%E4%BF%9D%E9%9A%AA%E5%AE%88%E6%BB%99%E6%82%A8/id1503485004?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 41,
+     "id": 1505282324,
+     "name": "平安數字銀行",
+     "seller": "Ping An Digital Bank (International) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/3f/a7/053fa73d-9f2d-f384-2fca-872cc87d0244/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%B9%B3%E5%AE%89%E6%95%B8%E5%AD%97%E9%8A%80%E8%A1%8C/id1505282324?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 42,
+     "id": 1384798940,
+     "name": "imToken: BTC & ETH Wallet",
+     "seller": "IMTOKEN PTE. LTD.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/c0/bd/bdc0bd69-0ed2-9f34-46ef-1c01f34b4bee/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/imtoken-btc-eth-wallet/id1384798940?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 43,
+     "id": 381215704,
+     "name": "BEA Mobile 東亞手機銀行",
+     "seller": "The Bank of East Asia, Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/bc/64/d0bc6439-ea0c-03b6-3d3b-374b26827278/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/bea-mobile-%E6%9D%B1%E4%BA%9E%E6%89%8B%E6%A9%9F%E9%8A%80%E8%A1%8C/id381215704?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 44,
+     "id": 628054799,
+     "name": "Amex Hong Kong",
+     "seller": "American Express",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/bd/94/b1bd94c2-fe33-0e30-5d30-93e36ea97b91/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/amex-hong-kong/id628054799?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 45,
+     "id": 435695045,
+     "name": "myPrudential: 輕鬆管理您的保單",
+     "seller": "Prudential Hong Kong Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/5e/80/b25e8095-4a53-8973-1e49-a4b4e7670729/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/myprudential-%E8%BC%95%E9%AC%86%E7%AE%A1%E7%90%86%E6%82%A8%E7%9A%84%E4%BF%9D%E5%96%AE/id435695045?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 46,
+     "id": 1456962787,
+     "name": "Emma by AXA",
+     "seller": "AXA China Region Insurance Company Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/c2/79/bbc27920-6401-fead-cdb9-a3b7de1f8758/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/emma-by-axa/id1456962787?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 47,
+     "id": 1023600494,
+     "name": "Tiger Trade-港美股 期權 ETF 交易",
+     "seller": "Tiger Trade Technology Pte Ltd",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/44/86/664486c5-b9dd-5568-688d-71b0fd880ec1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/tiger-trade-%E6%B8%AF%E7%BE%8E%E8%82%A1-%E6%9C%9F%E6%AC%8A-etf-%E4%BA%A4%E6%98%93/id1023600494?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 48,
+     "id": 1472729964,
+     "name": "House730 智能樓盤地產平台",
+     "seller": "House730 Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/f3/f7/58f3f7dd-b20b-308b-c899-c5c726801c36/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/house730-%E6%99%BA%E8%83%BD%E6%A8%93%E7%9B%A4%E5%9C%B0%E7%94%A2%E5%B9%B3%E5%8F%B0/id1472729964?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 49,
+     "id": 1236038032,
+     "name": "方德智投-港美股交易 & AI智能選股",
+     "seller": "Shanghai Shangjie Network Technology Co., Ltd.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/c3/ad/0bc3ade8-6549-43fa-5964-fd6c1ca343d1/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E6%96%B9%E5%BE%B7%E6%99%BA%E6%8A%95-%E6%B8%AF%E7%BE%8E%E8%82%A1%E4%BA%A4%E6%98%93-ai%E6%99%BA%E8%83%BD%E9%81%B8%E8%82%A1/id1236038032?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 50,
+     "id": 379407858,
+     "name": "中原地產 Centaline Property",
+     "seller": "Centaline Property Agency Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/57/da/f757da9c-4305-6dcd-f3f4-96e50e35f32a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E5%8E%9F%E5%9C%B0%E7%94%A2-centaline-property/id379407858?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 51,
+     "id": 6742470706,
+     "name": "致富證券-47年港資零售券商No.1",
+     "seller": "Chief Securities Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/59/2f/ba592f6f-631a-6a2f-1ea9-631bd1ba4e2c/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E8%87%B4%E5%AF%8C%E8%AD%89%E5%88%B8-47%E5%B9%B4%E6%B8%AF%E8%B3%87%E9%9B%B6%E5%94%AE%E5%88%B8%E5%95%86no-1/id6742470706?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 52,
+     "id": 1530529680,
+     "name": "K Cash",
+     "seller": "K Cash Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/fc/c9/09fcc966-49a5-1bb7-834c-08a699275aef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/k-cash/id1530529680?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 53,
+     "id": 6745219534,
+     "name": "NeedaCash 立達錢 - 信貸現金周轉貸款",
+     "seller": "FinVolution (HK) LIMITED",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/16/9c/b1169c33-e3f6-a4eb-4ab2-d07b4869a9c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/needacash-%E7%AB%8B%E9%81%94%E9%8C%A2-%E4%BF%A1%E8%B2%B8%E7%8F%BE%E9%87%91%E5%91%A8%E8%BD%89%E8%B2%B8%E6%AC%BE/id6745219534?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 54,
+     "id": 787109400,
+     "name": "置業專家",
+     "seller": "Bank of China (Hong Kong) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/83/bf/db83bf10-8686-8070-5413-1e7954473ea6/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.jpeg/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E7%BD%AE%E6%A5%AD%E5%B0%88%E5%AE%B6/id787109400?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 55,
+     "id": 1085016815,
+     "name": "平安口袋银行-更懂您的智能银行",
+     "seller": "PingAn Bank",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/7a/d7/b07ad758-2d59-cf7f-dbbc-f2535670b36f/AppIcon-0-0-1x_U007ephone-0-11-0-0-P3-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C-%E6%9B%B4%E6%87%82%E6%82%A8%E7%9A%84%E6%99%BA%E8%83%BD%E9%93%B6%E8%A1%8C/id1085016815?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 56,
+     "id": 1434519981,
+     "name": "建行(港澳)手機應用程式",
+     "seller": "中国建设银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/6f/50/6d6f50aa-5573-bb80-0420-85263e2542fa/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%BB%BA%E8%A1%8C-%E6%B8%AF%E6%BE%B3-%E6%89%8B%E6%A9%9F%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F/id1434519981?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 57,
+     "id": 1629355060,
+     "name": "星財富-港股美股 期權 全球理財 A股通 ETF 交易",
+     "seller": "Fosun International Securities Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/60/2d/df602d6e-4023-e80c-0e3f-67957490b41a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E6%98%9F%E8%B2%A1%E5%AF%8C-%E6%B8%AF%E8%82%A1%E7%BE%8E%E8%82%A1-%E6%9C%9F%E6%AC%8A-%E5%85%A8%E7%90%83%E7%90%86%E8%B2%A1-a%E8%82%A1%E9%80%9A-etf-%E4%BA%A4%E6%98%93/id1629355060?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 58,
+     "id": 1644947796,
+     "name": "sim Credit Card",
+     "seller": "sim Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/40/cd/d240cd12-f1d9-adbb-c048-0486377b05a0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/sim-credit-card/id1644947796?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 59,
+     "id": 398453262,
+     "name": "掌上生活-招商银行信用卡",
+     "seller": "招商银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/7e/5e/157e5eb3-0870-b8e6-4c65-e7b42e897c60/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E6%8E%8C%E4%B8%8A%E7%94%9F%E6%B4%BB-%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%E4%BF%A1%E7%94%A8%E5%8D%A1/id398453262?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 60,
+     "id": 1276449806,
+     "name": "X Wallet",
+     "seller": "ZERO FINANCE HONG KONG LIMITED",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/03/0a/a7030ae0-1b04-fac7-b04a-fd4ec07187a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/x-wallet/id1276449806?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 61,
+     "id": 422844108,
+     "name": "中信银行",
+     "seller": "中信银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/6e/80/656e8059-8256-daaf-6d5e-35cc5e3c1f20/AppIcon-1x_U007emarketing-0-4-0-sRGB-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C/id422844108?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 62,
+     "id": 1557435421,
+     "name": "Webull: 一APP投資港股 美股 期權 ETF 基金",
+     "seller": "Webull Technologies Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/e4/2e/c9e42e40-7b38-6075-b3f3-88066707b446/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/webull-%E4%B8%80app%E6%8A%95%E8%B3%87%E6%B8%AF%E8%82%A1-%E7%BE%8E%E8%82%A1-%E6%9C%9F%E6%AC%8A-etf-%E5%9F%BA%E9%87%91/id1557435421?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 63,
+     "id": 1205990992,
+     "name": "TradingView - 股票、外匯、和比特幣圖表",
+     "seller": "TradingView",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/ec/d8/c2ecd8f7-b0f7-dc39-fdce-7013c40d0de0/AppIcon-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/tradingview-%E8%82%A1%E7%A5%A8-%E5%A4%96%E5%8C%AF-%E5%92%8C%E6%AF%94%E7%89%B9%E5%B9%A3%E5%9C%96%E8%A1%A8/id1205990992?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 64,
+     "id": 382581448,
+     "name": "DBS Card+ HK",
+     "seller": "DBS Bank (Hong Kong) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/49/dc/a349dc02-8e43-6de4-cca7-0e1fc3fb9702/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/dbs-card-hk/id382581448?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 65,
+     "id": 6777854576,
+     "name": "Free Credit",
+     "seller": "Free Credit Travel-Tech Finance Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/89/05/69890537-38bf-55a1-e8cb-e5f6761cf0e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/free-credit/id6777854576?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 66,
+     "id": 563163623,
+     "name": "繳費靈手機服務 PPS on Mobile",
+     "seller": "EPS Company (Hong Kong) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/b5/55/edb5556f-8408-3755-3645-4b11b2b187a6/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E7%B9%B3%E8%B2%BB%E9%9D%88%E6%89%8B%E6%A9%9F%E6%9C%8D%E5%8B%99-pps-on-mobile/id563163623?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 67,
+     "id": 1294998195,
+     "name": "Gate: 購買比特幣、以太坊，加密貨幣交易所",
+     "seller": "GATE GLOBAL UAB",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/46/cb/8946cbc1-fdbe-bb64-b0ce-609d9d417e6f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/gate-%E8%B3%BC%E8%B2%B7%E6%AF%94%E7%89%B9%E5%B9%A3-%E4%BB%A5%E5%A4%AA%E5%9D%8A-%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E4%BA%A4%E6%98%93%E6%89%80/id1294998195?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 68,
+     "id": 1441274976,
+     "name": "Blue Cross HK",
+     "seller": "Blue Cross (Asia-Pacific) Insurance Limited 藍十字 (亞太) 保險有限公司",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/8a/16/158a16ac-bfac-3063-1eac-67e5499082b5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/blue-cross-hk/id1441274976?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 69,
+     "id": 458023433,
+     "name": "Splitwise",
+     "seller": "Splitwise, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/af/34/b6af341d-7a2c-9050-d1a1-ff165faa6b20/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/splitwise/id458023433?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 70,
+     "id": 493489515,
+     "name": "邮储银行",
+     "seller": "中国邮政储蓄银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/9e/26/3c9e264a-4ce6-a483-5bb3-ab9a4222b0c8/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E9%82%AE%E5%82%A8%E9%93%B6%E8%A1%8C/id493489515?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 71,
+     "id": 303191318,
+     "name": "同花顺-炒股、股票",
+     "seller": "Zhejiang Royalflush Cloud Software Co., Ltd.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/5e/d2/935ed2f2-ab02-b297-2095-812a48b9b059/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%90%8C%E8%8A%B1%E9%A1%BA-%E7%82%92%E8%82%A1-%E8%82%A1%E7%A5%A8/id303191318?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 72,
+     "id": 660651836,
+     "name": "FWD eServices",
+     "seller": "FWD Life Insurance Company (Bermuda) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/17/22/f017229f-6e10-9467-e3fe-a25434e8f2c4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/fwd-eservices/id660651836?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 73,
+     "id": 1493956050,
+     "name": "WeLab Bank - 香港數字銀行",
+     "seller": "Welab Bank Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/84/a8/6784a873-1514-711c-2d72-4078360b4184/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/welab-bank-%E9%A6%99%E6%B8%AF%E6%95%B8%E5%AD%97%E9%8A%80%E8%A1%8C/id1493956050?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 74,
+     "id": 1039761040,
+     "name": "利嘉閣真盤源",
+     "seller": "Ricacorp Properties Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/1a/7f/f01a7f75-d2f7-1a8c-1595-da97d7e40432/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%88%A9%E5%98%89%E9%96%A3%E7%9C%9F%E7%9B%A4%E6%BA%90/id1039761040?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 75,
+     "id": 1457929724,
+     "name": "Vantage:All-In-One Trading App",
+     "seller": "Vantage Global Prime PTY LTD",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/b0/fb/07b0fbb9-4244-7249-9d37-ca853eb42b89/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/vantage-all-in-one-trading-app/id1457929724?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 76,
+     "id": 1261295769,
+     "name": "HSBC HK 證券+",
+     "seller": "HSBC Global Services (UK) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/ef/9f/1def9fd5-bc7a-d556-d6ec-bf037c3ad2e6/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/hsbc-hk-%E8%AD%89%E5%88%B8/id1261295769?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 77,
+     "id": 1294956074,
+     "name": "inMotion 動感銀行",
+     "seller": "China CITIC Bank International Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/d9/81/f1d9815b-677e-20b9-28b9-1df4d1f968f1/AppIcon-0-0-1x_U007emarketing-0-10-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/inmotion-%E5%8B%95%E6%84%9F%E9%8A%80%E8%A1%8C/id1294956074?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 78,
+     "id": 6755703262,
+     "name": "CHECK iN SEOUL",
+     "seller": "LOTTE CARD CO, LTD.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/70/b7/6370b72e-ed2a-e84c-ea2d-bfe7892405ee/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/check-in-seoul/id6755703262?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 79,
+     "id": 1395301115,
+     "name": "Bitget Wallet：加密貨幣錢包，比特幣&穩定幣",
+     "seller": "BitKeep Global Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/65/1d/a0651dfe-ac4b-b7d4-caa5-e46ab8c5f4d7/NewAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/bitget-wallet-%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E9%8C%A2%E5%8C%85-%E6%AF%94%E7%89%B9%E5%B9%A3-%E7%A9%A9%E5%AE%9A%E5%B9%A3/id1395301115?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 80,
+     "id": 373717372,
+     "name": "Citibank HK",
+     "seller": "CITIBANK (HONG KONG) LIMITED",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/ab/d5/d1abd5ec-014e-1b27-a7d4-86b06a5ee9fa/AppIconHK-0-0-1x_U007ephone-0-9-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/citibank-hk/id373717372?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 81,
+     "id": 1442778704,
+     "name": "Bitget-比特幣、以太幣加密貨幣交易所",
+     "seller": "BG LIMITED",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/86/3c/a6863c4b-37c4-da20-c961-5d1cd6da6e69/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/bitget-%E6%AF%94%E7%89%B9%E5%B9%A3-%E4%BB%A5%E5%A4%AA%E5%B9%A3%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E4%BA%A4%E6%98%93%E6%89%80/id1442778704?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 82,
+     "id": 1141722506,
+     "name": "OmyCard",
+     "seller": "Primecredit Ltd.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/e4/e9/6fe4e972-a30c-f18e-48da-8389c9e8f74c/AppIcon_OmyCard-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/omycard/id1141722506?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 83,
+     "id": 1494094567,
+     "name": "螞蟻銀行(香港)",
+     "seller": "ANT BANK HONG KONG LIMITED",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/1a/89/f11a89a7-4be6-df57-dde1-333bd5059cde/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E8%9E%9E%E8%9F%BB%E9%8A%80%E8%A1%8C-%E9%A6%99%E6%B8%AF/id1494094567?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 84,
+     "id": 1092594338,
+     "name": "MPay澳門錢包",
+     "seller": "澳門通股份有限公司 Macau Pass S.A.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/91/46/d991460b-36e8-44eb-a21d-77fc54abc0c0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/mpay%E6%BE%B3%E9%96%80%E9%8C%A2%E5%8C%85/id1092594338?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 85,
+     "id": 1321395920,
+     "name": "香港滙豐Business Express",
+     "seller": "The Hongkong and Shanghai Banking Corporation Ltd.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/06/4c/e5064ccf-a279-5f17-5870-563623f5651e/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E9%A6%99%E6%B8%AF%E6%BB%99%E8%B1%90business-express/id1321395920?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 86,
+     "id": 433592972,
+     "name": "兴业银行手机银行",
+     "seller": "兴业银行",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/bf/ae/19bfae94-47f3-b5c2-cc33-484e753737f1/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C/id433592972?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 87,
+     "id": 1571652872,
+     "name": "數字人民幣",
+     "seller": "数字人民币运营管理中心有限公司",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/94/73/4e947352-2db0-188c-a106-cd783a4d8155/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E6%95%B8%E5%AD%97%E4%BA%BA%E6%B0%91%E5%B9%A3/id1571652872?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 88,
+     "id": 1488296980,
+     "name": "Bybit：交易加密貨幣與股票",
+     "seller": "Bybit Fintech Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/84/c0/1f84c066-0f72-c6e2-7a03-f062d4f2d903/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/bybit-%E4%BA%A4%E6%98%93%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E8%88%87%E8%82%A1%E7%A5%A8/id1488296980?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 89,
+     "id": 1525179720,
+     "name": "記帳本 - 簡單記帳軟體 - 天天輕鬆記",
+     "seller": "InnerGrow",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/19/92/e41992c2-9924-a7a1-4ab8-1b1477e659d6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E8%A8%98%E5%B8%B3%E6%9C%AC-%E7%B0%A1%E5%96%AE%E8%A8%98%E5%B8%B3%E8%BB%9F%E9%AB%94-%E5%A4%A9%E5%A4%A9%E8%BC%95%E9%AC%86%E8%A8%98/id1525179720?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 90,
+     "id": 1341250080,
+     "name": "DBS digibank HK",
+     "seller": "DBS Bank (Hong Kong) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/6b/e6/016be6d5-f344-48e6-2a5c-c92f4f17b945/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/dbs-digibank-hk/id1341250080?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 91,
+     "id": 1438144202,
+     "name": "MetaMask: Trade Crypto",
+     "seller": "MetaMask",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/ad/0c/7cad0c38-5f41-a8fb-86d2-23d1cc1b308b/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/metamask-trade-crypto/id1438144202?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 92,
+     "id": 552873970,
+     "name": "大新銀行Dah Sing Bank",
+     "seller": "Dah Sing Bank, Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/75/42/3f754201-6e25-bbe9-be2d-d07bca19c793/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E5%A4%A7%E6%96%B0%E9%8A%80%E8%A1%8Cdah-sing-bank/id552873970?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 93,
+     "id": 1187814659,
+     "name": "Nihao China",
+     "seller": "中国银联",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/a6/b7/18a6b79e-f120-055c-57fb-ca25185e1463/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/nihao-china/id1187814659?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 94,
+     "id": 1288339409,
+     "name": "Trust: 加密货币 & 比特币钱包",
+     "seller": "DApps Platform Software Services Ltd.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/5b/f9/2b5bf948-0b63-d2dc-076f-92b104d6c64f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/trust-%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81-%E6%AF%94%E7%89%B9%E5%B8%81%E9%92%B1%E5%8C%85/id1288339409?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 95,
+     "id": 430305244,
+     "name": "Shacom Bank 上商理財",
+     "seller": "Shanghai Commercial Bank",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/b8/46/79b8462b-4587-1ca7-b177-e2bcc44ab6dc/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/shacom-bank-%E4%B8%8A%E5%95%86%E7%90%86%E8%B2%A1/id430305244?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 96,
+     "id": 6444844009,
+     "name": "Fubon+ HK",
+     "seller": "Fubon Bank (Hong Kong) Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/79/61/b77961bf-aacd-c4ef-0bb2-4436e6bcb777/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/fubon-hk/id6444844009?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 97,
+     "id": 1306954758,
+     "name": "Grantit - 個人理財app",
+     "seller": "Shiny Rising",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/82/94/84829472-75be-4371-c795-0ff51c91f934/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/grantit-%E5%80%8B%E4%BA%BA%E7%90%86%E8%B2%A1app/id1306954758?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 98,
+     "id": 1525674363,
+     "name": "簡單記帳 - 天天掌握生活收支",
+     "seller": "KINGWAY MEDIA CO., LTD.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/7b/f5/d67bf5c2-ad8c-8dc8-8187-b0fac8dc9283/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E7%B0%A1%E5%96%AE%E8%A8%98%E5%B8%B3-%E5%A4%A9%E5%A4%A9%E6%8E%8C%E6%8F%A1%E7%94%9F%E6%B4%BB%E6%94%B6%E6%94%AF/id1525674363?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 99,
+     "id": 1275497100,
+     "name": "中國人壽（海外）OneService App",
+     "seller": "China Life Trustees Limited",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/00/94/24009465-218a-5511-3798-e3d9e6340234/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E5%9C%8B%E4%BA%BA%E5%A3%BD-%E6%B5%B7%E5%A4%96-oneservice-app/id1275497100?uo=2",
+     "prev_rank": null
+    }
+   ],
+   "days": {
+    "2026-10-20": [
+     6761770967,
+     6480176219,
+     1114430602,
+     1210638245,
+     600273928,
+     1164066737,
+     1534534188,
+     592031984,
+     1436799971,
+     399608199,
+     1315948639,
+     1039256353,
+     6767813124,
+     423514795,
+     1327268470,
+     391965015,
+     1292514758,
+     6468941332,
+     515651240,
+     445795688,
+     349866256,
+     1505743481,
+     1184264977,
+     283646709,
+     1477150600,
+     1470361790,
+     454558592,
+     1403690384,
+     1600437761,
+     1475070598,
+     1436002627,
+     612261027,
+     392899425,
+     1505492952,
+     1332612057,
+     1463024118,
+     645797935,
+     1156875272,
+     902344223,
+     1503485004,
+     1505282324,
+     1384798940,
+     381215704,
+     628054799,
+     435695045,
+     1456962787,
+     1023600494,
+     1472729964,
+     1236038032,
+     379407858,
+     6742470706,
+     1530529680,
+     6745219534,
+     787109400,
+     1085016815,
+     1434519981,
+     1629355060,
+     1644947796,
+     398453262,
+     1276449806,
+     422844108,
+     1557435421,
+     1205990992,
+     382581448,
+     6777854576,
+     563163623,
+     1294998195,
+     1441274976,
+     458023433,
+     493489515,
+     303191318,
+     660651836,
+     1493956050,
+     1039761040,
+     1457929724,
+     1261295769,
+     1294956074,
+     6755703262,
+     1395301115,
+     373717372,
+     1442778704,
+     1141722506,
+     1494094567,
+     1092594338,
+     1321395920,
+     433592972,
+     1571652872,
+     1488296980,
+     1525179720,
+     1341250080,
+     1438144202,
+     552873970,
+     1187814659,
+     1288339409,
+     430305244,
+     6444844009,
+     1306954758,
+     1525674363,
+     1275497100
+    ]
+   },
+   "prev_day": null,
+   "updated": "2026-10-20T17:56:53+08:00"
+  },
+  "us": {
+   "entries": [
+    {
+     "rank": 1,
+     "id": 407558537,
+     "name": "Capital One Mobile",
+     "seller": "Capital One",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/54/f0/2954f0a2-d9a9-24ca-7cca-28bb9a71db3c/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/capital-one-mobile/id407558537?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 2,
+     "id": 1632713844,
+     "name": "Kalshi: Trade Football & more",
+     "seller": "KalshiEX LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/fa/2b/5ffa2b09-8a28-37df-137b-a0460b887662/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/kalshi-trade-football-more/id1632713844?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 3,
+     "id": 6767364919,
+     "name": "Trump Accounts: Official App",
+     "seller": "U.S. Department of the Treasury",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/61/dc/1361dcfc-3281-b0eb-f57f-607586f342e0/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/trump-accounts-official-app/id6767364919?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 4,
+     "id": 283646709,
+     "name": "PayPal - Pay, Send, Save",
+     "seller": "PayPal, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/21/5e/21215efc-d470-db2a-3d13-c50f20b735cc/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/paypal-pay-send-save/id283646709?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 5,
+     "id": 711923939,
+     "name": "Cash App",
+     "seller": "Block, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/7b/85/b77b850c-cc8f-58d5-1d23-adfc06b28b6b/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/cash-app/id711923939?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 6,
+     "id": 351727428,
+     "name": "Venmo",
+     "seller": "Venmo",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/35/2e/46352e5a-8738-5102-6519-3a36de81d776/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/venmo/id351727428?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 7,
+     "id": 836215269,
+     "name": "Chime® – Mobile Banking",
+     "seller": "Chime Financial, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/32/c7/b332c7fb-46e9-79ec-a982-6d2193cf02c0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/chime-mobile-banking/id836215269?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 8,
+     "id": 298867247,
+     "name": "Chase Mobile®: Bank & Invest",
+     "seller": "JPMorgan Chase & Co.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/d1/7b/91d17bdc-b6a8-298b-0b28-16d229749bc7/ChaseLiquidGlass-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/chase-mobile-bank-invest/id298867247?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 9,
+     "id": 1115120118,
+     "name": "Klarna: Smarter everyday money",
+     "seller": "Klarna Bank AB",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/9c/f4/e29cf411-ad85-8901-ee23-bdb6ae59ee38/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/klarna-smarter-everyday-money/id1115120118?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 10,
+     "id": 1494523953,
+     "name": "OnePay – Mobile Banking",
+     "seller": "One Finance, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/03/53/a80353db-28aa-713c-27b3-75eebdea5636/OnePayAppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/onepay-mobile-banking/id1494523953?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 11,
+     "id": 6648798962,
+     "name": "Polymarket: Trade Live Sports",
+     "seller": "Polymarket",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/0c/48/430c4840-f89d-685d-4b84-6c171019f7cc/AppIcon2-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/polymarket-trade-live-sports/id6648798962?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 12,
+     "id": 349731802,
+     "name": "Progressive",
+     "seller": "Progressive Insurance",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/53/d6/c753d6ed-e83b-55c2-a78e-740cf9f7850e/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/progressive/id349731802?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 13,
+     "id": 1130616675,
+     "name": "Rocket Money - Bills & Budgets",
+     "seller": "Rocket Money",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/06/20/860620d9-373a-82ab-afea-a5db6737a872/rocketMoney-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/rocket-money-bills-budgets/id1130616675?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 14,
+     "id": 311548709,
+     "name": "Wells Fargo Mobile®",
+     "seller": "Wells Fargo",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/69/a2/d069a244-25f9-25e9-75f1-0d90015d3848/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/wells-fargo-mobile/id311548709?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 15,
+     "id": 348177453,
+     "name": "Fidelity Investments",
+     "seller": "Fidelity Investments",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/95/ab/bc95abc4-6da5-6658-c73b-a561803f7465/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/fidelity-investments/id348177453?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 16,
+     "id": 301724680,
+     "name": "Citi Mobile®",
+     "seller": "Citibank",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/3e/37/bb3e37c7-111d-d51c-7f00-af24dcc22bb5/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/citi-mobile/id301724680?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 17,
+     "id": 318142137,
+     "name": "State Farm®",
+     "seller": "State Farm Mutual Automobile Insurance Company",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/be/5a/03be5a6d-e247-e63e-4c11-fbd1375d2bde/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/state-farm/id318142137?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 18,
+     "id": 284847138,
+     "name": "Bank of America Mobile Banking",
+     "seller": "Bank of America",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/86/67/0586673c-c306-61ae-0e81-cb56b86052bb/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/bank-of-america-mobile-banking/id284847138?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 19,
+     "id": 1191985736,
+     "name": "SoFi: Bank, Invest & Crypto",
+     "seller": "Social Finance, LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/b4/9b/b5b49b83-9abc-93e9-cf11-afb84f0766f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/sofi-bank-invest-crypto/id1191985736?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 20,
+     "id": 519817714,
+     "name": "Intuit Credit Karma",
+     "seller": "Credit Karma, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/77/d0/8c77d01c-173d-da5d-4c56-a9ded20c8e83/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/intuit-credit-karma/id519817714?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 21,
+     "id": 362348516,
+     "name": "Amex",
+     "seller": "American Express",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/61/47/b96147a8-4b9b-6976-6f91-9477646cb7fc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/amex/id362348516?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 22,
+     "id": 331763096,
+     "name": "GEICO Mobile - Car Insurance",
+     "seller": "GEICO",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/52/9d/35529d49-b8da-9142-6572-5b033baab453/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/geico-mobile-car-insurance/id331763096?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 23,
+     "id": 1193801909,
+     "name": "Dave: Credit, Cash & Money App",
+     "seller": "Dave, Inc",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/a5/6b/ffa56b6a-2305-52d7-7334-fd1b7d93ad5d/AppIcon-3d-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/dave-credit-cash-money-app/id1193801909?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 24,
+     "id": 6472350114,
+     "name": "Grant Cash Advance",
+     "seller": "Kikoff Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/ca/e6/96cae6c7-f34b-4708-950d-ef53bdaa8e80/AppIcon-theseus-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/grant-cash-advance/id6472350114?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 25,
+     "id": 1280992496,
+     "name": "MySynchrony",
+     "seller": "Synchrony Financial",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/47/83/08478334-69b7-4ff7-1c6c-46285fb81b84/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/mysynchrony/id1280992496?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 26,
+     "id": 938003185,
+     "name": "Robinhood: Trading & Investing",
+     "seller": "Robinhood Markets, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/63/47/5c634741-f013-50f3-541f-685fd61ec0c0/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/robinhood-trading-investing/id938003185?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 27,
+     "id": 1087101090,
+     "name": "Experian®",
+     "seller": "Experian",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/7c/5b/417c5b17-a652-8a73-b1ec-112512aa31eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/experian/id1087101090?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 28,
+     "id": 674258465,
+     "name": "Remitly: Send money & transfer",
+     "seller": "Remitly Inc",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/8c/1b/ee8c1bfd-1b2a-9b6e-64b0-4a4208d4b8b2/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/remitly-send-money-transfer/id674258465?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 29,
+     "id": 1136397354,
+     "name": "Tilt: Cash Advance & Credit",
+     "seller": "Tilt Finance, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/77/c6/3077c6af-dead-e3e1-de4d-d758393cca56/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/tilt-cash-advance-credit/id1136397354?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 30,
+     "id": 6751549725,
+     "name": "ebtEDGE NEW!",
+     "seller": "FIS",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/11/7f/39117f0e-7bce-ac9b-f902-54586e7d111e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/ebtedge-new/id6751549725?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 31,
+     "id": 1617487581,
+     "name": "Atlas - Rewards Credit Card",
+     "seller": "Exto Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/04/ab/0c04ab84-b147-4033-c441-ebffe6bb6b58/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/atlas-rewards-credit-card/id1617487581?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 32,
+     "id": 886427730,
+     "name": "Coinbase: Buy Crypto & Stocks",
+     "seller": "Coinbase, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/bb/11/b4bb1146-1e34-ff68-70a1-64d133c0afae/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/coinbase-buy-crypto-stocks/id886427730?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 33,
+     "id": 6764022479,
+     "name": "Rocco - Fast Cash Advance",
+     "seller": "Rocco Finance Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/b1/a6/e0b1a641-d280-1087-d5dd-b1e771cae8b6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/rocco-fast-cash-advance/id6764022479?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 34,
+     "id": 458734623,
+     "name": "U.S. Bank Mobile Banking",
+     "seller": "U.S. Bancorp",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/31/e5/ca31e55c-bb2b-60ad-1255-6480009dbb8f/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/u-s-bank-mobile-banking/id458734623?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 35,
+     "id": 1341884073,
+     "name": "Brigit: Cash Advance & Credit",
+     "seller": "Brigit Inc",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/ff/85/4fff8596-ba3d-9ef1-f577-db6306925c84/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/brigit-cash-advance-credit/id1341884073?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 36,
+     "id": 1128712763,
+     "name": "Credit One Bank Mobile",
+     "seller": "Credit One Bank, N.A.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/56/4d/f7564dc1-b4f8-5ed8-2fea-6283afe7a4ba/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/credit-one-bank-mobile/id1128712763?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 37,
+     "id": 1447274646,
+     "name": "Cleo AI: Cash Advance & Budget",
+     "seller": "Cleo AI Ltd",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/d0/2b/87d02b22-2a39-2871-783a-6bac03d1f3b6/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/cleo-ai-cash-advance-budget/id1447274646?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 38,
+     "id": 1205990992,
+     "name": "TradingView: Track All Markets",
+     "seller": "TradingView",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/ec/d8/c2ecd8f7-b0f7-dc39-fdce-7013c40d0de0/AppIcon-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/tradingview-track-all-markets/id1205990992?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 39,
+     "id": 1064677082,
+     "name": "MoneyLion: Cash Advance App",
+     "seller": "MoneyLion",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/08/77/820877a7-397a-eb59-5685-6d0352da8755/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/moneylion-cash-advance-app/id1064677082?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 40,
+     "id": 1241984225,
+     "name": "Testerup: Test & Earn Rewards",
+     "seller": "aestimium GmbH",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/20/b8/0f20b816-8415-8bf6-9c80-4b7d62686aa9/tupAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/testerup-test-earn-rewards/id1241984225?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 41,
+     "id": 6741115427,
+     "name": "fomo - never miss out",
+     "seller": "fomo labs, inc",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/eb/d5/38ebd53e-a197-6b07-fc52-24de1db8d903/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/fomo-never-miss-out/id6741115427?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 42,
+     "id": 1471211372,
+     "name": "Klover - Instant Cash Advance",
+     "seller": "Klover Holdings, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/4c/0a/714c0a16-a204-201d-e400-8f028f2a0fa6/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/klover-instant-cash-advance/id1471211372?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 43,
+     "id": 1525159784,
+     "name": "Kikoff: Build Credit Quickly",
+     "seller": "Kikoff Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/d7/74/cad774fa-02b8-ab2d-3d72-1a336e589fd7/AppIcon-enterprise-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/kikoff-build-credit-quickly/id1525159784?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 44,
+     "id": 1425045070,
+     "name": "Zip - Buy Now, Pay Later",
+     "seller": "Zip Co US, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/ab/ec/71abec81-23f4-b8b6-84c0-379bf04ed06d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/zip-buy-now-pay-later/id1425045070?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 45,
+     "id": 1001257338,
+     "name": "Empower ®",
+     "seller": "Empower Retirement, LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/65/8a/15658af8-4441-0666-f5a1-d87ccf0ef737/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/empower/id1001257338?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 46,
+     "id": 1077366211,
+     "name": "Current - Mobile Banking",
+     "seller": "Finco Services, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/e2/de/89e2dece-f62d-aae6-0db4-306ce930fb4c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/current-mobile-banking/id1077366211?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 47,
+     "id": 1409169287,
+     "name": "Lenme: Borrowing and Lending",
+     "seller": "Lenme Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/b5/c6/bcb5c679-572b-3b8b-37bf-710f4547feee/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/lenme-borrowing-and-lending/id1409169287?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 48,
+     "id": 1413346006,
+     "name": "Taptap Send: Money Transfer",
+     "seller": "Taptap Send, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/e3/6b/e8e36b4c-15d7-d4a4-63fb-258c67750f8c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/taptap-send-money-transfer/id1413346006?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 49,
+     "id": 6759608396,
+     "name": "Cash Advance – Quick Borrow",
+     "seller": "Liberis Sweden AB",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/65/3d/cf653d8a-714a-be71-ebb4-5da76ba06422/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/cash-advance-quick-borrow/id6759608396?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 50,
+     "id": 6462308655,
+     "name": "Robinhood Banking",
+     "seller": "Robinhood Markets, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/af/de/1bafde80-bd8c-2d91-f8e4-61f9253da512/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/robinhood-banking/id6462308655?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 51,
+     "id": 1511043796,
+     "name": "Bright: Loans & Credit Builder",
+     "seller": "Bright Capital Inc",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/8f/5e/9e8f5eea-7520-37e9-bc17-44e7c8a60ab7/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/bright-loans-credit-builder/id1511043796?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 52,
+     "id": 640179084,
+     "name": "NetBenefits",
+     "seller": "Fidelity Investments",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/a5/26/48a52664-5db7-f652-dbda-374711a30a8f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/netbenefits/id640179084?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 53,
+     "id": 1438006983,
+     "name": "Step: All-In-One Money App",
+     "seller": "Step Mobile Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/98/b5/5d98b575-9503-7131-d072-abc71729c81f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/step-all-in-one-money-app/id1438006983?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 54,
+     "id": 1057771088,
+     "name": "Albert: Budgeting and Banking",
+     "seller": "Albert Corporation",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/d9/5a/6bd95a5e-3c96-d689-99d7-a714c26f7b0a/albert-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/albert-budgeting-and-banking/id1057771088?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 55,
+     "id": 364376344,
+     "name": "Allstate® Mobile",
+     "seller": "Allstate Insurance Company",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/f2/85/26f285d5-56a6-566e-4260-5c5885a98be8/AppIcon-1x_U007emarketing-0-8-0-P3-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/allstate-mobile/id364376344?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 56,
+     "id": 1517676784,
+     "name": "Varo Bank: Online Banking",
+     "seller": "Varo Money inc",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/ed/e9/49ede977-6a55-318b-1dca-25765b994697/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/varo-bank-online-banking/id1517676784?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 57,
+     "id": 1459319842,
+     "name": "Monarch: Budget & Track Money",
+     "seller": "Monarch Money, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/a3/0a/20a30a5d-be8a-0031-c7b1-a407f33b2a35/AppIcon-Default-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/monarch-budget-track-money/id1459319842?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 58,
+     "id": 723815926,
+     "name": "EarnIn: Beyond Cash Advance",
+     "seller": "Activehours Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/48/36/90483626-b6e6-fc53-b5af-c9f5f3b21ffa/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/earnin-beyond-cash-advance/id723815926?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 59,
+     "id": 612261027,
+     "name": "Wise: Global Money Transfer",
+     "seller": "Wise Payments Ltd",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/c1/12/53c112a9-4593-6274-2fd4-766fa23cfa03/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/wise-global-money-transfer/id612261027?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 60,
+     "id": 6808298655,
+     "name": "Southern Bank Digital",
+     "seller": "Southern Bank and Trust",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/13/0f/30130f75-97d6-134c-dbed-c63c982195ce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/southern-bank-digital/id6808298655?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 61,
+     "id": 1399085077,
+     "name": "DailyPay On-Demand Pay",
+     "seller": "Daily Pay Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/37/94/99379425-d635-0787-79a5-69566cc72545/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/dailypay-on-demand-pay/id1399085077?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 62,
+     "id": 6796264140,
+     "name": "Cash Advance: Borrow Money",
+     "seller": "Edukad Investeeringud OU",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/7d/b6/ac7db652-d7d8-10b8-ca48-bf2a8989ad3d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/cash-advance-borrow-money/id6796264140?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 63,
+     "id": 1421276642,
+     "name": "Perpay - Shop and Build Credit",
+     "seller": "Perpay, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/a5/f7/9ea5f704-911b-6bd5-db69-fc863c6df6b8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/perpay-shop-and-build-credit/id1421276642?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 64,
+     "id": 883324671,
+     "name": "Acorns: Save & Invest Money",
+     "seller": "Acorns Grow Incorporated",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/3d/00/7e3d0020-e630-8646-9c6c-e5c2aadde25e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/acorns-save-invest-money/id883324671?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 65,
+     "id": 425199399,
+     "name": "Barclays US",
+     "seller": "Barclays Bank Delaware",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/0d/6f/840d6f26-ef0e-4e56-d982-8da96f94d4ff/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/barclays-us/id425199399?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 66,
+     "id": 932493382,
+     "name": "Revolut: send, spend, and save",
+     "seller": "Revolut Ltd",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/72/e7/9d72e765-7a20-e360-9927-afcbb90da70c/AppIcon-Production-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/revolut-send-spend-and-save/id932493382?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 67,
+     "id": 424716908,
+     "name": "Western Union: Send Money",
+     "seller": "Western Union Holdings, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/d5/15/dad51541-95d4-f0f2-c8ad-65d690317ea9/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/western-union-send-money/id424716908?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 68,
+     "id": 407358186,
+     "name": "Schwab Mobile",
+     "seller": "The Charles Schwab Corporation",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/73/6d/99736db2-ade5-4cdf-84a3-b2cd3762c452/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/schwab-mobile/id407358186?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 69,
+     "id": 1588301749,
+     "name": "Credit Genie: Get Cash Advance",
+     "seller": "Credit Genie",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/4f/93/884f93df-365d-0234-e1d4-29cf4fd77246/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/credit-genie-get-cash-advance/id1588301749?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 70,
+     "id": 1478804271,
+     "name": "Gusto Mobile",
+     "seller": "Gusto, inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/9d/4a/189d4ac1-dc41-9a5f-3917-e2db6a78162a/ReleaseAppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/gusto-mobile/id1478804271?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 71,
+     "id": 1395667279,
+     "name": "FloatMe: Fast Cash Advance App",
+     "seller": "FloatMe",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/d4/01/4cd40119-ea82-6627-191c-169f5d6826e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/floatme-fast-cash-advance-app/id1395667279?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 72,
+     "id": 1380384597,
+     "name": "Possible: Fast Cash & Credit",
+     "seller": "Possible Finance",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/5e/a7/6d5ea768-988f-368c-fbd0-53143cd1d4d7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/possible-fast-cash-credit/id1380384597?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 73,
+     "id": 1450304211,
+     "name": "Super.com Cash Advance, Travel",
+     "seller": "Super.com Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/b1/df/20b1dfd3-4770-d98e-de75-6eeacaf147f2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/super-com-cash-advance-travel/id1450304211?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 74,
+     "id": 642959434,
+     "name": "HealthEquity Mobile",
+     "seller": "HealthEquity",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/d8/12/aed812bd-ff3c-d9c3-0f7c-2016a45b7f9b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/healthequity-mobile/id642959434?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 75,
+     "id": 1600495551,
+     "name": "Bread Financial",
+     "seller": "Bread Financial Holdings, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/2b/81/142b8147-f5cd-e118-6e16-7491a2a2a9e8/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/bread-financial/id1600495551?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 76,
+     "id": 414113282,
+     "name": "IRS",
+     "seller": "Internal Revenue Service",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/41/42/1b4142eb-6948-d5c4-030a-edfc9b2f59ee/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/irs/id414113282?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 77,
+     "id": 6502468755,
+     "name": "myEquifax",
+     "seller": "Equifax",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/45/7f/d5457f3f-b503-628a-2ae4-3748e3c2874e/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/myequifax/id6502468755?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 78,
+     "id": 1554623825,
+     "name": "Alinea: Automated Investing",
+     "seller": "ALINEA INVEST, LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/4f/51/994f516f-41d9-17fb-65fe-0b7ff5cc7a22/ProdIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/alinea-automated-investing/id1554623825?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 79,
+     "id": 397404511,
+     "name": "Liberty Mutual Mobile",
+     "seller": "Liberty Mutual",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/85/bb/4485bbc8-15d8-dac1-3754-0fcd142923e4/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/liberty-mutual-mobile/id397404511?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 80,
+     "id": 6450968733,
+     "name": "Upstart: Personal Loans + More",
+     "seller": "Upstart Network, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/17/9f/fd179fdf-2230-c7e1-2c09-15f38d5f6cc8/Upstart-icon-ios26-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/upstart-personal-loans-more/id6450968733?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 81,
+     "id": 1507829573,
+     "name": "ATM Cash Advance・Instant Money",
+     "seller": "ATM.com, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/5c/6d/5f5c6da7-a17b-548e-3431-7f319fd920e1/AppIconProd-0-0-1x_U007emarketing-0-6-0-85-220.jpeg/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/atm-cash-advance-instant-money/id1507829573?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 82,
+     "id": 370811491,
+     "name": "Navy Federal Credit Union",
+     "seller": "Navy Federal Credit Union",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/f3/6a/34f36a98-985f-8a02-9811-95f63ffa5625/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/navy-federal-credit-union/id370811491?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 83,
+     "id": 514374715,
+     "name": "Ally: Bank, Auto & Invest",
+     "seller": "Ally Financial Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/68/55/ee685553-0ee4-f177-9675-d13602b3471b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/ally-bank-auto-invest/id514374715?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 84,
+     "id": 1230221247,
+     "name": "MyCardWallet.",
+     "seller": "Blackhawk Network",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/73/61/7e73619d-ea22-fe37-a2db-f4500744814f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/mycardwallet/id1230221247?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 85,
+     "id": 6449258739,
+     "name": "Concora Credit",
+     "seller": "CONCORA CREDIT INC.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/79/56/ca7956c2-8fd0-8ec0-5dbc-b3963cbf958d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/concora-credit/id6449258739?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 86,
+     "id": 458023433,
+     "name": "Splitwise",
+     "seller": "Splitwise, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/af/34/b6af341d-7a2c-9050-d1a1-ff165faa6b20/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/splitwise/id458023433?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 87,
+     "id": 303113127,
+     "name": "PNC Mobile Banking",
+     "seller": "PNC Bank, N.A.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/79/69/d07969e8-0447-4bc5-e4b7-a9032922ed57/AppIcon_Glass-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/pnc-mobile-banking/id303113127?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 88,
+     "id": 1008234539,
+     "name": "Capital One CreditWise",
+     "seller": "Capital One",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/0c/ed/bc0ced60-07fa-4770-7c6a-ea4c96ee1bab/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/capital-one-creditwise/id1008234539?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 89,
+     "id": 6777478123,
+     "name": "Monbark: Budget & Money Track",
+     "seller": "MONBARK LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/d8/63/59d86303-ef3a-be3d-fd2a-73db46462ef8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/monbark-budget-money-track/id6777478123?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 90,
+     "id": 1112719759,
+     "name": "Propel: EBT, SNAP, WIC, & more",
+     "seller": "Propel Inc",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/9f/d1/d59fd1bf-fc16-d470-2e9e-de5afb1f89e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/propel-ebt-snap-wic-more/id1112719759?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 91,
+     "id": 6443564349,
+     "name": "True Finance: Cash Advance",
+     "seller": "True Finance LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/f9/78/5df97845-862b-20be-6835-52a670da9f71/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/true-finance-cash-advance/id6443564349?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 92,
+     "id": 6739891028,
+     "name": "Candles - Trade Everything",
+     "seller": "Candle Holdings Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/72/44/cf7244e1-046f-1809-022c-e7c9bcbb2365/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/candles-trade-everything/id6739891028?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 93,
+     "id": 1031312446,
+     "name": "CareCredit Mobile",
+     "seller": "Synchrony Financial",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/f2/6b/01f26b55-a07a-2c1f-3423-fb985b95b1f7/AppIcon-0-0-1x_U007emarketing-0-8-0-P3-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/carecredit-mobile/id1031312446?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 94,
+     "id": 6759538366,
+     "name": "Panda Pay: Financial Insights",
+     "seller": "Radiant Union LLC",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/6a/ff/726aff1c-f3a4-bb6b-649a-8dfa339e51b5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/panda-pay-financial-insights/id6759538366?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 95,
+     "id": 1492670702,
+     "name": "Binance.US Exchange・Buy Crypto",
+     "seller": "BAM Trading Services, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/36/ad/6b36ad2e-5072-25ce-72b4-cfcdb5b2f679/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/binance-us-exchange-buy-crypto/id1492670702?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 96,
+     "id": 6768162339,
+     "name": "TDB",
+     "seller": "Trade and Development Bank of Mongolia",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/84/df/c084df7e-a3e4-db30-15a7-bc8ca4850844/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/tdb/id6768162339?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 97,
+     "id": 1565576987,
+     "name": "Bilt Rewards",
+     "seller": "Bilt Technologies, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/38/61/3d386133-b676-9185-5d20-287ed631cf36/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/bilt-rewards/id1565576987?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 98,
+     "id": 942571931,
+     "name": "EveryDollar: Budget Management",
+     "seller": "The Lampo Group Incorporated",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/e8/07/eae807d4-5efd-398f-f1bc-e236722061f8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/everydollar-budget-management/id942571931?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 99,
+     "id": 649008868,
+     "name": "TransUnion®",
+     "seller": "TransUnion",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/7c/e8/427ce826-81df-00e1-1abb-83dd6cf5cabe/AppIcon-AppStore-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/transunion/id649008868?uo=2",
+     "prev_rank": null
+    },
+    {
+     "rank": 100,
+     "id": 335186209,
+     "name": "Vanguard: Save, Invest, Retire",
+     "seller": "The Vanguard Group, Inc.",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/9a/56/bc9a5674-e7e8-a6c8-4aae-493f6d169104/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
+     "url": "https://apps.apple.com/us/app/vanguard-save-invest-retire/id335186209?uo=2",
+     "prev_rank": null
+    }
+   ],
+   "days": {
+    "2026-10-20": [
+     407558537,
+     1632713844,
+     6767364919,
+     283646709,
+     711923939,
+     351727428,
+     836215269,
+     298867247,
+     1115120118,
+     1494523953,
+     6648798962,
+     349731802,
+     1130616675,
+     311548709,
+     348177453,
+     301724680,
+     318142137,
+     284847138,
+     1191985736,
+     519817714,
+     362348516,
+     331763096,
+     1193801909,
+     6472350114,
+     1280992496,
+     938003185,
+     1087101090,
+     674258465,
+     1136397354,
+     6751549725,
+     1617487581,
+     886427730,
+     6764022479,
+     458734623,
+     1341884073,
+     1128712763,
+     1447274646,
+     1205990992,
+     1064677082,
+     1241984225,
+     6741115427,
+     1471211372,
+     1525159784,
+     1425045070,
+     1001257338,
+     1077366211,
+     1409169287,
+     1413346006,
+     6759608396,
+     6462308655,
+     1511043796,
+     640179084,
+     1438006983,
+     1057771088,
+     364376344,
+     1517676784,
+     1459319842,
+     723815926,
+     612261027,
+     6808298655,
+     1399085077,
+     6796264140,
+     1421276642,
+     883324671,
+     425199399,
+     932493382,
+     424716908,
+     407358186,
+     1588301749,
+     1478804271,
+     1395667279,
+     1380384597,
+     1450304211,
+     642959434,
+     1600495551,
+     414113282,
+     6502468755,
+     1554623825,
+     397404511,
+     6450968733,
+     1507829573,
+     370811491,
+     514374715,
+     1230221247,
+     6449258739,
+     458023433,
+     303113127,
+     1008234539,
+     6777478123,
+     1112719759,
+     6443564349,
+     6739891028,
+     1031312446,
+     6759538366,
+     1492670702,
+     6768162339,
+     1565576987,
+     942571931,
+     649008868,
+     335186209
+    ]
+   },
+   "prev_day": null,
+   "updated": "2026-10-20T17:56:53+08:00"
+  }
+ }
+}
