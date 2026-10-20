@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:34:08+08:00",
+ "updated": "2026-10-20T18:47:33+08:00",
  "regions": [
   {
    "id": "hk",
@@ -221,10 +221,10 @@
     "1557435421": 2
    },
    "股票": {
-    "454558592": 46,
-    "1470042146": 52,
+    "454558592": 43,
+    "1470042146": 50,
     "1605041188": null,
-    "1023600494": 44,
+    "1023600494": 41,
     "592031984": 4,
     "492180369": 11,
     "1463024118": 17,
@@ -241,8 +241,8 @@
     "1557435421": null
    },
    "ETF": {
-    "454558592": 24,
-    "1470042146": 37,
+    "454558592": 25,
+    "1470042146": 34,
     "1605041188": null,
     "1023600494": 12,
     "592031984": 2,
@@ -280,18 +280,18 @@
     "938003185": 3
    },
    "trading": {
-    "454558592": 51,
+    "454558592": 60,
     "1179213067": 3,
     "1440255819": 26,
     "1023600494": null,
     "938003185": 4
    },
    "options": {
-    "454558592": 24,
+    "454558592": 27,
     "1179213067": 4,
     "1440255819": 20,
     "1023600494": null,
-    "938003185": 3
+    "938003185": 2
    },
    "invest": {
     "454558592": 23,
@@ -357,14 +357,14 @@
    "name": "用户评论",
    "ok": true,
    "error": "",
-   "count": 1089
+   "count": 3850
   },
   {
    "id": "news",
    "name": "媒体报道（Google News）",
    "ok": true,
    "error": "",
-   "count": 211
+   "count": 213
   }
  ],
  "apps": [
@@ -389,7 +389,7 @@
    "rank": null,
    "tracked_since": "2026-10-20",
    "stale": false,
-   "intro": "a) 新加坡 L1 即時行情：連續包月產品為 103 港幣/月",
+   "intro": "",
    "description": "【最新動態】\n• 榮獲「香港經濟日報企業大獎 HKET Excellence Awards 2023」之「傑出金融科技證券商」\n• 推出行業首個「GPT + 財經」應用 LongbridgeAI，專注財經領域的綜合智能助理 \n• 終生免佣：真正敢於提供「港美股終生免佣」\n\n【特色功能】\n• 全景模式：全景探索，1 分鐘全面瞭解企業基本面\n• 供應鏈明細：獨特的供應鏈行業圖譜分析功能，助你進行深度股票篩選與策略定制\n• Live Trading：與眾多「橋友」實時探討 K 線每一秒波動，極速下單，在這裡從來都不孤單\n• 股票評分：直觀判斷股票投資價值，輔助橋友做出精準的投資\n• 高級行情：實時高速港股 Level-2、全美行情，快人一步把握機會\n• 長橋社區：炒股達人分享港股美股投資心得、港美股投資策略，為你的港美股投資保駕護航\n• 財經智能助手 LongbridgeAI：行業首個財經 GPT，隨時都有答案的「AI 分析師」\n• 豐富交易工具：提供網格交易、日內融、美股夜盤、美股沽空等交易工具，助你精准把握各類市場環境\n\n【基礎功能】\n• 港美股市場：提供港股、美股行情，掌握投資先機，玩轉港美股市場\n• 極速交易：「比快更快」的下單速度、微秒級刷新的超低行情延遲、更安全穩定的投資體驗\n• 港美 IPO：支持港美股新股認購，份額更多，中籤機會更大\n• 融資額足：新股認購高達 33 倍融資，股票交易高達 10 倍融資，資金更靈活\n• 極速入金：實時資產存取，支持銀證、eDDA、FPS 等所有方式，FPS 提供 7×24 服務\n\n【行情連續包月說明】\n• 行情服務及價格\na) 新加坡 L1 即時行情：連續包月產品為 103 港幣/月\nb) 港股 L2 即時行情：連續包月產品為 158 港幣/月\nc) LV2 高級行情 Plus：連續包月產品為 338 港幣/月\nd) L1 + 全美高級行情（非專業）：連續包月產品為 46 港幣/月\ne) OPRA 期權：連續包月產品為 20 港幣/月\nf) 納斯達克 Basic 行情（Open API）：連續包月產品為 558 港幣/月\ng) OPRA 美股期權行情（Open API）：連續包月產品為 22 港幣/月\nh) LV2 高級行情（Open API）：連續包月產品為 269 港幣/月\ni) LV2 高級行情 Plus（Open API）：連續包月產品為 558 港幣/月\n• 付款：通過用戶的 iTunes 帳戶扣款，用戶確認購買後即付款\n• 自動續約：蘋果 iTunes 帳號會在到期前 24 小時內扣費，扣費成功後訂閱週期順延 1 個訂閱週期\n• 取消續約：如需取消續訂，您可以在蘋果手機“設定”--> 進入“iTunes Store 與App Store”-->點擊“Apple ID”，選擇\"查看Apple ID\"，進入\"帳戶設置 \"頁面，點選「訂閱」管理自動訂閱服務，每個計費週期結束前24 小時關閉即可，到期前24 小時內則不再扣費\n• 服務協議：https://support.longbridgehk.com/topics/marketing/subs\n\n【AI 訂閱服務連續包月說明】\n• AI 訂閱服務及價格\na) Pro 計劃（適合深度使用者，解鎖全部內置工具與更高額度）連續包月為 148 港幣/月\nb) Premium 計劃（面向高級用戶，解鎖第三方 MCP 與最高額度）連續包月為 748 港幣/月\n• 支付：透過用戶的 iTunes 帳戶扣款，用戶確認購買後即付款\n• 自動續訂：蘋果 iTunes 帳戶會在到期前 24 小時內扣費，扣費成功後訂閱週期順延 1 個訂閱週期\n• 取消續訂：如需取消續訂，您可以在蘋果手機「設定」-->進入「iTunes Store 與 App Store」-->點擊「Apple ID」，選擇「查看 Apple ID」，進入「帳戶設定」頁面，點擊「訂閱」管理自動訂閱服務，每個計費週期結束前 24 小時關閉即可，到期前 24 小時內則不再扣費\n• 服務協議：https://support.longbridgehk.com/topics/misc/ai-platform-terms-of-service-hk?locale=zh-HK\n\n【關於我們】\n長橋證券（Longbridge Securities）是服務全球投資者的新一代互聯網券商，致力於連通資產的「發現 → 認知 → 交易」環節，為全球投資者帶來安全可靠、高效便捷的全球投資體驗。我們成立於 2019 年 3 月，在美國、新加坡、香港、新西蘭等地持有 22 張金融合規牌照或資質，並獲得多家大型金融及投資機構的戰略投資超 1.5 億美元。旗下長橋證券（香港）有限公司（中央編號：BPX066）持有香港證監會第 1、2、4、9 類牌照，致力以科技創新為驅動力，希望為全球投資者構建一個便捷的全球交易網絡，通過一個賬戶就能以極低的成本投資全球證券市場。\n\n優惠受條款與細則約束\n投資涉及風險，需謹慎小心\n\n【聯絡我们】\n• 官方網址：https://longbridge.com\n• 客服熱線：+852 3851 1777\n• 服務時間交易日：9:00-18:00* (GMT+8)\n * 超出上述服務時間，請聯繫線上客服；在工作日間，線上客服 24 小時為您服務；非工作日線上客服之辦公時間為 9:00-18:00(GMT+8)\n• 客服郵箱：service@longbridge.hk\n• 官方 WhatsApp：+852 5223 6373\n• 公司地址：香港中環港景街1號國際金融中心一期18楼1801-1804, 1815-18163室",
    "highlights": [
     "榮獲「香港經濟日報企業大獎 HKET Excellence Awards 2023」之「傑出金融科技證券商」",
@@ -457,7 +457,7 @@
     }
    },
    "review_stats": {
-    "total": 100,
+    "total": 500,
     "window": "recent",
     "sample": 40,
     "avg": 4.62,
@@ -554,7 +554,7 @@
       "last": "2026-06-12"
      }
     ],
-    "oldest": "2026-04-19",
+    "oldest": "2025-04-13",
     "newest": "2026-10-09"
    },
    "news": [],
@@ -576,9 +576,9 @@
       "港股": 5,
       "美股": 6,
       "期權": 10,
-      "股票": 52,
+      "股票": 50,
       "炒股": 14,
-      "ETF": 37,
+      "ETF": 34,
       "stock": 26,
       "trading": 86
      }
@@ -616,11 +616,11 @@
     "全球資訊：7×24 小時資訊、自選股情報一覽無遺；",
     "開戶交易：多間知名券商在線開戶，極速交易。",
     "行情服務及價格",
-    "付款：透過用戶的 iTunes 帳戶扣款，用戶確認購買後即付款",
-    "自動續約：蘋果 iTunes 帳號會在到期前 24 小時內扣費，扣費成功後訂閱週期順延 1 個訂閱週期",
-    "取消續約：如需取消續訂，您可以在蘋果手機“設定”--> 進入“iTunes Store 與App Store”-->點擊“Apple ID”，選擇\"查看Apple ID\"，進入\"帳戶設置 \"頁面，點選「訂閱」管理自動訂閱服務，每個計費週期結束前24 小時關閉即可，到期前24 小時內則不再扣費",
-    "服務協議：https://support.longbridgehk.com/topics/marketing/subs",
-    "官方網站：https://longportapp.com"
+    "新加坡 L1 即時行情：連續包月產品為 103 港幣/月",
+    "港股 L2 即時行情：連續包月產品為 9 港幣/月",
+    "LV2 高級行情 Plus：連續包月產品為 338 港幣/月",
+    "L1 + 全美高級行情（非專業）：連續包月產品為 46 港幣/月",
+    "OPRA 選擇權：連續包月產品為 20 港幣/月"
    ],
    "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/6c/68/9a6c68bb-443f-6423-432a-3dac0c6b38eb/01.jpg/392x696bb.jpg",
@@ -873,30 +873,30 @@
     }
    },
    "review_stats": {
-    "total": 50,
+    "total": 500,
     "window": "recent",
-    "sample": 50,
-    "avg": 4.64,
+    "sample": 216,
+    "avg": 4.77,
     "dist": {
-     "1": 2,
-     "2": 1,
-     "3": 0,
-     "4": 7,
-     "5": 40
+     "1": 5,
+     "2": 2,
+     "3": 2,
+     "4": 19,
+     "5": 188
     },
-    "neg": 3,
+    "neg": 7,
     "topics": {
-     "crash": 0,
+     "crash": 1,
      "battery": 1,
      "login": 0,
-     "quote": 0,
-     "money": 0,
+     "quote": 3,
+     "money": 1,
      "fee": 0,
      "support": 0,
-     "order": 0,
-     "ui": 0,
+     "order": 2,
+     "ui": 2,
      "account": 1,
-     "ads": 0
+     "ads": 1
     },
     "versions": [
      {
@@ -908,10 +908,17 @@
      },
      {
       "version": "16.33.26918",
-      "count": 35,
-      "avg": 4.63,
-      "neg": 2,
+      "count": 36,
+      "avg": 4.56,
+      "neg": 3,
       "last": "2026-10-18"
+     },
+     {
+      "version": "16.31.26708",
+      "count": 4,
+      "avg": 5.0,
+      "neg": 0,
+      "last": "2026-10-15"
      },
      {
       "version": "16.34.27008",
@@ -921,14 +928,49 @@
       "last": "2026-10-15"
      },
      {
+      "version": "16.28.26408",
+      "count": 31,
+      "avg": 4.87,
+      "neg": 0,
+      "last": "2026-09-30"
+     },
+     {
       "version": "16.32.26808",
-      "count": 3,
-      "avg": 4.67,
+      "count": 42,
+      "avg": 4.83,
       "neg": 0,
       "last": "2026-09-29"
+     },
+     {
+      "version": "16.33.26908",
+      "count": 3,
+      "avg": 5.0,
+      "neg": 0,
+      "last": "2026-09-28"
+     },
+     {
+      "version": "16.30.26618",
+      "count": 22,
+      "avg": 4.82,
+      "neg": 0,
+      "last": "2026-09-16"
+     },
+     {
+      "version": "16.29.26508",
+      "count": 6,
+      "avg": 4.33,
+      "neg": 1,
+      "last": "2026-09-01"
+     },
+     {
+      "version": "16.24.26018",
+      "count": 38,
+      "avg": 4.89,
+      "neg": 1,
+      "last": "2026-08-24"
      }
     ],
-    "oldest": "2026-09-28",
+    "oldest": "2026-03-09",
     "newest": "2026-10-18"
    },
    "news": [
@@ -1184,7 +1226,7 @@
      "title": "老虎證券上調Circle Internet目標價，看好加密貨幣前景 作者 Investing.com",
      "source": "Investing.com 香港 - 股市報價& 財經新聞",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SM29falc0d25ncldPU1JkekstaThBODNReTNrWDRJT0FDVHl3OUxwT095aHdVQ1hZZExLSzVHbVVhdlhNaVV1eGlKX0FjdzdQX3VVVnk4YTQ2VVRpbkdZMDFJY0VZN2RiSlkyTWpmUDdDbEFS?oc=5",
-     "date": "2026-10-07T00:56:13+08:00",
+     "date": "2026-10-07T15:00:00+08:00",
      "review": false
     },
     {
@@ -1213,7 +1255,7 @@
       "港股": 11,
       "美股": 5,
       "期權": 4,
-      "股票": 44,
+      "股票": 41,
       "炒股": 6,
       "ETF": 12,
       "stock": 32,
@@ -1329,30 +1371,30 @@
     }
    },
    "review_stats": {
-    "total": 50,
+    "total": 102,
     "window": "all",
-    "sample": 50,
-    "avg": 1.82,
+    "sample": 102,
+    "avg": 2.3,
     "dist": {
-     "1": 31,
-     "2": 8,
-     "3": 4,
+     "1": 54,
+     "2": 12,
+     "3": 10,
      "4": 3,
-     "5": 4
+     "5": 23
     },
-    "neg": 39,
+    "neg": 66,
     "topics": {
-     "crash": 3,
+     "crash": 9,
      "battery": 0,
-     "login": 1,
-     "quote": 4,
-     "money": 5,
-     "fee": 6,
-     "support": 3,
-     "order": 6,
-     "ui": 5,
+     "login": 2,
+     "quote": 5,
+     "money": 9,
+     "fee": 12,
+     "support": 8,
+     "order": 9,
+     "ui": 6,
      "account": 2,
-     "ads": 6
+     "ads": 9
     },
     "versions": [
      {
@@ -1375,9 +1417,58 @@
       "avg": 1.0,
       "neg": 3,
       "last": "2025-12-29"
+     },
+     {
+      "version": "8.3.4",
+      "count": 3,
+      "avg": 3.0,
+      "neg": 1,
+      "last": "2022-12-07"
+     },
+     {
+      "version": "7.4.8",
+      "count": 3,
+      "avg": 1.67,
+      "neg": 3,
+      "last": "2022-03-21"
+     },
+     {
+      "version": "7.3.6",
+      "count": 4,
+      "avg": 1.5,
+      "neg": 3,
+      "last": "2021-12-27"
+     },
+     {
+      "version": "7.3.3",
+      "count": 3,
+      "avg": 3.0,
+      "neg": 1,
+      "last": "2021-11-22"
+     },
+     {
+      "version": "7.3.0",
+      "count": 3,
+      "avg": 1.67,
+      "neg": 2,
+      "last": "2021-11-16"
+     },
+     {
+      "version": "7.2.9",
+      "count": 5,
+      "avg": 1.0,
+      "neg": 5,
+      "last": "2021-11-03"
+     },
+     {
+      "version": "7.2.7",
+      "count": 14,
+      "avg": 4.21,
+      "neg": 3,
+      "last": "2021-10-27"
      }
     ],
-    "oldest": "2022-12-28",
+    "oldest": "2021-09-18",
     "newest": "2026-10-05"
    },
    "news": [
@@ -1519,6 +1610,13 @@
      "source": "商傳媒",
      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPc0thdTYtb1BvdTBGVTRhbGVBOWdhOHpjQVBvY2p6Y0xQZzVxMElXVXdCREVHVTkxSmtwSWZPWnloSm9OaFRzbXpIYWxhQ0QtZmMtZmM0Y0U4YWQxZzVNT3A0MTZwU1duWU5KUHpVek5iTy1OZVZtWW9JXzQ4d0ZRdHRZekhiZk91SU1FRDF6b2oxaHhoN2ZXRGVLcTFQd1N6M0pTclVERXNjTU9oM1ZfdGhaa1VyT0pZRlZyQ3N1TlZrSDNIUE5LaFJyOXJkcUdYaTFKSHZ1QWJDY09GTGluLWJhUktiVHRkWnR5Z01oVEZYSDJqS1R6eThOTE9QZDBwa0I2bExSUmdqNktiQktTcXpyRjJsVGNEWlNJNGNTdS1kWVBtOFl0T3ZWM0dyZ2VaNllmOHlNdEtsVjhkeHNDSzA3YzBYZzFLQnlGT0tTaFVPcWN1RTBhUy11RnZmbDUzV18zclZkZ1ZraUNtZzlBaXN1YkZVd3Q5?oc=5",
      "date": "2026-10-07T15:00:00+08:00",
+     "review": false
+    },
+    {
+     "title": "炒股平台也捲國安風暴！美國會指微牛證券與中國關係密切- 財經新聞",
+     "source": "玩股網",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2cUFOX1BSVUxDS1JHZGxkV1VRb0NyTkJmTmhGLWd4WFJKeDVBMEZpZXRSNFNWeWhHZXZHZUFvd0RvQk16eHJqY2hrS0k?oc=5",
+     "date": "2026-10-07T04:40:05+08:00",
      "review": false
     },
     {
@@ -1675,30 +1773,30 @@
     }
    },
    "review_stats": {
-    "total": 50,
+    "total": 259,
     "window": "all",
-    "sample": 50,
-    "avg": 4.2,
+    "sample": 259,
+    "avg": 4.22,
     "dist": {
-     "1": 8,
-     "2": 1,
-     "3": 1,
-     "4": 3,
-     "5": 37
+     "1": 38,
+     "2": 6,
+     "3": 6,
+     "4": 19,
+     "5": 190
     },
-    "neg": 9,
+    "neg": 44,
     "topics": {
-     "crash": 0,
+     "crash": 8,
      "battery": 0,
-     "login": 0,
-     "quote": 0,
-     "money": 2,
-     "fee": 0,
-     "support": 2,
-     "order": 0,
-     "ui": 0,
-     "account": 0,
-     "ads": 2
+     "login": 1,
+     "quote": 3,
+     "money": 6,
+     "fee": 2,
+     "support": 7,
+     "order": 1,
+     "ui": 2,
+     "account": 4,
+     "ads": 5
     },
     "versions": [
      {
@@ -1742,21 +1840,49 @@
       "avg": 5.0,
       "neg": 0,
       "last": "2026-04-23"
+     },
+     {
+      "version": "10.3.2",
+      "count": 3,
+      "avg": 3.67,
+      "neg": 1,
+      "last": "2026-04-10"
+     },
+     {
+      "version": "10.3.1",
+      "count": 9,
+      "avg": 5.0,
+      "neg": 0,
+      "last": "2026-03-26"
+     },
+     {
+      "version": "10.2.1",
+      "count": 3,
+      "avg": 3.67,
+      "neg": 1,
+      "last": "2026-02-01"
+     },
+     {
+      "version": "10.1.4",
+      "count": 4,
+      "avg": 4.25,
+      "neg": 0,
+      "last": "2025-12-13"
      }
     ],
-    "oldest": "2026-04-20",
+    "oldest": "2019-07-04",
     "newest": "2026-10-12"
    },
    "news": [
     {
-     "title": "美債息高企吸資 券商：續削港股吸引力|香港經濟日報",
+     "title": "美債息高企吸資 券商：續削港股吸引力",
      "source": "香港經濟日報HKET",
      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQTldGMXExQzVUZ0trbTNmZ0syODdiY05sRXZUS3RxdjFROFh5eFlXWGJZVWRiOXlSQ1QtRFhiZWIxblNGMGdORjQtUTc1SWt0dEdoZ3JVTTRlcGtaT29vN2JON1cxV2diQWxsYlhqWnluM1NIR1BWWjJyczRqQ0RjR0stQVJ6eVZoRnBHbVZvdndXcGJ1aUpmZVA0YkE4cGxBemF2OUdYYkRTaW9PNThyTUQ2eURXSWVTVjg0MnM0RVlVLTI1SWxwTUo1cjRwWnF6NkJjNEtxeHRRQ0NJaEJYbTRZWTBsbTFrOU52aWxYYnAxbHFlNDZ3MnpVVGg3cm54b3ZoRkFKOVIyMTBkbDJlN3d1OHdCVGE0ekNJbzBIbjY1QQ?oc=5",
      "date": "2026-10-20T00:29:00+08:00",
      "review": false
     },
     {
-     "title": "美債息高企吸資 券商：續削港股吸引力",
+     "title": "美債息高企吸資 券商：續削港股吸引力|香港經濟日報",
      "source": "香港經濟日報HKET",
      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQTldGMXExQzVUZ0trbTNmZ0syODdiY05sRXZUS3RxdjFROFh5eFlXWGJZVWRiOXlSQ1QtRFhiZWIxblNGMGdORjQtUTc1SWt0dEdoZ3JVTTRlcGtaT29vN2JON1cxV2diQWxsYlhqWnluM1NIR1BWWjJyczRqQ0RjR0stQVJ6eVZoRnBHbVZvdndXcGJ1aUpmZVA0YkE4cGxBemF2OUdYYkRTaW9PNThyTUQ2eURXSWVTVjg0MnM0RVlVLTI1SWxwTUo1cjRwWnF6NkJjNEtxeHRRQ0NJaEJYbTRZWTBsbTFrOU52aWxYYnAxbHFlNDZ3MnpVVGg3cm54b3ZoRkFKOVIyMTBkbDJlN3d1OHdCVGE0ekNJbzBIbjY1QQ?oc=5",
      "date": "2026-10-20T00:29:00+08:00",
@@ -1774,6 +1900,13 @@
      "source": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQaGZhY19kazBNQ1hCM2gzclZQUGtoc2dxMFRCdFUxdThtdW95YzB0azIwZ3VFcFlsQndHV0xIUWRfT01pZ0ZXdE5pV1hWc0JuWUd4NFlaQlBfQ1dld0tfZFdWSUd1RFZ6N2tNcWhPQWIybW5xdVJqYXR0WS04aWFkQmRYU3dENG1PWWlnRTYyUVl1RHJzTktpNmVPYTVMeS1qRUhiN0xiWlhEOHRyd09VbGhlRWNjbWgyS3JITVEyQldGYTBKVGo0MGw4empEc1hjZ1Y4cU9KcHBmdEpPWGtKRGR1OUZoS0dnR0JmNXRHbV9TWTRpNDlvTTl0WXNrTTh2UmstMzlOOHZxNnFVay1JNGpkM3RTSzhRekFCUDVVb0tfa1p5TFpOVHBfLVBneHJQc05yNjdZUklRV3N6VkpZMlhBX3k4T1U1UDdVM2ZSaUtCel94ZHI0UG44cnhHOU5yaUxZYXpXczVrejZXb3FHRXZB?oc=5",
      "date": "2026-10-12T02:00:00+08:00",
+     "review": false
+    },
+    {
+     "title": "周大福創建轉型見成效|香港經濟日報",
+     "source": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVkFFX3k0Q0s1UV9MUi01X2dCMkhoQ1NOaUh4eUFENndUZEtQZjRmMFlKZG5WazRjT3BKY3h6UXdWQTY5M0gteTByOWtxZXljdVpsMGZCdzM5WjdpS2txRE5JQ08xYlF1SDFzNmhjcDlxR2hNWUJGY3AxSkVjWVItbXRaLUc2MU9vLU1wM0xreUhyZHI2NE4tRm91U21SV1YxeDcwSnJla0hydjhrUkJlZnloSG1MZzlVdzE1NFFxRVgxUTVxR2xKd0F3?oc=5",
+     "date": "2026-10-10T00:26:00+08:00",
      "review": false
     },
     {
@@ -2375,17 +2508,17 @@
      "review": false
     },
     {
+     "title": "盈透證券客戶現可透過 Zerohash 參與以太幣質押 操作流程一文看清",
+     "source": "Yellow.com",
+     "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQWjBBUEpfOG5kOHNIRjFyejZUY1Aya1k4LW9ZXzhBcnJPcmw2Vk42WkpfNzdoWXNOTjk0T2hEN0NMUk9pQnMydlRSOExqVnRFWUJvWDRpdzZ1UGdwUUFxakU1UmVoOGlnLTNNNk5VM0l3TkZVd0JvUzdZNVRobmlxVzU4dG9wOWI2eHdqS0ROWE9zcWpZd01PZnB5Y0V2SFAzMGNxU1dUSzJvcDlJQWc4bkQ4aG9KQnZQLVZHZVR2M1FHWTc3NHlZcWxKNkp1MWE1Y2Z6UXY3QWhTSlBzYXNKMG5HZ0NuNXJFaTA2ODZRcS1RNEg5czdkaW1Qc25qUG1lNE1hNngxcEhmSy1XVDFoU0ZBdU9IdHFTSHBfQk5MbWFweHFXRllWSUJob3NuZ0xXXzJIajJvdWRGTlNmem45WVg1R2ZNRUVCQjJNeFFPT0MyNkpha1dZbDRuSV8zS2Q3RkRaRjBKZVZfdGV5V09KUjJ0UGdmRW5wbHJER1VJbw?oc=5",
+     "date": "2026-10-14T16:32:31+08:00",
+     "review": false
+    },
+    {
      "title": "盈透證券攜手 Zerohash 開放以太幣質押 投資人實際可這樣操作",
      "source": "Yellow.com",
      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPMDVRY2U0TUpQUkJlQmI5alNhS296UHZHZDRBMndldlhfSllQY3ZVZmV3bmJoTC05UTVBX0V6dEdnTmxfZDhKbVdIcTVwVjdrLXA1LW8zalh3ZkNWZXRaeVV5NU1sMXAxMXVBaUhNa2Flc1M0cEszUHFYYkZuSnkwMjlBTV9RUnFwcmo3emQxRnVZQjRaX25Fdkx4S2F6ZndtM2tXQ2lVWDJLa1BLTjN4clZ1eldidjhKczYxWG9fSHg0d0Q0UHVMa3IyX1E0WjFwdGxndmFVMXpaMHAwRERoU3FlVDhFSjhHRkxINXRxc0lNTXlqYWVtbkxoVWFsNVExb3d4TDNSSnNrZlpJR1BwTVIxdWVuVWF4alJTdGtOVEE0NEMtVTNVZktmT1NKWWxXdERTdU90ZjVBUWhFZ1VDSy1iUDYzMlpOLVFNWVpxSmVtaTBmaVdvbGVvazBOV29iZktFSDFNQQ?oc=5",
      "date": "2026-10-14T16:16:21+08:00",
-     "review": false
-    },
-    {
-     "title": "盈透證券客戶現可透過 Zerohash 參與以太幣質押 操作流程一文看清",
-     "source": "Yellow.com",
-     "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQWjBBUEpfOG5kOHNIRjFyejZUY1Aya1k4LW9ZXzhBcnJPcmw2Vk42WkpfNzdoWXNOTjk0T2hEN0NMUk9pQnMydlRSOExqVnRFWUJvWDRpdzZ1UGdwUUFxakU1UmVoOGlnLTNNNk5VM0l3TkZVd0JvUzdZNVRobmlxVzU4dG9wOWI2eHdqS0ROWE9zcWpZd01PZnB5Y0V2SFAzMGNxU1dUSzJvcDlJQWc4bkQ4aG9KQnZQLVZHZVR2M1FHWTc3NHlZcWxKNkp1MWE1Y2Z6UXY3QWhTSlBzYXNKMG5HZ0NuNXJFaTA2ODZRcS1RNEg5czdkaW1Qc25qUG1lNE1hNngxcEhmSy1XVDFoU0ZBdU9IdHFTSHBfQk5MbWFweHFXRllWSUJob3NuZ0xXXzJIajJvdWRGTlNmem45WVg1R2ZNRUVCQjJNeFFPT0MyNkpha1dZbDRuSV8zS2Q3RkRaRjBKZVZfdGV5V09KUjJ0UGdmRW5wbHJER1VJbw?oc=5",
-     "date": "2026-10-14T16:07:04+08:00",
      "review": false
     },
     {
@@ -2452,16 +2585,16 @@
      "review": false
     },
     {
-     "title": "【22:52 即時新聞】Interactive Brokers Group(IBKR) 盤中重挫逾5% 技術面仍陷空方格局",
-     "source": "CMoney投資網誌",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWtfMXpQUl9zWmlBandzZW5pRk1xUGZOeUJNZmxnRzNRaUV3aDNvRVk3OUJ0VkhTQ0FxakZnazZTb1Y1QTJaYWszUFlGOG1lYWdIRXJOa2RZNEhramRGMS05WmxpMXgybEh0S1ZRa3ZNb0FvUkJPWFVCTlZrbTd5TXhGcGlFZHk0VVEwaUZ3?oc=5",
+     "title": "Interactive Brokers Group Inc(IBKR)股票10月7日盤中下跌4.78%：關鍵驅動因素揭曉",
+     "source": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLVlFZHBhMVpjcHdUVUlnQzFWdXJKOHdBd2Z0c2VEZV9WbWdkblM0LUNRT3FwM19ialItYkhoa0tGOW9EN29EaU5UM0tZZFRGYTVqZ1ZyVFMwSWtkLWdwenBORWZNY2g0TlhmX3Y3TjF3VHNNcno0NXZBbXRnS21rdUtsY1FxV29GNFEyeFkwMHJ3Z2pjUFE?oc=5",
      "date": "2026-10-07T15:00:00+08:00",
      "review": false
     },
     {
-     "title": "Interactive Brokers Group Inc(IBKR)股票10月7日盤中下跌4.78%：關鍵驅動因素揭曉",
-     "source": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLVlFZHBhMVpjcHdUVUlnQzFWdXJKOHdBd2Z0c2VEZV9WbWdkblM0LUNRT3FwM19ialItYkhoa0tGOW9EN29EaU5UM0tZZFRGYTVqZ1ZyVFMwSWtkLWdwenBORWZNY2g0TlhmX3Y3TjF3VHNNcno0NXZBbXRnS21rdUtsY1FxV29GNFEyeFkwMHJ3Z2pjUFE?oc=5",
+     "title": "【22:52 即時新聞】Interactive Brokers Group(IBKR) 盤中重挫逾5% 技術面仍陷空方格局",
+     "source": "CMoney投資網誌",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWtfMXpQUl9zWmlBandzZW5pRk1xUGZOeUJNZmxnRzNRaUV3aDNvRVk3OUJ0VkhTQ0FxakZnazZTb1Y1QTJaYWszUFlGOG1lYWdIRXJOa2RZNEhramRGMS05WmxpMXgybEh0S1ZRa3ZNb0FvUkJPWFVCTlZrbTd5TXhGcGlFZHk0VVEwaUZ3?oc=5",
      "date": "2026-10-07T15:00:00+08:00",
      "review": false
     },
@@ -2498,9 +2631,9 @@
       "港股": null,
       "美股": null,
       "期權": 24,
-      "股票": 46,
+      "股票": 43,
       "炒股": null,
-      "ETF": 24,
+      "ETF": 25,
       "stock": null,
       "trading": 18
      }
@@ -2589,16 +2722,16 @@
     }
    },
    "review_stats": {
-    "total": 250,
+    "total": 500,
     "window": "recent",
-    "sample": 250,
+    "sample": 257,
     "avg": 4.69,
     "dist": {
      "1": 11,
      "2": 2,
-     "3": 5,
+     "3": 6,
      "4": 18,
-     "5": 214
+     "5": 220
     },
     "neg": 13,
     "topics": {
@@ -2686,7 +2819,7 @@
       "last": "2026-08-22"
      }
     ],
-    "oldest": "2026-07-27",
+    "oldest": "2026-03-26",
     "newest": "2026-10-19"
    },
    "news": [
@@ -2842,6 +2975,10 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/2a/f0/e12af066-47c4-9df0-adf2-2e9f6841e886/10.png/320x480bb.jpg"
    ],
    "features": {
+    "us_stock": {
+     "src": "desc",
+     "since": "2026-10-20"
+    },
     "crypto": {
      "src": "desc",
      "since": "2026-10-20"
@@ -2900,30 +3037,30 @@
     }
    },
    "review_stats": {
-    "total": 100,
+    "total": 500,
     "window": "recent",
-    "sample": 100,
-    "avg": 3.12,
+    "sample": 159,
+    "avg": 2.86,
     "dist": {
-     "1": 39,
-     "2": 7,
-     "3": 2,
-     "4": 7,
-     "5": 45
+     "1": 73,
+     "2": 10,
+     "3": 4,
+     "4": 11,
+     "5": 61
     },
-    "neg": 46,
+    "neg": 83,
     "topics": {
-     "crash": 6,
+     "crash": 7,
      "battery": 0,
-     "login": 0,
-     "quote": 6,
-     "money": 8,
-     "fee": 3,
-     "support": 13,
-     "order": 4,
-     "ui": 6,
+     "login": 3,
+     "quote": 9,
+     "money": 20,
+     "fee": 14,
+     "support": 21,
+     "order": 8,
+     "ui": 9,
      "account": 0,
-     "ads": 8
+     "ads": 19
     },
     "versions": [
      {
@@ -2967,9 +3104,37 @@
       "avg": 3.88,
       "neg": 2,
       "last": "2026-08-25"
+     },
+     {
+      "version": "12.3.2",
+      "count": 7,
+      "avg": 2.71,
+      "neg": 4,
+      "last": "2026-08-21"
+     },
+     {
+      "version": "12.3.0",
+      "count": 23,
+      "avg": 2.78,
+      "neg": 12,
+      "last": "2026-08-17"
+     },
+     {
+      "version": "12.2.6",
+      "count": 34,
+      "avg": 2.47,
+      "neg": 21,
+      "last": "2026-08-01"
+     },
+     {
+      "version": "12.2.5",
+      "count": 12,
+      "avg": 4.0,
+      "neg": 2,
+      "last": "2026-07-21"
      }
     ],
-    "oldest": "2026-08-22",
+    "oldest": "2025-11-30",
     "newest": "2026-10-19"
    },
    "news": [
@@ -3006,6 +3171,13 @@
      "source": "Moomoo",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDN5eHpSTEc3TmcyLXpCRGFMdmQ2LXdRclZYZ3VSVWNNclVITUZIM1A2Sy03M2dwcTNCc08xUWt4V05CRW5MbFY0d0NHNlliRXFXUFZKa29raU1lYkJPcHlHQ2t0WjVyM3QySmQ5Q01qZXhWOHBxaF9NX1pFZDc1R2MxXzRGNmJxaWdqckNVMmR3bU45d0ZMdEpBd2hzWmE1bkF1dG5WY2xyNkdpQS1vdWM3R2Fnd2s3Wjd0ODZn?oc=5",
      "date": "2026-10-16T21:52:02+08:00",
+     "review": false
+    },
+    {
+     "title": "Webull (NasdaqCM:BULL) Stock Forecast & Analyst Predictions",
+     "source": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcXJmbVRBRFYxdC1Gd2Mtb2ZQVzRsRkM0MUlZcUdIMUltZDEzaERfVXR3Z0JWUDN3bFJ0N1ZqZVRQUXhuS2tqd0d2UGZkaGFfUjNYUUZKUWtzX1VUclJ4aXJTa3dfZHlFR05jR1lRN0ZZWnhfcUFnaHJ1Zlhyd1hnSjhadTJ4OUE?oc=5",
+     "date": "2026-10-16T15:00:00+08:00",
      "review": false
     },
     {
@@ -3175,13 +3347,6 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOVFMZzlOZE5ER1A1ZFk3UUR2ZzQ0X2pmSGd6SWNKMmxrMWpqWlVEdTl0YW1NT3FiOVprU0FuNV90bUxreVlLMnZUVzVIVGV0S29HcjA5RWljQUtyWllkYmhpRnk0VnFMWF84REVBSEtCZmptQzA0OUlxU20yYm5MTk9Idmx0NVlWLXE3TGtvMGpHdDBEZzIwbGVPSUlLLVYtUUI4?oc=5",
      "date": "2026-10-08T15:54:23+08:00",
      "review": false
-    },
-    {
-     "title": "BULLW - Webull Corporation | News",
-     "source": "OTC Markets",
-     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZ2dwckpOZC1IamNNYmVPN1RQem5aTGRwRFIwQnV5ZGtDdHNsbTdrM2pydFc5eWtsdDlZUGF6R0J2UGRwQkZFR2EyYUV0ZU5BSXlsMEtrYXA1UDNZbmFlNHc2ckVXNFdtYWo3ZFQ4WDByMVg0YUdJSDJ5SGxhcnN5Yi1iT19JMmxiX0dsbGMzWXJuYk1qcmw1ang4Q0FQX2xCTDFuV1VWbWNvYlEwSXp0cEVUaU1qUmRzVDkxdEVHOWJuWTFWaGNmU3Z1TmhtY3NuRGR0SDRUZVVKd1dVci1aTHduZkhLOFcwVzI5aE9wTVlSOTJs?oc=5",
-     "date": "2026-10-08T15:00:00+08:00",
-     "review": false
     }
    ],
    "history": [
@@ -3257,6 +3422,10 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/a0/30/47a03068-256a-93cf-437c-ad6acfe97494/ios-1242x2208-2.jpg/392x696bb.jpg"
    ],
    "features": {
+    "us_stock": {
+     "src": "desc",
+     "since": "2026-10-20"
+    },
     "crypto": {
      "src": "desc",
      "since": "2026-10-20"
@@ -3291,7 +3460,70 @@
     }
    },
    "review_stats": {
-    "total": 0
+    "total": 500,
+    "window": "recent",
+    "sample": 500,
+    "avg": 3.72,
+    "dist": {
+     "1": 123,
+     "2": 22,
+     "3": 24,
+     "4": 32,
+     "5": 299
+    },
+    "neg": 145,
+    "topics": {
+     "crash": 19,
+     "battery": 0,
+     "login": 7,
+     "quote": 16,
+     "money": 18,
+     "fee": 16,
+     "support": 19,
+     "order": 9,
+     "ui": 38,
+     "account": 1,
+     "ads": 40
+    },
+    "versions": [
+     {
+      "version": "2026.41.0",
+      "count": 94,
+      "avg": 3.87,
+      "neg": 26,
+      "last": "2026-10-19"
+     },
+     {
+      "version": "2026.40.0",
+      "count": 172,
+      "avg": 3.28,
+      "neg": 66,
+      "last": "2026-10-13"
+     },
+     {
+      "version": "2026.39.1",
+      "count": 126,
+      "avg": 4.12,
+      "neg": 24,
+      "last": "2026-10-06"
+     },
+     {
+      "version": "2026.39.0",
+      "count": 38,
+      "avg": 3.76,
+      "neg": 10,
+      "last": "2026-10-01"
+     },
+     {
+      "version": "2026.38.0",
+      "count": 68,
+      "avg": 3.96,
+      "neg": 17,
+      "last": "2026-09-29"
+     }
+    ],
+    "oldest": "2026-09-24",
+    "newest": "2026-10-19"
    },
    "news": [
     {
@@ -3306,13 +3538,6 @@
      "source": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2FVVjM5cHV1aFhybXR1NHFJTWY3c0JCWVkyZ0wzTE9SU1NIbzhWSzhfUmkzS1p1alYyQ3JLYXNGZlltNU1IVW1xelJPRGkwXzVMQWVkUF9nSy1ydXd3VWxpeGVQaDBiS3FvckFOZ1EwYlAtdWpYTlhoWUlzQ3Y2dFdvOW9XZXB2WGJ5SWl1d2tGLThZWU9PVE5TS2RySlpVc0pxNg?oc=5",
      "date": "2026-10-19T20:55:44+08:00",
-     "review": false
-    },
-    {
-     "title": "Robinhood Stock Forecast: HOOD Reclaims $116.25 as Tokenization and Prediction Markets Drive Momentum",
-     "source": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc01ZZ3dROW92ZUJPc2F0QTc5ZXNVdEl0Q0RlXzVQUmhkd1VjdENKeF9PZ0RPRWM3WXNlaDlGVmt4WmlwbEJjU016alAwUWxzUF9kcEhLWHVNeF9IM3MyUGJTMW5rbFVHS0tlZVpmRUZtbFNWVzAtN0RIV3VMZkJLV2xpRlZCcHFld2NYN0Y2SE5CTTFIbndBNTRJUlM1SW1icHhVLUR5MnVFR1lwdE9Z?oc=5",
-     "date": "2026-10-18T22:20:43+08:00",
      "review": false
     },
     {
@@ -3335,13 +3560,6 @@
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TX0hWSVM4aDY0ZV9HY0NMbHZEMHFHT0lLZC1qUk1LQkNmN3M4aGJSaS1NTHoybDVrUExJWTR4d3BtZ0g4SWVLZFdMejZOTzB1N3VHYVZ1Wl9QWlhuNGNEWA?oc=5",
      "date": "2026-10-17T15:00:00+08:00",
      "review": true
-    },
-    {
-     "title": "Where is Gemini Prediction Market Legal in the US?",
-     "source": "Phandroid",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qSVc1ODlpcWE2d0toRVlvbFR2QkdvY1hjSWpzdGw1aXpCUHo0cE43V3VRNk10UVdxRzRlb0hYZWQzS01MZGtxdmZwZjdoeEdrVGpRQllwTUtCNDQ1X3BRUGxFdEo?oc=5",
-     "date": "2026-10-17T15:00:00+08:00",
-     "review": false
     },
     {
      "title": "Novig election markets explained for 2026: Your guide to political prediction App",
@@ -3389,7 +3607,7 @@
      "title": "AMC Stock Eyes Second Green Week: CEO Adam Aron Calls Robinhood's Stock Tokenization ‘Fake, Synthetic’ Ahead Of Earnings — ‘Could Impact Our Capital Structure’",
      "source": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWE02MTU2Sk0xcTZ6TVVhNEpWdU9keXQ3YmtCZnkzSkd5eFpidlhLVTBpcTY3VEdjM1NiaFNCaWtCSlByaFRZSzNyM1Y3Ml93QUFNYWdnaUVnYnZVaDRQOGE3WlV3WGxWTzhUYno5NnFTRlVKazE1U1ZJMDduM0RMX2dlb3c0SE5pUkNMVW9sX3N1UVVTZU1V?oc=5",
-     "date": "2026-10-16T13:58:47+08:00",
+     "date": "2026-10-16T13:58:00+08:00",
      "review": false
     },
     {
@@ -3503,6 +3721,20 @@
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ozX29ueDRDR24xcC1IOE5wLWVyQ1B1WXBYRFVNdFNmZTFldFg5aUZyNVBkb2FxbWFmTkZSeTFyNFdjWldVSEc3dW9JdFBnQjJZX2ZmYjk2cDZBR3RPcTdwUGxBMzZENEdiNVpfSVR4bll6YjN6OTRQZk5oSXlhY0Q0MkV6SzdfX0s1VEJhX0xsYi1qaXp3bFhuUXN4T01KckFGZ0Y5OExqS013?oc=5",
      "date": "2026-10-13T05:24:46+08:00",
      "review": false
+    },
+    {
+     "title": "Robinhood’s CEO Sold $42.6 Million of Stock, and Cathie Wood Dumped $38 Million More",
+     "source": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSmJUd3VUQkt2MzBWZ2dTa0dfMTlPN1cyRDZGZWVyUUVoaG1IUHMxam5fUTJSQ2t6a0JiR2pfZUY5SDRGS3lxbXU4bXhEYjZEVXlOV1pJdXNtN2JYRGVzRU9vV0p6U2tLOEd2RnFHdkdVZHBCN2FtM3JhMlVBOVp2RWlpeHkzMjhwYzdCQnBPM21rZw?oc=5",
+     "date": "2026-10-12T23:10:06+08:00",
+     "review": false
+    },
+    {
+     "title": "Robinhood has underperformed this year. Evercore ISI says the stock is a buy",
+     "source": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnFvZFdNeXJuc0lMdlJ0WUVva05QQVBkVjludjdvWTJLdC1sT0E3ckRaMjJXVDJLNTNmYjRmZ01VT0RxWThVU1dibE15QkVxVmFQQUIyWWpBN2dOTWIxdUZkeFluWkJYNXJTbkdwVVUySjQxYWs1amdhZDV1SHJFeXhWMGtocjFlbTJPSnIwS1R1c280bjVqeE5mTUwwWmZuZTFIQXBXNUdOaFBIRXFKUXpn?oc=5",
+     "date": "2026-10-12T19:10:16+08:00",
+     "review": false
     }
    ],
    "history": [
@@ -3522,7 +3754,7 @@
      "kw": {
       "stock": 3,
       "trading": 4,
-      "options": 3,
+      "options": 2,
       "invest": 1,
       "brokerage": 3
      }
@@ -3577,6 +3809,10 @@
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/18/1a/6a181a4f-6721-d6ac-fab1-84eb68cb75d5/1e50106a-58f9-4dbf-ba84-c6d5d5915806_1242_2208_EN-10.png/392x696bb.png"
    ],
    "features": {
+    "us_stock": {
+     "src": "desc",
+     "since": "2026-10-20"
+    },
     "futures": {
      "src": "notes",
      "since": "2026-10-19",
@@ -3603,10 +3839,6 @@
      "version": "9.6.5.0"
     },
     "hk_stock": {
-     "src": "desc",
-     "since": "2026-10-20"
-    },
-    "us_stock": {
      "src": "desc",
      "since": "2026-10-20"
     },
@@ -3828,6 +4060,13 @@
      "review": false
     },
     {
+     "title": "Why Bumble stock exploded higher today and what comes next",
+     "source": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQjRGWEFYRVBFakhDZFdJZ1dpdmdzT1VJYTBtSERZN1AzeEdqdDBUSjFFNDh6NWtwcHJBSk5ZbnpBODRTMnVxay1iV2ZXM2dlU1ZUb01IRlFyX0JscWJTWFZ0RnVoU0dJQy1iSnFBMEEtVFN1NklWMHpSMjE3LTM2aWpaaEdERWp2SWJFOHhRSEZxVDRoUF9yX1hQUXQxUQ?oc=5",
+     "date": "2026-10-14T00:59:14+08:00",
+     "review": false
+    },
+    {
      "title": "Nasdaq futures crash 180 points: 5 things to know before Wall Street opens on Oct. 13",
      "source": "Invezz",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN0V3XzJvdXVtRjJDSF9vbmlnUVNkVlBISzZSbGhQZjB2U2prZS1mLWl6U2R3N3pmUUtZMUdSdUh3clItcEpHV3k3X0xqc1pGdlh4V1hSTjhLTXQ2dEp6VnFvQkFHdjBQTWd4d2pROVpocmhPNzduNFEzSU51OXl0b3BkWlNjYzNfcExUX3VfVHBTek9MbDFyUFFTM0lQYnA2SlNnU3VVOXJvOW9uYnlpbHMzNnRNdC0zUUVnVGYybw?oc=5",
@@ -3903,13 +4142,6 @@
      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWERGZUxpSFQzX2ptazZxQ2dnUVZIMkh3YXVDckxRSXQtS18xSC16ay10QkI2ZnBIWktxZE83RU55dlFwTXBFbDdkUjM0YnY4Q20wb25NN3JsYV82UDhzRURlR3pXZFpPNVVVTi1BM0tNMVAxQWNNNVlZSE9FRklEQXlfV2pBdVpXd1dLa2JQWEdZb2ZYNjh5U1hHeFlua0dRRXlfZkRpenU5Z3g1cFR3N2dicFdSQnlDMkJvajZIRnRuaDljMnR4anlLaDA1SHM1YV9UdjVWaFA3TkdUTjdFTmhrMU82VHBwTzZkR3dmNE0zUUJxcXBpNENBbWpJZ2VDY193?oc=5",
      "date": "2026-10-10T15:00:00+08:00",
      "review": false
-    },
-    {
-     "title": "Moderna stock fires past 52-week high: what's behind Friday's rally?",
-     "source": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeTM2U215aWg3M3VRTzh6WGxYSGFycnBnejROZ0d0azRMb25nNmhBZ0NOS3draGNtTHE1Y3BqQlhQTGV5bkV3eHl2eF8tcXdOUTU0OXF4TU01OUJPSEFWbTRKQjRCaFJCajN2bVRjUzVlU2tPaGxYWG1vZzFrTkNuZXpEbloxWEpjcWR2WGVHVE1fWlY4NTc4cC1mNGhsNlFEV0RnVm1R?oc=5",
-     "date": "2026-10-10T00:04:33+08:00",
-     "review": false
     }
    ],
    "history": [
@@ -3984,6 +4216,10 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/99/03/a8990307-62e7-e283-d9de-89d86a2c9d66/657af73a-fd05-4459-8d5f-e63d757552a2_Appstore_image_mobile_app_8.jpg/320x480bb.jpg"
    ],
    "features": {
+    "us_stock": {
+     "src": "desc",
+     "since": "2026-10-20"
+    },
     "options": {
      "src": "desc",
      "since": "2026-10-20"
@@ -4034,7 +4270,105 @@
     }
    },
    "review_stats": {
-    "total": 0
+    "total": 500,
+    "window": "recent",
+    "sample": 36,
+    "avg": 2.39,
+    "dist": {
+     "1": 18,
+     "2": 4,
+     "3": 5,
+     "4": 0,
+     "5": 9
+    },
+    "neg": 22,
+    "topics": {
+     "crash": 2,
+     "battery": 0,
+     "login": 5,
+     "quote": 1,
+     "money": 2,
+     "fee": 1,
+     "support": 1,
+     "order": 0,
+     "ui": 1,
+     "account": 0,
+     "ads": 6
+    },
+    "versions": [
+     {
+      "version": "10.17",
+      "count": 21,
+      "avg": 2.29,
+      "neg": 14,
+      "last": "2026-10-16"
+     },
+     {
+      "version": "10.16",
+      "count": 3,
+      "avg": 2.33,
+      "neg": 2,
+      "last": "2026-08-25"
+     },
+     {
+      "version": "10.14.1",
+      "count": 12,
+      "avg": 2.58,
+      "neg": 6,
+      "last": "2026-08-11"
+     },
+     {
+      "version": "10.14",
+      "count": 6,
+      "avg": 1.67,
+      "neg": 5,
+      "last": "2026-07-18"
+     },
+     {
+      "version": "10.13",
+      "count": 13,
+      "avg": 2.31,
+      "neg": 8,
+      "last": "2026-07-11"
+     },
+     {
+      "version": "10.12",
+      "count": 4,
+      "avg": 1.5,
+      "neg": 3,
+      "last": "2026-06-24"
+     },
+     {
+      "version": "10.11",
+      "count": 13,
+      "avg": 1.92,
+      "neg": 10,
+      "last": "2026-06-15"
+     },
+     {
+      "version": "10.10",
+      "count": 6,
+      "avg": 3.0,
+      "neg": 3,
+      "last": "2026-05-31"
+     },
+     {
+      "version": "10.09.1",
+      "count": 3,
+      "avg": 1.0,
+      "neg": 3,
+      "last": "2026-05-20"
+     },
+     {
+      "version": "10.08.1",
+      "count": 5,
+      "avg": 2.2,
+      "neg": 3,
+      "last": "2026-05-12"
+     }
+    ],
+    "oldest": "2022-10-13",
+    "newest": "2026-10-16"
    },
    "news": [
     {
@@ -4078,6 +4412,13 @@
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TX0hWSVM4aDY0ZV9HY0NMbHZEMHFHT0lLZC1qUk1LQkNmN3M4aGJSaS1NTHoybDVrUExJWTR4d3BtZ0g4SWVLZFdMejZOTzB1N3VHYVZ1Wl9QWlhuNGNEWA?oc=5",
      "date": "2026-10-17T15:00:00+08:00",
      "review": true
+    },
+    {
+     "title": "Nvidia's year-end price target for 2026: What are the prediction markets saying?",
+     "source": "Phandroid",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVDNJcnMtcGNzVDdOblBHcW5INmc3Wmd2ZG1FWUZMVkR1cUlqYWNRWnlvWEFYaDNsNVYycFR1SWdHSEN4bWVaMHI0Z0xYVk9fOUNUTGU2SGdvOWI4Y0ZkSUFfRnAwVW5MN2Nad2xDeG9Rem91d1dxLU50MzhBbEJDRw?oc=5",
+     "date": "2026-10-17T15:00:00+08:00",
+     "review": false
     },
     {
      "title": "Canada Tightens Prediction Market Rules, Banning Brokers from Displaying Sports Contracts",
@@ -4239,13 +4580,6 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVhNNXA4UEphc2FfM0lMQW1SQmJzNUtrVURsbHBVU1g4bGxwcGR4SnZJUENsQjJKUlJSd2hCcF9rU0FZejdrc2lBLV9ya2JSSW9zYjFXTHIwLTF3MlZ6SW9CR0pMQURYbHY5LXpNMWxfU1Z3eU5PVWlXRWdYbjJwSHdkMFFkQS1xdHVDaGQyNGZ3MmIxWnpDa2JIX2RGMDJzUmtqbEZlSHFjNl9LZGVueDNvZlQ?oc=5",
      "date": "2026-10-13T14:28:12+08:00",
      "review": false
-    },
-    {
-     "title": "HFM Review",
-     "source": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iNks2by1EZndpejJvTXpSbDRlNEUxa290c2RpcUxyU19SQ0l3VXlBSGlyNG1EN18yYTNHOG90MXlmQUNFM1kxSWlhWU45MFdNSWtmdU1yb0g?oc=5",
-     "date": "2026-10-12T20:19:26+08:00",
-     "review": true
     }
    ],
    "history": [
@@ -4264,8 +4598,8 @@
      "rank": null,
      "kw": {
       "stock": null,
-      "trading": 51,
-      "options": 24,
+      "trading": 60,
+      "options": 27,
       "invest": 23,
       "brokerage": 8
      }
@@ -5272,7 +5606,7 @@
     ]
    },
    "prev_day": null,
-   "updated": "2026-10-20T18:34:08+08:00"
+   "updated": "2026-10-20T18:47:33+08:00"
   },
   "us": {
    "entries": [
@@ -6282,7 +6616,7 @@
     ]
    },
    "prev_day": null,
-   "updated": "2026-10-20T18:34:08+08:00"
+   "updated": "2026-10-20T18:47:33+08:00"
   }
  }
 }
