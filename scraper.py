@@ -451,7 +451,8 @@ def main():
                 "name":         short,
                 "title":        r.get("trackName", ""),
                 "seller":       r.get("sellerName", ""),
-                "icon":         r.get("artworkUrl100", ""),
+                # 图标：100 → 512 → 60 依次兜底，都没有就沿用上次的
+                "icon":         r.get("artworkUrl100") or r.get("artworkUrl512") or r.get("artworkUrl60") or old.get("icon", ""),
                 "url":          (r.get("trackViewUrl") or "").split("?")[0],
                 "version":      version,
                 "version_date": vdate,

@@ -116,6 +116,8 @@
     .app-icon { width: 20px; height: 20px; border-radius: 5px; flex: none; object-fit: cover; background: var(--hover); }
     .app-icon.md { width: 34px; height: 34px; border-radius: 8px; }
     .app-icon.lg { width: 48px; height: 48px; border-radius: 11px; box-shadow: 0 0 0 1px var(--line); }
+    .app-icon.ph { display: grid; place-items: center; font-size: 11px; font-weight: 800; color: #fff; background: var(--grad); }
+    .app-icon.md.ph { font-size: 15px; } .app-icon.lg.ph { font-size: 20px; } .pf-head .app-icon.ph { font-size: 26px; }
     .flag { width: 20px; height: 20px; border-radius: 6px; flex: none; display: grid; place-items: center; font-size: 10px; font-weight: 700; color: #fff; background: var(--grad); }
 
     /* ── Main header ── */
@@ -166,13 +168,9 @@
     .rel-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--text-3); margin-bottom: 4px; }
     .rel-meta b { color: var(--text-1); font-size: 14.5px; }
     .rel-meta .ver { font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
-    .rel details { margin-top: 4px; }
-    .rel summary { list-style: none; cursor: pointer; }
-    .rel summary::-webkit-details-marker { display: none; }
-    .rel .notes { font-size: 13px; color: var(--text-2); white-space: pre-line; overflow-wrap: anywhere; }
-    .rel details:not([open]) .notes { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-    .rel .more { font-size: 12px; color: var(--accent); margin-top: 4px; }
-    .rel details[open] .more { display: none; }
+    .rel .notes { font-size: 13px; color: var(--text-2); white-space: pre-line; overflow-wrap: anywhere; margin-top: 4px;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .rel[data-kit-item]:hover { border-color: var(--line-2); }
 
     /* ── Compare table ── */
     .table-wrap { overflow-x: auto; }
@@ -245,8 +243,8 @@
     .rv p { font-size: 12.5px; color: var(--text-2); overflow-wrap: anywhere; }
     .nw { display: flex; gap: 10px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--line); font-size: 13px; }
     .nw:first-child { border-top: none; padding-top: 0; }
-    .nw a { flex: 1; min-width: 0; overflow-wrap: anywhere; }
-    .nw a:hover { color: var(--accent); }
+    .nw .t { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+    .nw:hover .t { color: var(--accent); }
     .nw small { font-size: 11.5px; color: var(--text-3); white-space: nowrap; }
     .rev-tag { font-size: 10.5px; font-weight: 700; padding: 0 5px; line-height: 16px; border-radius: 4px; color: #fff; background: #8b5cf6; white-space: nowrap; }
     .pick { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
@@ -296,13 +294,34 @@
     .status-row .t { margin-left: auto; color: var(--text-3); font-size: 11.5px; white-space: nowrap; }
     .ok { color: #22c55e; } .bad { color: #ef4444; }
 
+    /* ── 可点开详情的元素 ── */
+    .app[data-kit-item]:hover, a.rv-card:hover { border-color: var(--line-2); }
+    tr[data-kit-item]:hover td { background: var(--hover); }
+    .w-row[data-kit-item] { border-radius: 6px; margin: 0 -6px; padding: 5px 6px; }
+    .w-row[data-kit-item]:hover, .rv[data-kit-item]:hover { background: var(--hover); }
+    .rv[data-kit-item] { border-radius: 8px; margin: 0 -8px; padding-left: 8px; padding-right: 8px; }
+    .rv[data-kit-item] p { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+    .matrix th[data-kit-item]:hover { color: var(--text-1); }
+    .pf-sec h3 .kit-morelink { font-size: 12px; }
+    .pf-sec h3 > .kit-morelink:nth-child(2) { margin-left: auto; }
+    .section-title .kit-morelink { margin-left: auto; }
+    .kit-body .shots img { height: 240px; }
+    .kit-body .sparks { margin-top: 2px; }
+    .kit-body .hl-list { margin-top: 10px; }
+    .kit-sub b { color: var(--text-1); }
+
     /* ── Responsive ── */
     @media (max-width: 1180px) {
       .layout { grid-template-columns: 180px minmax(0, 1fr); }
-      .right { display: none; }
+      /* 右栏挪到正文下面，不再隐藏 */
+      .right { grid-column: 2; position: static; max-height: none; overflow: visible; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; align-items: start; }
+      .widget + .widget { margin-top: 0; }
     }
     @media (max-width: 760px) {
-      .topbar-inner { padding: 0 14px; gap: 10px; }
+      .topbar-inner { padding: 8px 14px; gap: 8px 10px; height: auto; flex-wrap: wrap; }
+      .search { order: 10; flex: 1 0 100%; max-width: none; margin: 0; }   /* 手机上搜索框挪到第二行 */
+      .top-right { margin-left: auto; }
+      .right { grid-column: auto; }
       .logo small, .updated span, kbd { display: none; }
       .search { min-width: 0; }
       .layout { grid-template-columns: minmax(0, 1fr); padding: 14px 14px 48px; gap: 14px; }
@@ -324,6 +343,88 @@
       .shots img { height: 240px; }
       .rv-cards { grid-template-columns: minmax(0, 1fr); }
       .rel { padding: 14px; gap: 12px; }
+    }
+    /* ── 详情抽屉 + 列表页（通用组件 kit：电脑右侧滑出，手机底部升起；地址 #/item/类型/id、#/list/key） ── */
+    :root { --kit-bg: var(--bg, #0b0a10); --kit-panel: var(--panel, var(--card, rgba(255,255,255,.04))); --kit-line: var(--line, var(--sep, rgba(255,255,255,.08)));
+      --kit-line2: var(--line-2, rgba(255,255,255,.14)); --kit-t1: var(--text-1, #f1eff7); --kit-t2: var(--text-2, #a39fb3); --kit-t3: var(--text-3, #6b677a);
+      --kit-accent: var(--accent, #a3e635); --kit-hover: var(--hover, rgba(255,255,255,.05)); }
+    .kit-mask { position: fixed; inset: 0; z-index: 90; background: rgba(0,0,0,.38); display: none; }
+    .kit-mask.open { display: block; }
+    .kit-sheet { position: absolute; top: 12px; right: 12px; bottom: 12px; width: clamp(440px, 42vw, 620px); max-width: calc(100vw - 24px);
+      display: flex; flex-direction: column; overflow: hidden; color: var(--kit-t1); border-radius: 18px;
+      background: linear-gradient(var(--kit-panel), var(--kit-panel)), var(--kit-bg); box-shadow: 0 0 0 1px var(--kit-line2), 0 24px 60px rgba(0,0,0,.45);
+      animation: kit-in .24s ease-out; }
+    @keyframes kit-in { from { transform: translateX(40px); opacity: 0; } }
+    .kit-x { position: absolute; top: 12px; right: 12px; z-index: 3; width: 32px; height: 32px; border-radius: 50%; border: 0; cursor: pointer;
+      background: rgba(0,0,0,.5); color: #fff; font-size: 15px; display: grid; place-items: center; }
+    .kit-scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
+    .kit-cover { aspect-ratio: 16/9; background: var(--kit-hover) center / cover no-repeat; position: relative; }
+    .kit-cover.tall { aspect-ratio: auto; height: 280px; background-size: contain; background-color: #000; }
+    .kit-cover.ph { display: grid; place-items: center; font-size: 56px; aspect-ratio: 16/6; }
+    .kit-head { padding: 18px 20px 4px; display: flex; gap: 14px; align-items: flex-start; }
+    .kit-head .kit-thumb { flex-shrink: 0; width: 64px; height: 64px; border-radius: 14px; background: var(--kit-hover) center / cover no-repeat;
+      display: grid; place-items: center; font-size: 28px; overflow: hidden; }
+    .kit-head .kit-t { flex: 1; min-width: 0; padding-right: 30px; }
+    .kit-cover + .kit-head .kit-t { padding-right: 0; }
+    .kit-head h2 { font-size: 19px; font-weight: 800; line-height: 1.35; letter-spacing: -0.01em; }
+    .kit-sub { color: var(--kit-t2); font-size: 13px; margin-top: 4px; }
+    .kit-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+    .kit-tags span { font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 6px; background: var(--kit-hover); color: var(--kit-t2); }
+    .kit-big { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+    .kit-big b { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; }
+    .kit-body { padding: 4px 20px 20px; }
+    .kit-sec { padding-top: 16px; }
+    .kit-sec + .kit-sec { margin-top: 6px; border-top: 1px solid var(--kit-line); }
+    .kit-sec h4 { font-size: 14.5px; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .kit-sec h4 small { font-size: 12px; color: var(--kit-t3); font-weight: 500; }
+    .kit-kv { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+    .kit-kv div { background: var(--kit-hover); border-radius: 10px; padding: 8px 11px; min-width: 0; }
+    .kit-kv small { display: block; font-size: 11px; color: var(--kit-t3); }
+    .kit-kv b { display: block; font-size: 14px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; }
+    .kit-p { font-size: 13.5px; line-height: 1.75; color: var(--kit-t2); white-space: pre-line; }
+    .kit-rows { display: flex; flex-direction: column; }
+    .kit-row { display: flex; gap: 10px; align-items: center; padding: 9px 0; border-top: 1px solid var(--kit-line); font-size: 13px; text-decoration: none; color: inherit; }
+    .kit-row:first-child { border-top: 0; }
+    .kit-row[data-kit-go], a.kit-row { cursor: pointer; }
+    .kit-row[data-kit-go]:hover .kit-rt, a.kit-row:hover .kit-rt { color: var(--kit-accent); }
+    .kit-row .kit-rt { flex: 1; min-width: 0; line-height: 1.45; }
+    .kit-row .kit-rm { color: var(--kit-t3); font-size: 12px; white-space: nowrap; }
+    .kit-row img, .kit-row .kit-ri { width: 54px; height: 40px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--kit-hover); }
+    .kit-acts { flex-shrink: 0; display: flex; gap: 10px; padding: 12px 20px 16px; border-top: 1px solid var(--kit-line); }
+    .kit-acts a, .kit-acts button { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 12px; border-radius: 11px;
+      font: inherit; font-size: 13.5px; font-weight: 700; text-decoration: none; cursor: pointer; border: 1px solid var(--kit-line2); color: var(--kit-t1); background: transparent; }
+    .kit-acts .pri { background: var(--kit-accent); border-color: var(--kit-accent); color: #111; }
+    .kit-acts a:hover, .kit-acts button:hover { filter: brightness(1.08); }
+    /* 列表页 */
+    .kit-lhead { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .kit-back { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--kit-line2); background: transparent; color: var(--kit-t1);
+      font-size: 20px; cursor: pointer; display: grid; place-items: center; flex-shrink: 0; }
+    .kit-back:hover { background: var(--kit-hover); }
+    .kit-lhead h2 { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+    .kit-lhead small { color: var(--kit-t3); font-size: 12.5px; margin-left: 2px; }
+    .kit-lbar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+    .kit-chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+    .kit-chips a, .kit-chips button { padding: 5px 12px; border-radius: 8px; background: var(--kit-hover); color: var(--kit-t2); font: inherit; font-size: 13px;
+      font-weight: 600; white-space: nowrap; border: 0; cursor: pointer; text-decoration: none; }
+    .kit-chips .on { background: var(--kit-t1); color: var(--kit-bg); }
+    .kit-chips small { opacity: .6; margin-left: 4px; font-weight: 500; }
+    .kit-sel { padding: 6px 10px; border-radius: 9px; border: 1px solid var(--kit-line2); background: transparent; color: var(--kit-t1); font: inherit; font-size: 12.5px; font-weight: 600; }
+    .kit-sel option { background: var(--kit-bg); }
+    .kit-more { display: block; margin: 16px auto 0; padding: 9px 22px; border-radius: 10px; border: 1px solid var(--kit-line2); background: transparent;
+      color: var(--kit-t1); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .kit-more:hover { background: var(--kit-hover); }
+    .kit-morelink { font-size: 13px; font-weight: 600; color: var(--kit-t2); text-decoration: none; white-space: nowrap; cursor: pointer; }
+    .kit-morelink:hover { color: var(--kit-t1); }
+    [data-kit-item] { cursor: pointer; }
+    @media (max-width: 760px) {
+      .kit-sheet { top: auto; left: 0; right: 0; bottom: 0; width: 100%; max-width: none; height: 86vh; border-radius: 18px 18px 0 0; animation: kit-up .26s ease-out; }
+      @keyframes kit-up { from { transform: translateY(30%); opacity: .5; } }
+      .kit-head { padding: 16px 16px 4px; } .kit-body { padding: 4px 16px 18px; } .kit-acts { padding: 10px 16px 16px; }
+      .kit-cover.tall { height: 220px; }
+      .kit-head .kit-thumb { width: 46px; height: 46px; border-radius: 12px; font-size: 22px; }
+      .kit-head h2 { font-size: 17.5px; }
+      .kit-big b { font-size: 24px; }
+      .kit-lhead h2 { font-size: 19px; }
     }
   </style>
 </head>
@@ -400,6 +501,133 @@
   </div>
 
 <script>
+// ── kit：详情抽屉 + 列表页路由（各站通用，内联在页面里）──
+// 用法：
+//   KIT.item('news', id => ({ title, sub, cover, thumb, tags:[], big, body:'<div class="kit-sec">…</div>', acts:[{text, href, pri}] }))
+//   KIT.list('news', (param, query) => { … 把列表页 HTML 写进容器 … })
+//   条目元素加 data-kit-item="news/<id>" 即可点击打开详情；「查看更多」写成 <a href="#/list/news">
+//   站点首页渲染函数里先调用 KIT.route() —— 返回 true 表示当前是列表页（已渲染），首页不用再渲染
+const KIT = (() => {
+  const items = {}, lists = {};
+  let mask, homeY = 0, fromHome = 0, lastHash = location.hash, onHome = null, listBox = null;
+  const kesc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const parse = h => {
+    const m = (h === undefined ? location.hash : h).match(/^#\/(item|list)\/([^?]+?)(?:\?(.*))?$/);
+    if (!m) return null;
+    const [type, ...rest] = m[2].split('/');
+    return { kind: m[1], type: decodeURIComponent(type), id: rest.map(decodeURIComponent).join('/'), q: new URLSearchParams(m[3] || '') };
+  };
+  function ensure() {
+    if (mask) return;
+    mask = document.createElement('div');
+    mask.className = 'kit-mask';
+    mask.innerHTML = '<div class="kit-sheet" role="dialog" aria-modal="true"></div>';
+    document.body.appendChild(mask);
+    mask.addEventListener('click', e => { if (e.target === mask || e.target.closest('[data-kit-close]')) close(); });
+  }
+  function render(d) {
+    ensure();
+    const cover = d.cover ? `<div class="kit-cover ${d.coverTall ? 'tall' : ''}" style="background-image:url('${kesc(d.cover).replace(/'/g, '%27')}')"></div>`
+      : d.coverIcon ? `<div class="kit-cover ph" style="background:${d.coverBg || 'var(--kit-hover)'}">${d.coverIcon}</div>` : '';
+    const thumb = !d.cover && !d.coverIcon && (d.thumb || d.thumbIcon)
+      ? `<div class="kit-thumb" style="${d.thumb ? `background-image:url('${kesc(d.thumb).replace(/'/g, '%27')}')` : ''}${d.thumbBg ? `;background-color:${d.thumbBg}` : ''}">${d.thumb ? '' : d.thumbIcon}</div>` : '';
+    const acts = (d.acts || []).filter(a => a && (a.href || a.onclick));
+    mask.firstElementChild.innerHTML = `<button class="kit-x" data-kit-close aria-label="关闭">✕</button>
+      <div class="kit-scroll">${cover}
+        <div class="kit-head">${thumb}<div class="kit-t"><h2>${kesc(d.title)}</h2>${d.sub ? `<div class="kit-sub">${d.sub}</div>` : ''}
+          ${(d.tags || []).filter(Boolean).length ? `<div class="kit-tags">${d.tags.filter(Boolean).join('')}</div>` : ''}${d.big ? `<div class="kit-big">${d.big}</div>` : ''}</div></div>
+        <div class="kit-body">${d.body || ''}</div></div>
+      ${acts.length ? `<div class="kit-acts">${acts.map((a, i) => a.href
+        ? `<a class="${a.pri || (i === 0 && acts.length < 3) ? 'pri' : ''}" href="${kesc(a.href)}" ${a.self ? '' : 'target="_blank" rel="noopener"'}>${a.text}</a>`
+        : `<button class="${a.pri ? 'pri' : ''}" data-kit-act="${i}">${a.text}</button>`).join('')}</div>` : ''}`;
+    acts.forEach((a, i) => { if (!a.href) { const b = mask.querySelector(`[data-kit-act="${i}"]`); if (b) b.onclick = a.onclick; } });
+    mask.querySelector('.kit-scroll').scrollTop = 0;
+    mask.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  // 打开详情：写进地址（可分享；浏览器返回 = 关闭）
+  function open(key) {
+    const target = '#/item/' + key;
+    if (location.hash === target) return show(parse(target));
+    ensure();
+    if (parse()?.kind === 'item') history.replaceState(history.state, '', target);
+    else { mask.dataset.base = location.hash; history.pushState({ kit: 1 }, '', target); }
+    lastHash = target;
+    show(parse(target));
+  }
+  function show(r) {
+    const fn = items[r.type];
+    const d = fn && fn(r.id, r.q);
+    if (!d) { close(true); return false; }
+    render(d);
+    return true;
+  }
+  function close(silent) {
+    if (!mask || !mask.classList.contains('open')) return;
+    mask.classList.remove('open');
+    document.body.style.overflow = '';
+    if (!silent && parse()?.kind === 'item') {
+      if (history.state && history.state.kit) history.back();          // 从页面里点开的：退回去
+      else { history.replaceState(null, '', mask.dataset.base || location.pathname + location.search); lastHash = location.hash; }   // 直接打开的分享链接
+    }
+  }
+  // 当前地址是列表页时渲染列表页并返回 true；首页时返回 false
+  function route(box) {
+    if (box) listBox = box;
+    const r = parse();
+    if (r && r.kind === 'list' && lists[r.type]) { lists[r.type](r.id, r.q, listBox); return true; }
+    return false;
+  }
+  // 列表页的公共外壳：返回按钮 + 标题 + 子分类 + 排序
+  function shell({ title, note, chips, sort, sortVal, body, more }) {
+    return `<div class="kit-lhead"><button class="kit-back" data-kit-back title="返回">‹</button><h2>${kesc(title)}</h2>${note ? `<small>${note}</small>` : ''}</div>
+      ${chips || sort ? `<div class="kit-lbar"><div class="kit-chips">${(chips || []).map(c => `<a class="${c.on ? 'on' : ''}" href="${kesc(c.href)}">${kesc(c.text)}${c.count != null ? `<small>${c.count}</small>` : ''}</a>`).join('')}</div>
+        ${sort ? `<select class="kit-sel" data-kit-sort>${sort.map(([v, n]) => `<option value="${kesc(v)}" ${v === sortVal ? 'selected' : ''}>${kesc(n)}</option>`).join('')}</select>` : ''}</div>` : ''}
+      ${body}${more ? `<button class="kit-more" data-kit-more>${more}</button>` : ''}`;
+  }
+  function init(home) {
+    onHome = home;
+    document.addEventListener('click', e => {
+      const t = e.target.closest('[data-kit-item],[data-kit-go],[data-kit-back]');
+      if (!t) return;
+      const inner = e.target.closest('a[href],button,input,select,label,summary');   // 卡片里的其它按钮 / 链接（关注、复制…）优先
+      if (inner && inner !== t && t.contains(inner)) return;
+      e.preventDefault();
+      if (t.dataset.kitBack !== undefined) { fromHome && history.length > fromHome ? history.go(-fromHome) : (location.hash = ''); return; }
+      open(t.dataset.kitItem || t.dataset.kitGo);
+    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+    window.addEventListener('hashchange', () => {
+      const r = parse();
+      let was = parse(lastHash), steps = 1;
+      if (was && was.kind === 'item') {                                 // 从详情离开
+        const base = mask && mask.dataset.base !== undefined ? mask.dataset.base : '';
+        if (location.hash === base) { lastHash = location.hash; close(true); return; }   // 只是关掉详情，底下页面不动
+        was = parse(base); steps = 2;                                   // 在详情里点了别的列表：按详情底下那页算，返回要退两步
+      }
+      lastHash = location.hash;
+      if (r && r.kind === 'item') { show(r); return; }
+      close(true);
+      const wasHome = !was;
+      if (r && r.kind === 'list') {
+        if (wasHome) { homeY = scrollY; fromHome = steps; }
+        onHome && onHome();
+        if (wasHome || was.type !== r.type) scrollTo(0, 0);
+      } else {
+        onHome && onHome();
+        if (fromHome) { scrollTo(0, homeY); fromHome = 0; }
+      }
+    });
+    // 直接打开带 #/item/ 的链接（比如大屏跳过来）：页面数据读完后由站点调用 KIT.boot()
+  }
+  function boot() { const r = parse(); if (r && r.kind === 'item') show(r); }
+  return { item: (t, fn) => (items[t] = fn), list: (t, fn) => (lists[t] = fn), open, close, route, shell, init, boot, parse, esc: kesc,
+    // 小工具：详情里的键值格、段落、关联列表
+    kv: rows => { const r = rows.filter(x => x && x[1] != null && x[1] !== ''); return r.length ? `<div class="kit-kv">${r.map(([k, v]) => `<div><small>${kesc(k)}</small><b title="${kesc(v)}">${kesc(v)}</b></div>`).join('')}</div>` : ''; },
+    sec: (title, html, note) => html ? `<div class="kit-sec"><h4>${title}${note ? `<small>${note}</small>` : ''}</h4>${html}</div>` : '',
+    p: t => t ? `<p class="kit-p">${kesc(t)}</p>` : '',
+  };
+})();
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const store = {
@@ -427,7 +655,8 @@ const COLS = [
 
 const state = {
   data: null,
-  view: VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : store.get('view', 'overview'),
+  // #/item/…、#/list/… 交给 kit，单段 hash（#profile 等）才是视图
+  view: !location.hash.startsWith('#/') && VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : store.get('view', 'overview'),
   region: store.get('region', 'hk'),
   app: 'all',
   q: '',
@@ -455,7 +684,18 @@ const fmtDate = iso => iso ? new Date(iso).toLocaleDateString('zh-CN', { year: '
 const fmtInt = n => (n || 0).toLocaleString('en-US');
 const fmtSize = b => b ? (b >= 1e9 ? (b / 1e9).toFixed(2) + ' GB' : Math.round(b / 1e6) + ' MB') : '—';
 const fmtRank = r => r ? '#' + r : '100 名外';
-const icon = (a, cls = '') => a.icon ? `<img class="app-icon ${cls}" src="${esc(a.icon)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span class="app-icon ${cls}"></span>`;
+// 追踪的 App 图标不用 loading="lazy"：它们常排在侧栏 / 矩阵表最后几列（可滚动容器里被裁掉的位置），懒加载会一直不触发，图标显示空白
+// 只有榜单 100 个图标才懒加载；加载失败时换成首字占位
+const initial = n => (n || '?').trim().charAt(0).toUpperCase();
+const icon = (a, cls = '', lazy = false) => a.icon
+  ? `<img class="app-icon ${cls}" src="${esc(a.icon)}" alt="${esc(initial(a.name))}" ${lazy ? 'loading="lazy" ' : ''}referrerpolicy="no-referrer" onerror="iconFail(this)">`
+  : `<span class="app-icon ${cls} ph">${esc(initial(a.name))}</span>`;
+function iconFail(img) {
+  const s = document.createElement('span');
+  s.className = img.className + ' ph';
+  s.textContent = img.alt;
+  img.replaceWith(s);
+}
 
 function daysAgo(iso) {
   const d = age(iso);
@@ -508,9 +748,9 @@ function renderOverview() {
   const apps = filteredApps().sort((a, b) => age(a.version_date) - age(b.version_date));
   if (!apps.length) return '<div class="empty">没有符合条件的 App</div>';
   return `<div class="app-grid">${apps.map(a => `
-    <section class="card app ${isNew(a.version_date) ? 'fresh' : ''}">
+    <section class="card app ${isNew(a.version_date) ? 'fresh' : ''}" data-kit-item="app/${esc(a.key)}">
       <div class="app-head">${icon(a, 'lg')}
-        <div><b><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a>${newTag(a.version_date)}</b>
+        <div><b><a href="#/item/app/${esc(a.key)}" data-kit-item="app/${esc(a.key)}">${esc(a.name)}</a>${newTag(a.version_date)}</b>
           <small title="${esc(a.title)}">${esc(a.seller)}</small>
           ${a.stale ? '<small class="warn">本次抓取失败，显示旧数据</small>' : ''}</div>
       </div>
@@ -557,10 +797,13 @@ async function ensureReviews() {
     state.reviewsError = e.message;
   } finally {
     state.revLoading = false;
-    if (['profile', 'reviews'].includes(state.view)) render();
+    const r = KIT.parse();
+    if (['profile', 'reviews'].includes(state.view) || r?.kind === 'list') render();
+    if (r?.kind === 'item' && ['review', 'version'].includes(r.type)) KIT.open(r.type + '/' + r.id);   // 详情里要用评论的，加载完重绘
   }
 }
 const appReviews = key => (state.reviews || {})[key] || [];
+const appByKey = key => state.data.apps.find(a => a.key === key);
 
 function distBars(s) {
   const total = Object.values(s.dist || {}).reduce((x, y) => x + y, 0);
@@ -570,18 +813,19 @@ function distBars(s) {
   }).join('')}</div>`;
 }
 
-function reviewItem(r, a) {
-  return `<div class="rv">
+function reviewItem(r, key, a) {
+  return `<div class="rv" data-kit-item="review/${esc(key)}/${esc(r.id)}">
     <div class="rv-meta">${a ? icon(a) + `<b style="display:inline;font-size:12px;margin:0">${esc(a.name)}</b>` : ''}${stars(r.rating)}
       <span>v${esc(r.version)}</span><span>${esc(fmtDate(r.date))}</span>${r.votes ? `<span>👍 ${r.votes}</span>` : ''}</div>
     ${r.title ? `<b>${esc(r.title)}</b>` : ''}<p>${esc(r.content)}</p>
   </div>`;
 }
 
-function newsItem(n, a) {
-  return `<div class="nw">${a ? icon(a) : ''}${n.review ? '<span class="rev-tag">评测</span>' : ''}
-    <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
-    <small>${esc(n.source)} · ${esc(fmtDate(n.date))}</small></div>`;
+function newsItem(n, key, a) {
+  const id = `${key}/${(appByKey(key)?.news || []).indexOf(n)}`;
+  return `<a class="nw" href="#/item/news/${esc(id)}" data-kit-item="news/${esc(id)}">${a ? icon(a) : ''}${n.review ? '<span class="rev-tag">评测</span>' : ''}
+    <span class="t">${esc(n.title)}</span>
+    <small>${esc(n.source)} · ${esc(fmtDate(n.date))}</small></a>`;
 }
 
 // ── 视图：竞品画像 ──
@@ -605,11 +849,12 @@ function renderProfile() {
   const revs = appReviews(a.key);
   const neg = revs.filter(r => r.rating <= 2).slice(0, 5);
   const pos = revs.filter(r => r.rating >= 4 && r.content.length > 15).slice(0, 3);
+  const negAll = revs.filter(r => r.rating <= 2).length, posAll = revs.filter(r => r.rating >= 4).length;
   const kw = state.data.keywords[state.region] || {};
   const intro = a.intro || (a.highlights || [])[0] || a.title;
 
   return `<section class="card pf-head">${icon(a)}
-      <div><h2><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a></h2><p>${esc(a.title)}<br>${esc(a.seller)}</p></div>
+      <div><h2><a href="#/item/app/${esc(a.key)}" data-kit-item="app/${esc(a.key)}">${esc(a.name)}</a></h2><p>${esc(a.title)}<br>${esc(a.seller)}</p></div>
       <div class="pf-kpis">
         <div><b><span class="star">★</span> ${a.rating.toFixed(2)}</b><span>${fmtInt(a.rating_count)} 人评分</span></div>
         <div><b>${s.total ? s.avg.toFixed(2) : '—'}</b><span>${s.window === 'recent' ? '近 90 天' : '已收集'}评论均分</span></div>
@@ -644,14 +889,14 @@ function renderProfile() {
             <td class="num ${v.avg < 3 ? 'down' : v.avg >= 4.5 ? 'up' : ''}">${v.avg.toFixed(2)}</td><td class="num">${v.neg}</td><td class="num muted">${esc(v.last)}</td></tr>`).join('')}</tbody></table></div>`
           : '<p class="muted">样本不足（每个版本至少 3 条评论才统计）</p>'}
       </section>
-      <section class="card pf-sec"><h3>👎 最新差评</h3>
-        ${!state.reviews ? '<p class="muted">评论加载中…</p>' : neg.map(r => reviewItem(r)).join('') || '<p class="muted">暂无差评</p>'}
+      <section class="card pf-sec"><h3>👎 最新差评${negAll > neg.length ? `<a class="kit-morelink" href="#/list/reviews/${esc(a.key)}?star=neg">全部 ${negAll} 条 →</a>` : ''}</h3>
+        ${!state.reviews ? '<p class="muted">评论加载中…</p>' : neg.map(r => reviewItem(r, a.key)).join('') || '<p class="muted">暂无差评</p>'}
       </section>
-      <section class="card pf-sec"><h3>👍 最新好评</h3>
-        ${!state.reviews ? '<p class="muted">评论加载中…</p>' : pos.map(r => reviewItem(r)).join('') || '<p class="muted">暂无好评</p>'}
+      <section class="card pf-sec"><h3>👍 最新好评${posAll > pos.length ? `<a class="kit-morelink" href="#/list/reviews/${esc(a.key)}?star=pos">全部 ${posAll} 条 →</a>` : ''}</h3>
+        ${!state.reviews ? '<p class="muted">评论加载中…</p>' : pos.map(r => reviewItem(r, a.key)).join('') || '<p class="muted">暂无好评</p>'}
       </section>
-      <section class="card pf-sec"><h3>📰 媒体评价<small>近 30 天 · 已排除自家渠道</small></h3>
-        ${(a.news || []).slice(0, 8).map(n => newsItem(n)).join('') || '<p class="muted">近 30 天没有第三方媒体报道</p>'}
+      <section class="card pf-sec"><h3>📰 媒体评价<small>近 30 天 · 已排除自家渠道</small>${(a.news || []).length > 8 ? `<a class="kit-morelink" href="#/list/news/${esc(a.key)}">全部 ${a.news.length} 篇 →</a>` : ''}</h3>
+        ${(a.news || []).slice(0, 8).map(n => newsItem(n, a.key)).join('') || '<p class="muted">近 30 天没有第三方媒体报道</p>'}
       </section>
       <section class="card pf-sec"><h3>🔍 搜索可见度<small>App Store 关键词排名</small></h3>
         <div class="bars">${Object.entries(kw).map(([k, ranks]) => {
@@ -660,8 +905,8 @@ function renderProfile() {
         }).join('')}</div>
         <p class="note">「—」表示不在搜索结果前 100 名。</p>
       </section>
-      <section class="card pf-sec wide"><h3>🚀 最近版本<small>${a.history.length} 条记录</small></h3>
-        ${a.history.slice(0, 3).map(h => `<div class="rv"><div class="rv-meta"><b style="display:inline;font-size:13px;margin:0;color:var(--accent)">${esc(h.version)}</b><span>${esc(fmtDate(h.date))}</span></div><p style="white-space:pre-line">${esc(h.notes || '（没有填写更新说明）')}</p></div>`).join('')}
+      <section class="card pf-sec wide"><h3>🚀 最近版本<small>${a.history.length} 条记录</small>${a.history.length > 3 ? `<a class="kit-morelink" href="#/list/versions/${esc(a.key)}">全部 →</a>` : ''}</h3>
+        ${a.history.slice(0, 3).map(h => `<div class="rv" data-kit-item="version/${esc(a.key)}/${esc(encodeURIComponent(h.version))}"><div class="rv-meta"><b style="display:inline;font-size:13px;margin:0;color:var(--accent)">${esc(h.version)}</b><span>${esc(fmtDate(h.date))}</span></div><p style="white-space:pre-line">${esc(h.notes || '（没有填写更新说明）')}</p></div>`).join('')}
       </section>
     </div>`;
 }
@@ -672,7 +917,7 @@ function renderFeatures() {
   const feats = state.data.features.filter(f => matchQ(f.name, f.group));
   const groups = [...new Set(feats.map(f => f.group))];
   return `<div class="card table-wrap"><table class="matrix">
-    <thead><tr><th>功能</th>${apps.map(a => `<th>${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
+    <thead><tr><th>功能</th>${apps.map(a => `<th data-kit-item="app/${esc(a.key)}">${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
     <tbody>${groups.map(g => `<tr class="grp"><td colspan="${apps.length + 1}">${g}</td></tr>` +
       feats.filter(f => f.group === g).map(f => `<tr><td>${esc(f.name)}</td>${apps.map(a => {
         const v = (a.features || {})[f.id];
@@ -689,21 +934,21 @@ function renderReviews() {
   const apps = regionApps().filter(a => state.app === 'all' || a.key === state.app);
   const cards = apps.map(a => {
     const s = a.review_stats || {};
-    if (!s.total) return `<div class="card rv-card"><div class="top">${icon(a)}<b>${esc(a.name)}</b></div><small style="margin-top:8px">暂无评论数据</small></div>`;
+    if (!s.total) return `<div class="card rv-card" data-kit-item="app/${esc(a.key)}"><div class="top">${icon(a)}<b>${esc(a.name)}</b></div><small style="margin-top:8px">暂无评论数据</small></div>`;
     const tot = Object.values(s.dist).reduce((x, y) => x + y, 0);
     const colors = { 5: 'var(--up)', 4: '#84cc16', 3: 'var(--star)', 2: '#f97316', 1: 'var(--down)' };
-    return `<div class="card rv-card">
+    return `<a class="card rv-card" href="#/list/reviews/${esc(a.key)}" title="查看 ${esc(a.name)} 的全部评论">
       <div class="top">${icon(a)}<b>${esc(a.name)}</b><span class="big"><span class="star">★</span> ${s.avg.toFixed(2)}</span></div>
       <div class="mini-stack">${[5, 4, 3, 2, 1].map(k => `<i style="width:${pct(s.dist[k], tot)}%;background:${colors[k]}" title="${k}★ ${s.dist[k]} 条"></i>`).join('')}</div>
       <small>${s.window === 'recent' ? '近 90 天' : '全部已收集'} ${s.sample} 条 · 差评 ${pct(s.neg, s.sample)}%</small>
       <div class="chips2">${topTopics(a).map(t => `<span>${esc(t.name)} ${t.pct}%</span>`).join('')}</div>
-    </div>`;
+    </a>`;
   }).join('');
 
   const withNeg = apps.filter(a => (a.review_stats || {}).neg);
   const heat = withNeg.length ? `<div class="section-title"><b>差评主题对比</b>各 App 1–2★ 评论中提到该主题的比例</div>
     <div class="card table-wrap"><table class="matrix">
-      <thead><tr><th>主题</th>${withNeg.map(a => `<th>${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
+      <thead><tr><th>主题</th>${withNeg.map(a => `<th data-kit-item="app/${esc(a.key)}">${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
       <tbody>${state.data.topics.map(t => `<tr><td>${esc(t.name)}</td>${withNeg.map(a => {
         const s = a.review_stats, p = pct(s.topics[t.id] || 0, s.neg);
         return `<td><span class="heat" style="background:color-mix(in srgb, var(--down) ${Math.min(p * 1.4, 70)}%, transparent)">${p ? p + '%' : '–'}</span></td>`;
@@ -711,7 +956,6 @@ function renderReviews() {
       <tr class="grp"><td>差评样本</td>${withNeg.map(a => `<td>${a.review_stats.neg}</td>`).join('')}</tr></tbody></table></div>` : '';
 
   const f = RV_FILTERS.find(x => x[0] === state.rvFilter) || RV_FILTERS[0];
-  const appByKey = Object.fromEntries(apps.map(a => [a.key, a]));
   const feed = state.reviews ? apps.flatMap(a => appReviews(a.key).map(r => ({ r, a })))
     .filter(({ r, a }) => f[2](r) && matchQ(r.title, r.content, a.name, r.version))
     .sort((x, y) => y.r.date.localeCompare(x.r.date)) : [];
@@ -720,7 +964,7 @@ function renderReviews() {
     <div class="section-title"><b>评论流</b>${state.reviews ? `${feed.length} 条` : '加载中…'}</div>
     <div class="toolbar">${RV_FILTERS.map(x => `<button class="chip-btn ${x[0] === state.rvFilter ? 'on' : ''}" data-rv="${x[0]}">${x[1]}</button>`).join('')}
       <span class="muted">支持搜索评论内容</span></div>
-    <div class="card pf-sec">${shown.map(({ r, a }) => reviewItem(r, appByKey[a.key])).join('') || `<p class="muted">${state.reviews ? '没有符合条件的评论' : '评论加载中…'}</p>`}</div>
+    <div class="card pf-sec">${shown.map(({ r, a }) => reviewItem(r, a.key, a)).join('') || `<p class="muted">${state.reviews ? '没有符合条件的评论' : '评论加载中…'}</p>`}</div>
     ${feed.length > shown.length ? `<button class="load-more chip-btn" data-rvmore="1" style="display:block;margin:14px auto 0">加载更多（剩余 ${feed.length - shown.length} 条）</button>` : ''}
     <p class="note">评论来自 App Store 公开评论接口（每个 App 每个地区最多最近 500 条，每天累积）。差评主题按关键词归类，一条评论可能属于多个主题。</p>`;
 }
@@ -731,13 +975,13 @@ function renderMedia() {
   const rows = apps.flatMap(a => (a.news || []).map(n => ({ n, a })))
     .filter(({ n, a }) => (!state.mediaReviewOnly || n.review) && matchQ(n.title, n.source, a.name))
     .sort((x, y) => y.n.date.localeCompare(x.n.date));
-  const per = apps.map(a => `<span class="chip-btn" style="cursor:default">${esc(a.name)} ${(a.news || []).length}</span>`).join('');
+  const per = apps.map(a => `<a class="chip-btn" href="#/list/news/${esc(a.key)}">${esc(a.name)} ${(a.news || []).length}</a>`).join('');
   return `<div class="toolbar">
       <button class="chip-btn ${!state.mediaReviewOnly ? 'on' : ''}" data-media="all">全部报道</button>
       <button class="chip-btn ${state.mediaReviewOnly ? 'on' : ''}" data-media="review">只看评测 / 对比</button>
       <span class="muted">${rows.length} 篇</span></div>
     <div class="toolbar">${per}</div>
-    <div class="card pf-sec">${rows.map(({ n, a }) => newsItem(n, a)).join('') || '<p class="muted">没有符合条件的报道</p>'}</div>
+    <div class="card pf-sec">${rows.map(({ n, a }) => newsItem(n, a.key, a)).join('') || '<p class="muted">没有符合条件的报道</p>'}</div>
     <p class="note">来自 Google News 近 30 天的搜索结果，已排除各家自己的资讯频道和官网发布。标题含 review / 評測 / 比較 / vs 的标为「评测」。</p>`;
 }
 
@@ -749,7 +993,7 @@ function keywordTable() {
   const cls = r => !r ? 'no' : r <= 3 ? 'rk-cell g1' : r <= 10 ? 'rk-cell g2' : 'rk-cell g3';
   return `<div class="section-title"><b>关键词搜索排名</b>在 App Store 搜这个词时排第几（前 100 名）</div>
     <div class="card table-wrap"><table class="matrix">
-      <thead><tr><th>关键词</th>${apps.map(a => `<th>${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
+      <thead><tr><th>关键词</th>${apps.map(a => `<th data-kit-item="app/${esc(a.key)}">${icon(a)}${esc(a.name)}</th>`).join('')}</tr></thead>
       <tbody>${Object.entries(kw).map(([k, ranks]) => `<tr><td>${esc(k)}</td>${apps.map(a => {
         const r = ranks[String(a.id)];
         return `<td><span class="${cls(r)}">${r ? '#' + r : '–'}</span></td>`;
@@ -768,16 +1012,20 @@ function renderTimeline() {
   if (!rows.length) return '<div class="empty">没有符合条件的更新</div>';
   const since = state.data.apps.reduce((m, a) => a.tracked_since < m ? a.tracked_since : m, '9999');
   return `<div class="tl">${rows.map(({ a, h }) => `
-    <article class="card rel">
+${versionCard(a, h)}`).join('')}</div>
+    <p class="note">App Store 只提供当前版本，历史版本从 ${esc(since)} 开始追踪后逐步累积。</p>`;
+}
+
+// 版本卡片（时间线、版本列表页共用）：说明截 3 行，点开看全文
+const versionCard = (a, h) => `
+    <article class="card rel" data-kit-item="version/${esc(a.key)}/${esc(encodeURIComponent(h.version))}">
       ${icon(a, 'md')}
       <div class="rel-body">
         <div class="rel-meta"><b>${esc(a.name)}</b><span class="ver">${esc(h.version)}</span>${newTag(h.date)}
           <span>${esc(fmtDate(h.date))} · ${esc(daysAgo(h.date))}</span></div>
-        ${h.notes ? `<details><summary><p class="notes">${esc(h.notes)}</p><div class="more">展开全部</div></summary></details>` : '<p class="notes muted">（没有填写更新说明）</p>'}
+        <p class="notes ${h.notes ? '' : 'muted'}">${esc(h.notes || '（没有填写更新说明）')}</p>
       </div>
-    </article>`).join('')}</div>
-    <p class="note">App Store 只提供当前版本，历史版本从 ${esc(since)} 开始追踪后逐步累积。</p>`;
-}
+    </article>`;
 
 // ── 视图：对比表 ──
 function renderCompare() {
@@ -792,8 +1040,8 @@ function renderCompare() {
   });
   return `<div class="card table-wrap"><table>
     <thead><tr>${COLS.map(c => `<th data-sort="${c[0]}" class="${c[0] === key ? 'sorted' : ''} ${c[0] === 'name' || c[0] === 'version' ? '' : 'num'}">${c[1]}${c[0] === key ? (desc ? ' ↓' : ' ↑') : ''}</th>`).join('')}</tr></thead>
-    <tbody>${apps.map(a => `<tr>
-      <td class="app-cell">${icon(a)}<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a></td>
+    <tbody>${apps.map(a => `<tr data-kit-item="app/${esc(a.key)}">
+      <td class="app-cell">${icon(a)}<a href="#/item/app/${esc(a.key)}" data-kit-item="app/${esc(a.key)}">${esc(a.name)}</a></td>
       <td>${esc(a.version)}</td>
       <td class="num">${esc(daysAgo(a.version_date))}${newTag(a.version_date)}</td>
       <td class="num"><span class="star">★</span> ${a.rating.toFixed(2)}</td>
@@ -806,36 +1054,194 @@ function renderCompare() {
     <p class="note">点表头排序。「已记录版本」从开始追踪起累计；评分为该地区商店全部版本的平均分。</p>`;
 }
 
+// 榜单条目：追踪中的 App 打开 App 详情，其它打开榜单条目详情
+const rankKey = e => { const a = regionApps().find(x => x.id === e.id); return a ? 'app/' + a.key : `rank/${state.region}:${e.id}`; };
+function rankDelta(c, e) {
+  if (!c.prev_day) return '';
+  if (e.prev_rank == null) return '<span class="up">新进</span>';
+  const d = e.prev_rank - e.rank;
+  return d > 0 ? `<span class="up">↑${d}</span>` : d < 0 ? `<span class="down">↓${-d}</span>` : '<span class="muted">–</span>';
+}
+
 // ── 视图：财经榜 ──
 function renderChart() {
   const c = state.data.charts[state.region];
   if (!c || !c.entries.length) return '<div class="empty">暂无榜单数据</div>';
   const tracked = new Set(regionApps().map(a => a.id));
   const rows = c.entries.filter(e => matchQ(e.name, e.seller));
-  const delta = e => {
-    if (!c.prev_day) return '';
-    if (e.prev_rank == null) return '<span class="up">新进</span>';
-    const d = e.prev_rank - e.rank;
-    return d > 0 ? `<span class="up">↑${d}</span>` : d < 0 ? `<span class="down">↓${-d}</span>` : '<span class="muted">–</span>';
-  };
   return `${keywordTable()}<div class="card rank-list">${rows.map(e => `
-    <div class="rank-row ${tracked.has(e.id) ? 'tracked' : ''}">
+    <div class="rank-row ${tracked.has(e.id) ? 'tracked' : ''}" data-kit-item="${rankKey(e)}">
       <span class="rk ${e.rank <= 3 ? 'top' : ''}">${e.rank}</span>
-      ${icon(e, 'md')}
-      <div class="nm"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a><small>${esc(e.seller)}</small></div>
-      <span class="dl">${delta(e)}</span>
+      ${icon(e, 'md', true)}
+      <div class="nm"><a href="#/item/${rankKey(e)}" data-kit-item="${rankKey(e)}">${esc(e.name)}</a><small>${esc(e.seller)}</small></div>
+      <span class="dl">${rankDelta(c, e)}</span>
     </div>`).join('') || '<div class="empty">没有符合条件的 App</div>'}</div>
     <p class="note">${esc(regionName())} App Store 财经类免费榜前 100。高亮的是追踪中的 App。${c.prev_day ? `升降对比 ${esc(c.prev_day)}。` : '升降对比从明天开始显示。'}</p>`;
 }
+
+// ── 详情（右侧抽屉）与列表页 ──
+const bigIcon = u => (u || '').replace(/\/\d+x\d+bb\./, '/256x256bb.');   // 抽屉里用大一点的图标
+const ktag = t => t ? `<span>${esc(t)}</span>` : '';
+const rgName = id => (state.data.regions.find(r => r.id === id) || {}).name || id;
+const vKey = (key, ver) => `version/${key}/${encodeURIComponent(ver)}`;
+const rowsBox = html => html ? `<div class="kit-rows">${html}</div>` : '';
+// 榜单每日快照里某个 App 的名次（不在前 100 为 null）
+const rankHist = (region, id) => Object.entries(state.data.charts[region]?.days || {}).sort((x, y) => x[0].localeCompare(y[0]))
+  .map(([d, ids]) => ({ d, rank: ids.indexOf(id) + 1 || null }));
+// 去画像页（新开一条历史，返回能回到详情）
+const goProfile = key => { state.app = key; state.region = appByKey(key).region; store.set('region', state.region); location.hash = 'profile'; };   // 由下面的 hashchange 切视图
+
+// 追踪的 App
+KIT.item('app', key => {
+  const a = appByKey(key); if (!a) return null;
+  const s = a.review_stats || {}, last = a.history[0];
+  const news = (a.news || []).slice(0, 5);
+  return { title: a.name, sub: `${esc(a.title)}<br>${esc(a.seller)}`, thumb: bigIcon(a.icon), thumbIcon: initial(a.name),
+    tags: [ktag(rgName(a.region)), ktag('v' + a.version), isNew(a.version_date) ? ktag('7 天内发版') : '', a.stale ? ktag('本次抓取失败，显示旧数据') : ''],
+    big: `<b><span class="star">★</span> ${a.rating.toFixed(2)}</b><span class="muted">${fmtInt(a.rating_count)} 人评分 · 财经榜 ${fmtRank(a.rank)}</span>`,
+    body: KIT.sec('概况', KIT.kv([['当前版本', a.version], ['发版', `${fmtDate(a.version_date)}（${daysAgo(a.version_date)}）`],
+        ['近期评论均分', s.total ? s.avg.toFixed(2) : ''], ['差评占比', s.sample ? pct(s.neg, s.sample) + '%' : ''], ['包体', fmtSize(a.size)],
+        ['最低系统', a.min_os ? 'iOS ' + a.min_os : ''], ['上架', a.released], ['支持语言', a.languages ? a.languages + ' 种' : ''],
+        ['识别功能', Object.keys(a.features || {}).length + ' 项'], ['已记录版本', a.history.length]]))
+      + KIT.sec('走势', `<div class="sparks"><div class="spark">排名${spark(a.daily.map(d => d.rank), true, 'var(--accent)')}</div>
+          <div class="spark">评分人数${spark(a.daily.map(d => d.count), false, 'var(--star)')}</div></div>`, `从 ${esc(a.tracked_since)} 开始记录`)
+      + (last ? KIT.sec(`更新说明 · ${esc(last.version)}`, `<div data-kit-go="${vKey(a.key, last.version)}" style="cursor:pointer">${KIT.p(last.notes || '（没有填写更新说明）')}</div>`,
+          `<a class="kit-morelink" href="#/list/versions/${esc(a.key)}">全部版本 →</a>`) : '')
+      + KIT.sec('简介', KIT.p(a.intro || a.title) + ((a.highlights || []).length ? `<ol class="hl-list">${a.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ol>` : ''))
+      + ((a.screenshots || []).length ? KIT.sec('商店截图', `<div class="shots">${a.screenshots.map(u => `<img src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer">`).join('')}</div>`) : '')
+      + (s.neg ? KIT.sec('差评主题', `<div class="bars">${topTopics(a, 5).map(t => `<div class="bar-row"><span>${esc(t.name)}</span><div class="bar neg"><i style="width:${t.pct}%"></i></div><span>${t.pct}%</span></div>`).join('')}</div>`,
+          `<a class="kit-morelink" href="#/list/reviews/${esc(a.key)}?star=neg">看差评 ${s.neg} 条 →</a>`) : '')
+      + (news.length ? KIT.sec('最近报道', rowsBox(news.map(n => `<div class="kit-row" data-kit-go="news/${esc(a.key)}/${a.news.indexOf(n)}"><span class="kit-rt">${n.review ? '<span class="rev-tag">评测</span> ' : ''}${esc(n.title)}</span><span class="kit-rm">${esc(n.source)} · ${esc(fmtDate(n.date).slice(5))}</span></div>`).join('')),
+          a.news.length > news.length ? `<a class="kit-morelink" href="#/list/news/${esc(a.key)}">全部 ${a.news.length} 篇 →</a>` : '') : ''),
+    acts: [{ text: '查看完整画像', pri: true, onclick: () => goProfile(a.key) }, { text: 'App Store ↗', href: a.url }] };
+});
+
+// 榜单里没追踪的 App（id = 地区:App ID）
+KIT.item('rank', id => {
+  const [region, aid] = id.split(':');
+  const c = state.data.charts[region], e = c?.entries.find(x => String(x.id) === aid); if (!e) return null;
+  const hist = rankHist(region, e.id).reverse();
+  const near = c.entries.filter(x => x !== e && Math.abs(x.rank - e.rank) <= 3);
+  const same = c.entries.filter(x => x !== e && x.seller === e.seller);
+  const row = x => `<div class="kit-row" data-kit-go="${rankKey(x)}"><img src="${esc(x.icon)}" alt="" style="width:32px;height:32px;border-radius:8px" referrerpolicy="no-referrer"><span class="kit-rt">${esc(x.name)}<br><small class="muted">${esc(x.seller)}</small></span><span class="kit-rm">#${x.rank} ${rankDelta(c, x)}</span></div>`;
+  return { title: e.name, sub: esc(e.seller), thumb: bigIcon(e.icon), thumbIcon: initial(e.name),
+    tags: [ktag(`${rgName(region)}财经免费榜`), e.rank <= 10 ? ktag('前 10') : ''],
+    big: `<b>#${e.rank}</b>${rankDelta(c, e)}`,
+    body: KIT.sec('排名', KIT.kv([['当前排名', '#' + e.rank], ['昨日排名', c.prev_day ? (e.prev_rank ? '#' + e.prev_rank : '未上榜') : ''],
+        ['开发商', e.seller], ['近期在榜', `${hist.filter(h => h.rank).length} / ${hist.length} 天`]]))
+      + (hist.length > 1 ? KIT.sec('每日排名', `<div class="spark">${spark(hist.slice().reverse().map(h => h.rank), true, 'var(--accent)')}</div>`
+          + rowsBox(hist.slice(0, 14).map(h => `<div class="kit-row"><span class="kit-rt">${esc(h.d)}</span><span class="kit-rm">${h.rank ? '#' + h.rank : '100 名外'}</span></div>`).join(''))) : '')
+      + (same.length ? KIT.sec('同开发商上榜', rowsBox(same.map(row).join(''))) : '')
+      + KIT.sec('榜单前后', rowsBox(near.map(row).join(''))),
+    acts: [{ text: 'App Store ↗', href: e.url }] };
+});
+
+// 媒体报道（id = App key/下标）
+KIT.item('news', id => {
+  const [key, i] = id.split('/'), a = appByKey(key), n = a?.news?.[+i]; if (!n) return null;
+  const more = a.news.filter(x => x !== n).slice(0, 8);
+  return { title: n.title, sub: `${esc(n.source)} · ${esc(fmtDate(n.date))}`, thumb: bigIcon(a.icon), thumbIcon: '📰',
+    tags: [ktag(a.name), n.review ? ktag('评测 / 对比') : '', ktag(daysAgo(n.date))],
+    body: KIT.sec('说明', KIT.p(`这条是 Google News 近 ${30} 天里搜到的「${a.name}」相关报道，正文在原网站；已排除各家自己的资讯频道和官网发布。`))
+      + (more.length ? KIT.sec(`${esc(a.name)} 其它报道`, rowsBox(more.map(x => `<div class="kit-row" data-kit-go="news/${esc(key)}/${a.news.indexOf(x)}"><span class="kit-rt">${x.review ? '<span class="rev-tag">评测</span> ' : ''}${esc(x.title)}</span><span class="kit-rm">${esc(x.source)} · ${esc(fmtDate(x.date).slice(5))}</span></div>`).join('')),
+          `<a class="kit-morelink" href="#/list/news/${esc(key)}">全部 ${a.news.length} 篇 →</a>`) : ''),
+    acts: [{ text: '阅读原文 ↗', href: n.url }, { text: `${a.name} 详情`, onclick: () => KIT.open('app/' + key) }] };
+});
+
+// 用户评论（id = App key/评论 ID）
+KIT.item('review', id => {
+  const [key, rid] = id.split('/'), a = appByKey(key); if (!a) return null;
+  if (!state.reviews) { ensureReviews(); return { title: '评论加载中…', thumb: bigIcon(a.icon) }; }
+  const revs = appReviews(key), r = revs.find(x => x.id === rid); if (!r) return null;
+  const same = revs.filter(x => x !== r && x.version === r.version).slice(0, 6);
+  return { title: r.title || '（无标题）', sub: `${esc(a.name)} · ${esc(r.author)} · ${esc(fmtDate(r.date))}`, thumb: bigIcon(a.icon), thumbIcon: initial(a.name),
+    tags: [ktag('v' + r.version), r.votes ? ktag(`👍 ${r.votes} 人觉得有用`) : ''],
+    big: `<span class="rv-meta" style="font-size:18px">${stars(r.rating)}</span>`,
+    body: KIT.sec('评论全文', KIT.p(r.content))
+      + (same.length ? KIT.sec(`同版本 ${esc(r.version)} 的其它评论`, rowsBox(same.map(x => `<div class="kit-row" data-kit-go="review/${esc(key)}/${esc(x.id)}"><span class="kit-rt">${esc(x.title || x.content.slice(0, 40))}</span><span class="kit-rm"><span class="star">${'★'.repeat(x.rating)}</span> ${esc(fmtDate(x.date).slice(5))}</span></div>`).join('')),
+          `<a class="kit-morelink" href="#/list/reviews/${esc(key)}">全部评论 →</a>`) : ''),
+    acts: [{ text: `${a.name} 详情`, onclick: () => KIT.open('app/' + key) }, { text: 'App Store ↗', href: a.url }] };
+});
+
+// 版本（id = App key/版本号）
+KIT.item('version', id => {
+  const i = id.indexOf('/'), key = id.slice(0, i), ver = id.slice(i + 1), a = appByKey(key);
+  const h = a?.history.find(x => x.version === ver); if (!h) return null;
+  const vs = (a.review_stats?.versions || []).find(x => x.version === ver);
+  if (!state.reviews) ensureReviews();
+  const revs = appReviews(key).filter(r => r.version === ver);
+  return { title: `${a.name} ${h.version}`, sub: `${esc(fmtDate(h.date))} · ${esc(daysAgo(h.date))}发布`, thumb: bigIcon(a.icon), thumbIcon: initial(a.name),
+    tags: [ktag(rgName(a.region)), h.version === a.version ? ktag('当前版本') : '', isNew(h.date) ? ktag('7 天内') : ''],
+    big: vs ? `<b><span class="star">★</span> ${vs.avg.toFixed(2)}</b><span class="muted">该版本 ${vs.count} 条评论 · 差评 ${vs.neg}</span>` : '',
+    body: KIT.sec('更新说明', KIT.p(h.notes || '（没有填写更新说明）'))
+      + (revs.length ? KIT.sec('该版本的评论', rowsBox(revs.slice(0, 8).map(x => `<div class="kit-row" data-kit-go="review/${esc(key)}/${esc(x.id)}"><span class="kit-rt">${esc(x.title || x.content.slice(0, 40))}</span><span class="kit-rm"><span class="star">${'★'.repeat(x.rating)}</span> ${esc(fmtDate(x.date).slice(5))}</span></div>`).join('')), `${revs.length} 条`) : '')
+      + (a.history.length > 1 ? KIT.sec('其它版本', rowsBox(a.history.filter(x => x !== h).slice(0, 8).map(x => `<div class="kit-row" data-kit-go="${vKey(key, x.version)}"><span class="kit-rt">${esc(x.version)}</span><span class="kit-rm">${esc(fmtDate(x.date))}</span></div>`).join('')),
+          `<a class="kit-morelink" href="#/list/versions/${esc(key)}">全部 →</a>`) : ''),
+    acts: [{ text: `${a.name} 详情`, onclick: () => KIT.open('app/' + key) }, { text: 'App Store ↗', href: a.url }] };
+});
+
+// 列表页
+const LPAGE = 30;
+let listN = LPAGE;
+const STAR_F = [['all', '全部', () => true], ['neg', '差评 1–2★', r => r.rating <= 2], ['pos', '好评 4–5★', r => r.rating >= 4],
+  ...[5, 4, 3, 2, 1].map(k => [String(k), k + '★', r => r.rating === k])];
+const RV_SORT = [['new', '最新'], ['votes', '最有用'], ['low', '评分低→高'], ['high', '评分高→低']];
+// 列表页的 App：路径里的 key，没给就是当前地区全部
+const listApps = key => key ? [appByKey(key)].filter(Boolean) : regionApps();
+const qs = (base, q, k, v) => { const p = new URLSearchParams(q); v == null || v === 'all' ? p.delete(k) : p.set(k, v); const t = p.toString(); return base + (t ? '?' + t : ''); };
+
+KIT.list('reviews', (key, q, box) => {
+  ensureReviews();
+  const apps = listApps(key), star = q.get('star') || 'all', sort = q.get('sort') || 'new';
+  const base = '#/list/reviews' + (key ? '/' + key : '');
+  const all = apps.flatMap(a => appReviews(a.key).map(r => ({ r, a }))).filter(({ r, a }) => matchQ(r.title, r.content, a.name, r.version));
+  const f = (STAR_F.find(x => x[0] === star) || STAR_F[0])[2];
+  const cmp = { new: (x, y) => y.r.date.localeCompare(x.r.date), votes: (x, y) => (y.r.votes || 0) - (x.r.votes || 0) || y.r.date.localeCompare(x.r.date),
+    low: (x, y) => x.r.rating - y.r.rating || y.r.date.localeCompare(x.r.date), high: (x, y) => y.r.rating - x.r.rating || y.r.date.localeCompare(x.r.date) }[sort] || (() => 0);
+  const rows = all.filter(({ r }) => f(r)).sort(cmp);
+  box.innerHTML = KIT.shell({ title: `${key ? apps[0]?.name || '' : regionName()} 用户评论`,
+    note: state.reviews ? `${rows.length} 条${state.q ? ` · 搜索「${esc(state.q)}」` : ''}` : '加载中…',
+    chips: STAR_F.map(([k, n, fn]) => ({ text: n, href: qs(base, q, 'star', k), on: k === star, count: all.filter(x => fn(x.r)).length })),
+    sort: RV_SORT, sortVal: sort,
+    body: `<div class="card pf-sec">${rows.slice(0, listN).map(({ r, a }) => reviewItem(r, a.key, key ? null : a)).join('') || `<p class="muted">${state.reviews ? '没有符合条件的评论' : '评论加载中…'}</p>`}</div>`,
+    more: rows.length > listN ? `加载更多（${listN} / ${rows.length}）` : '' });
+});
+KIT.list('news', (key, q, box) => {
+  const apps = listApps(key), type = q.get('type') || 'all', base = '#/list/news' + (key ? '/' + key : '');
+  const all = apps.flatMap(a => (a.news || []).map(n => ({ n, a }))).filter(({ n, a }) => matchQ(n.title, n.source, a.name))
+    .sort((x, y) => y.n.date.localeCompare(x.n.date));
+  const rows = all.filter(({ n }) => type === 'all' || n.review);
+  box.innerHTML = KIT.shell({ title: `${key ? apps[0]?.name || '' : regionName()} 媒体报道`, note: `${rows.length} 篇 · 近 30 天 · 已排除自家渠道`,
+    chips: [{ text: '全部', href: qs(base, q, 'type', 'all'), on: type === 'all', count: all.length },
+      { text: '评测 / 对比', href: qs(base, q, 'type', 'review'), on: type === 'review', count: all.filter(x => x.n.review).length }],
+    body: `<div class="card pf-sec">${rows.slice(0, listN).map(({ n, a }) => newsItem(n, a.key, key ? null : a)).join('') || '<p class="muted">没有符合条件的报道</p>'}</div>`,
+    more: rows.length > listN ? `加载更多（${listN} / ${rows.length}）` : '' });
+});
+KIT.list('versions', (key, q, box) => {
+  const apps = listApps(key);
+  const rows = apps.flatMap(a => a.history.map(h => ({ a, h }))).filter(({ a, h }) => matchQ(a.name, h.version, h.notes))
+    .sort((x, y) => (y.h.date || '').localeCompare(x.h.date || ''));
+  box.innerHTML = KIT.shell({ title: `${key ? apps[0]?.name || '' : regionName()} 版本记录`, note: `${rows.length} 个版本 · 从开始追踪起累计`,
+    body: `<div class="tl">${rows.slice(0, listN).map(({ a, h }) => versionCard(a, h)).join('') || '<div class="empty">没有符合条件的版本</div>'}</div>`,
+    more: rows.length > listN ? `加载更多（${listN} / ${rows.length}）` : '' });
+});
+document.addEventListener('click', e => { if (e.target.closest('[data-kit-more]')) { listN += LPAGE; render(); } });
+document.addEventListener('change', e => {
+  if (!e.target.matches('[data-kit-sort]')) return;
+  const r = KIT.parse(); if (r?.kind !== 'list') return;
+  history.replaceState(history.state, '', qs(`#/list/${r.type}${r.id ? '/' + r.id : ''}`, r.q, 'sort', e.target.value === 'new' ? null : e.target.value));
+  listN = LPAGE; render();
+});
+window.addEventListener('hashchange', () => { if (KIT.parse()?.kind !== 'item') listN = LPAGE; }, true);
 
 // ── 右侧挂件 ──
 function renderWidgets() {
   const apps = regionApps();
   $('#w-region').textContent = regionName();
   $('#w-recent').innerHTML = [...apps].sort((a, b) => age(a.version_date) - age(b.version_date)).slice(0, 6).map(a => `
-    <div class="w-row">${icon(a)}<span class="nm">${esc(a.name)} <span class="muted">${esc(a.version)}</span></span><small>${esc(daysAgo(a.version_date))}</small></div>`).join('');
+    <div class="w-row" data-kit-item="version/${esc(a.key)}/${esc(encodeURIComponent(a.version))}">${icon(a)}<span class="nm">${esc(a.name)} <span class="muted">${esc(a.version)}</span></span><small>${esc(daysAgo(a.version_date))}</small></div>`).join('');
   $('#w-ranks').innerHTML = [...apps].sort((a, b) => (a.rank ?? 999) - (b.rank ?? 999)).map(a => `
-    <div class="w-row">${icon(a)}<span class="nm">${esc(a.name)}</span><small>${fmtRank(a.rank)}</small></div>`).join('');
+    <div class="w-row" data-kit-item="app/${esc(a.key)}">${icon(a)}<span class="nm">${esc(a.name)}</span><small>${fmtRank(a.rank)}</small></div>`).join('');
   const { sources } = state.data;
   $('#w-ok').textContent = `${sources.filter(s => s.ok).length}/${sources.length} 正常`;
   $('#w-status').innerHTML = sources.map(s => `
@@ -848,14 +1254,16 @@ function render() {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.view === state.view));
   renderNav();
   renderWidgets();
-  $('#content').innerHTML = { overview: renderOverview, profile: renderProfile, features: renderFeatures, reviews: renderReviews,
-    media: renderMedia, timeline: renderTimeline, compare: renderCompare, chart: renderChart }[state.view]();
   const apps = regionApps();
   const week = apps.filter(a => isNew(a.version_date)).length;
   $('#subtitle').textContent = `${regionName()} · 追踪 ${apps.length} 个 App · ${week} 个在 7 天内发版`;
   $('#updated').textContent = `更新于 ${new Date(state.data.updated).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}`;
+  if (KIT.route($('#content'))) return;                  // #/list/… 列表页
+  $('#content').innerHTML = { overview: renderOverview, profile: renderProfile, features: renderFeatures, reviews: renderReviews,
+    media: renderMedia, timeline: renderTimeline, compare: renderCompare, chart: renderChart }[state.view]();
 }
 
+let booted = false;
 async function load(isRefresh) {
   const btn = $('#reload');
   if (btn.disabled) return;
@@ -868,6 +1276,7 @@ async function load(isRefresh) {
     if (!state.data.regions.some(r => r.id === state.region)) state.region = state.data.regions[0].id;
     if (state.app !== 'all' && !state.data.apps.some(a => a.key === state.app)) state.app = 'all';
     render();
+    if (!booted) { booted = true; KIT.boot(); }          // 直接打开的 #/item/ 链接（如大屏跳转）
     btn.title = '重新加载数据';
   } catch (e) {
     // 刷新失败保留已有内容，只有首次加载失败才替换为报错
@@ -897,7 +1306,18 @@ document.addEventListener('click', e => {
     state.sort = state.sort[0] === col[0] ? [col[0], !state.sort[1]] : [col[0], col[3]];
     store.set('sort', state.sort);
   }
+  // 在列表页点了左栏 / 标签：回到对应视图
+  if (KIT.parse()?.kind === 'list' && ['region', 'app', 'view', 'profile'].some(k => t.dataset[k] !== undefined)) {
+    history.replaceState(null, '', '#' + state.view);
+    window.scrollTo(0, 0);
+  }
   render();
+});
+// 浏览器前进 / 后退到单段 hash 视图（如详情里「查看完整画像」跳到 #profile）
+window.addEventListener('hashchange', () => {
+  const h = location.hash.slice(1);
+  if (!state.data || h.startsWith('/') || !VIEWS.includes(h)) return;
+  state.view = h; store.set('view', h); render(); window.scrollTo(0, 0);
 });
 
 let timer;
@@ -911,6 +1331,7 @@ document.addEventListener('keydown', e => {
 });
 if (!/Mac/.test(navigator.platform)) $('#kbd').textContent = 'Ctrl K';
 $('#reload').onclick = () => load(true);
+KIT.init(render);
 
 load(false);
 setInterval(() => load(true), 10 * 60 * 1000);  // 每 10 分钟自动重新读取
