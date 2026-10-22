@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T12:35:36+08:00",
+ "updated": "2026-10-22T12:47:58+08:00",
  "regions": [
   {
    "id": "hk",
@@ -221,14 +221,14 @@
     "1557435421": 2
    },
    "股票": {
-    "454558592": 46,
-    "1470042146": 59,
+    "454558592": 45,
+    "1470042146": 56,
     "1605041188": null,
-    "1023600494": 41,
+    "1023600494": 36,
     "592031984": 4,
-    "492180369": 12,
+    "492180369": 13,
     "1463024118": 17,
-    "1557435421": 8
+    "1557435421": 10
    },
    "炒股": {
     "454558592": null,
@@ -280,9 +280,9 @@
     "938003185": 3
    },
    "trading": {
-    "454558592": 46,
+    "454558592": 54,
     "1179213067": 3,
-    "1440255819": 20,
+    "1440255819": 25,
     "1023600494": null,
     "938003185": 4
    },
@@ -364,7 +364,7 @@
    "name": "媒体报道（Google News）",
    "ok": true,
    "error": "",
-   "count": 224
+   "count": 225
   }
  ],
  "apps": [
@@ -616,7 +616,7 @@
       "港股": 5,
       "美股": 7,
       "期權": 10,
-      "股票": 59,
+      "股票": 56,
       "炒股": 14,
       "ETF": 35,
       "stock": 28,
@@ -1409,7 +1409,7 @@
       "港股": 11,
       "美股": 5,
       "期權": 5,
-      "股票": 41,
+      "股票": 36,
       "炒股": 6,
       "ETF": 16,
       "stock": 35,
@@ -1697,6 +1697,13 @@
      "review": false
     },
     {
+     "title": "Webull收挫19% 遭美眾議院指與中國存「結構性關聯」 公司否認",
+     "source": "香港01",
+     "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOYWxrTFcwRWdBclZldGlpWUlUd3dtbWhOR0FmRV9qSk9zR0IwbVEwMnJ4em4yQlZHeXN3SnZnaGVhbFZOV0FQeEd5MERKR2tNNmFLUUhzbFU5MmlDdmN0eERzYkNHOFBWUzRiaERTTWNuZnllQjNUcWNCSDhoTVRjSlQtLWZMdXo2X2VSbGYwMk1Ua2t4ejRLNmlhNXZ6OS01S1NxbHh2YzZnaVdtcUJNRm1yaVB6SzZaeFlaazd0MUlkVTFfU3BWSExyaXBxTXZpSWNrQ1loeXJMRFVnQk5nMHBWTmRXLTE1SmRkU3JXY2lUb3FFeE9lVlFsTGF4TjMzdTdzNFhYNWZocFhrQTZnTEdhNGRhSUlqT3BMY3l0OTZIMXNzcHF4cjQtU0xwcEU4cWc1bTZKZzlvcndrN0MtOVBpSDZSUTE1UEdiZ0hZRmVPVElEcWpwTUJ0b2lLMTVVNWJ4bnlmeW83am14NjN5NWptX3Q1Um05QXRXVjFRNm8?oc=5",
+     "date": "2026-10-08T15:00:00+08:00",
+     "review": false
+    },
+    {
      "title": "美眾院指 Webull 與中國有「結構性聯繫」 提國安疑慮",
      "source": "TechNews 科技新報",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTnFqaTB1c2NMMDdfVU02RzhyaFh3MDJwaFBxZEUtMjB3cC1RckxYeEk3SGZGdk1BRTRsQTVPZG9FdEVNUzBHakR5dmhnYk9LbXJuMFN1VGlsaExDZVNMNERqbmxOemYtalBUb01aRW1LaEF3VHVCeTA4Ujhad1lPeXB5cENqdFdsd3RwcVM5SXdfaFI1NjdyWTdn?oc=5",
@@ -1718,13 +1725,6 @@
      "review": false
     },
     {
-     "title": "美國會調查：投資平台微牛與中共有隱祕關聯",
-     "source": "大紀元",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BdWVreThENHJXRzl3SjhablV1c1ViUUQ3YUFqU19JTV81QndkQXpYelF3MDhBZnJYdDhaaXY0VHJVSUc5ZUgxU0sxSURQQlAzc0hiX01pMldIN0JxUVNzNdIBZkFVX3lxTFBKZ3RnUU9kZHRYTkpxN0R5a0EyWHhuQVpQbnNzcTg3d1VDLVdKOThaTnB3MGtCTEt0cU1ENXAyNkszMXhQYkZUdnY2eEd1amhJM0NKVFZEQl9qUy1ibEJHaGNPZVNnUQ?oc=5",
-     "date": "2026-10-08T15:00:00+08:00",
-     "review": false
-    },
-    {
      "title": "Webull反駁美眾院國安質疑 稱美國客戶數據儲存於美國境內",
      "source": "Yahoo 財經",
      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPODYzRFd2dzVZbXNobHg4M2ZzNXFSRmlCZ0RibnBMb1ZNTlo0SnlOcGs1Qk9EaV94V3NGNTlPd0VGMnM2dWdoN1pHaDZKYmgyTW1MR19WbnlxT1MzOWJDa2JOM0R6Rllqc1lRamRnbXVpcG9uTVhZOUI3ZkFLWGJwVVp6UUhPZmV2Qnowb0JUay1HVEpQSEx2ckdSb3NSaTJOdXpIOGdfaXRuLVdvejFjWnJ6RERUX2RDMl9qbFlmOXNoLWJXYUtTcDUzNHlXVmNsZF9VLVhqYklMWEVrTGdyUVdmb3NLQVp0MWozbnNvRXREcmpzQU02QWtQV2dFdEpaSnlqVEZtLUlHNXI0czV0bGdJTWliNldpZi1KMmc2QXB0UmJQOWlFOXNIVW94YV83b2tuOVoyUTlYakczUE1NaG9FM2p4TnBCR0hHNXpabm0wTzdhM3YwcnA4Y0VFRUxOUGRhMWg1M3IyZ0RFeE1xNTlwejNVOTFrdEtB?oc=5",
@@ -1739,16 +1739,16 @@
      "review": false
     },
     {
-     "title": "美股收評：美聯儲年底還要加息？美債收益率衝上24年高位，道指跌逾340點、微牛重挫近20% 作者 FX168",
-     "source": "Investing.com 香港 - 股市報價& 財經新聞",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HVXJWTkkzNlU2N21wRlR2OXhSNFVyM0Q4WFRZZU5fM1NOd1NYY3l0d2lYeXhJblZnS1hOenMyRGIyRUw1VENuSlBIdkZPbzdTRGw4VUpGaFVCSkJ4QzBtdHMtaEQ2NjBNRVNqd2hnN24?oc=5",
+     "title": "美國會調查：投資平台微牛與中共有隱祕關聯",
+     "source": "大紀元",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BdWVreThENHJXRzl3SjhablV1c1ViUUQ3YUFqU19JTV81QndkQXpYelF3MDhBZnJYdDhaaXY0VHJVSUc5ZUgxU0sxSURQQlAzc0hiX01pMldIN0JxUVNzNdIBZkFVX3lxTFBKZ3RnUU9kZHRYTkpxN0R5a0EyWHhuQVpQbnNzcTg3d1VDLVdKOThaTnB3MGtCTEt0cU1ENXAyNkszMXhQYkZUdnY2eEd1amhJM0NKVFZEQl9qUy1ibEJHaGNPZVNnUQ?oc=5",
      "date": "2026-10-08T15:00:00+08:00",
      "review": false
     },
     {
-     "title": "Webull收挫19% 遭美眾議院指與中國存「結構性關聯」 公司否認",
-     "source": "香港01",
-     "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOYWxrTFcwRWdBclZldGlpWUlUd3dtbWhOR0FmRV9qSk9zR0IwbVEwMnJ4em4yQlZHeXN3SnZnaGVhbFZOV0FQeEd5MERKR2tNNmFLUUhzbFU5MmlDdmN0eERzYkNHOFBWUzRiaERTTWNuZnllQjNUcWNCSDhoTVRjSlQtLWZMdXo2X2VSbGYwMk1Ua2t4ejRLNmlhNXZ6OS01S1NxbHh2YzZnaVdtcUJNRm1yaVB6SzZaeFlaazd0MUlkVTFfU3BWSExyaXBxTXZpSWNrQ1loeXJMRFVnQk5nMHBWTmRXLTE1SmRkU3JXY2lUb3FFeE9lVlFsTGF4TjMzdTdzNFhYNWZocFhrQTZnTEdhNGRhSUlqT3BMY3l0OTZIMXNzcHF4cjQtU0xwcEU4cWc1bTZKZzlvcndrN0MtOVBpSDZSUTE1UEdiZ0hZRmVPVElEcWpwTUJ0b2lLMTVVNWJ4bnlmeW83am14NjN5NWptX3Q1Um05QXRXVjFRNm8?oc=5",
+     "title": "美股收評：美聯儲年底還要加息？美債收益率衝上24年高位，道指跌逾340點、微牛重挫近20% 作者 FX168",
+     "source": "Investing.com 香港 - 股市報價& 財經新聞",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HVXJWTkkzNlU2N21wRlR2OXhSNFVyM0Q4WFRZZU5fM1NOd1NYY3l0d2lYeXhJblZnS1hOenMyRGIyRUw1VENuSlBIdkZPbzdTRGw4VUpGaFVCSkJ4QzBtdHMtaEQ2NjBNRVNqd2hnN24?oc=5",
      "date": "2026-10-08T15:00:00+08:00",
      "review": false
     },
@@ -1859,7 +1859,7 @@
       "港股": 9,
       "美股": 10,
       "期權": 2,
-      "股票": 8,
+      "股票": 10,
       "炒股": null,
       "ETF": 10,
       "stock": 8,
@@ -2131,6 +2131,13 @@
      "review": false
     },
     {
+     "title": "AI股爆小股災 恒指兩萬四失而復得 專家：10月股災月宜守不宜攻｜港股收市",
+     "source": "Sing Tao Daily 星島日報加拿大",
+     "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxQYVFydHVrNWZ4dlBNamFkbzcyXzFFVjZBNzRmbnBLSUhjdmxmWXBFOHVZSkp5Vi1HY1RyXzdxdkRpcTFEMzljRGxkcGF5VmpBVFB2RlVIS3ZfdENzVV9EbVpDM3BMUGltTWJhNE43TzhtZHphQUNGMWxYQTc3eXo3MHFWUHE2XzRhWFlqWkRfQ2JsLTBXU25DUEkxUExMZEoySU5GYUx3ZmdEU1pOUmxvWi1oVDFGT2U1aUp6M1gzRXpsWnFDdHhCUlVTUFYwRVJ1eEFJQVZKajNOS0UtbWRBZ1A5NFdfdkhMRi1DVzh1RE1TV2Vwem53QTNKYmk1SUZFRjJ5NWFfVnIwWVlzRlVfZ1RCT3VvSGthTjh2MW51LTFJV0F3b0ZIaXpWZlhhcnM0NDFsMkhtTVlSZnFhXzVtczZEd0F6MVRnWVBMTWlzQUtSc2dCTXA2UElIb3NaamN0XzJXcDdsOGNOcjhXazBncEN6cjJQZGRBNWhFOHRmcWtDNzAxaHRncG4yUGZ2OGdCN0JYNktzLU81R0R4Q1ZyTThLWE5WaElFd0FJQ2xOMWJZNDY5QWhLaGd2dmE4bkVnRXFwWndNMmFicXpUM0M3TU5sTURSU1FveENRcVRGanlSRUnSAYwBQVVfeXFMT2ZmblhVYUVneV8xSGFjRVFIc1lpUEV2bzY2NkpPeWlTZ1ZpVFFncnFJS01YTTV2MFA1YjlSQjRLbWJGdnMxRnNnTlhOS29WZlNkMHZtVU8ySVJ0SnR0bWlTdEZkOGhIOEFiSDNwazl6eDFUU2Y3a2FWN2tEMDExT2hLU1FXc1FZLW9MZV8?oc=5",
+     "date": "2026-10-15T12:25:48+08:00",
+     "review": false
+    },
+    {
      "title": "黃德几 - （1299）友邦中長線看好 | 開工前落盤/頭條名家本周心水",
      "source": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQaGZhY19kazBNQ1hCM2gzclZQUGtoc2dxMFRCdFUxdThtdW95YzB0azIwZ3VFcFlsQndHV0xIUWRfT01pZ0ZXdE5pV1hWc0JuWUd4NFlaQlBfQ1dld0tfZFdWSUd1RFZ6N2tNcWhPQWIybW5xdVJqYXR0WS04aWFkQmRYU3dENG1PWWlnRTYyUVl1RHJzTktpNmVPYTVMeS1qRUhiN0xiWlhEOHRyd09VbGhlRWNjbWgyS3JITVEyQldGYTBKVGo0MGw4empEc1hjZ1Y4cU9KcHBmdEpPWGtKRGR1OUZoS0dnR0JmNXRHbV9TWTRpNDlvTTl0WXNrTTh2UmstMzlOOHZxNnFVay1JNGpkM3RTSzhRekFCUDVVb0tfa1p5TFpOVHBfLVBneHJQc05yNjdZUklRV3N6VkpZMlhBX3k4T1U1UDdVM2ZSaUtCel94ZHI0UG44cnhHOU5yaUxZYXpXczVrejZXb3FHRXZB?oc=5",
@@ -2194,17 +2201,17 @@
      "review": false
     },
     {
-     "title": "今日地產新聞摘要",
-     "source": "Property.hk",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwV0YtdldkSk90eHZsY1FvU25JYXJqcV9fanNLV19XdkZ6TmZkTmxpVDYwOEJ1RWtVX3BHX1hDN25oNENxWGFoNGlYVE1JemNGaWxfX1l6TElpOERRWWgyUklxOVU0MVVIVE1mMGRVNHUyWkRTR3pyZzRB?oc=5",
-     "date": "2026-09-25T15:00:00+08:00",
-     "review": false
-    },
-    {
      "title": "恒指跌251點 欠北水大市成交僅越千億 生科醫藥股逆市揚",
      "source": "on.cc東網",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNHVRaW10OWl4N29adTVmUE1OamJXUFZSNE1DdkFBMmZRRHdyTU9Fc250NHBQOUFvcWlkeXJIQmtCS0lkVC1YTmotLUxZVVRHNkhnMXluZ3NjTVRQeWRpNmpCOHhHSDV1UW96TzAtWTFtZFR1ZThGTkNuTHVaa3FURWViUjQ1Y1ZWM3VR?oc=5",
      "date": "2026-09-25T15:00:00+08:00",
+     "review": false
+    },
+    {
+     "title": "今日地產新聞摘要",
+     "source": "宅谷地產資訊網",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwV0YtdldkSk90eHZsY1FvU25JYXJqcV9fanNLV19XdkZ6TmZkTmxpVDYwOEJ1RWtVX3BHX1hDN25oNENxWGFoNGlYVE1JemNGaWxfX1l6TElpOERRWWgyUklxOVU0MVVIVE1mMGRVNHUyWkRTR3pyZzRB?oc=5",
+     "date": "2026-09-25T09:51:17+08:00",
      "review": false
     },
     {
@@ -2560,7 +2567,7 @@
       "港股": 17,
       "美股": 13,
       "期權": null,
-      "股票": 12,
+      "股票": 13,
       "炒股": 5,
       "ETF": null,
       "stock": null,
@@ -2806,6 +2813,13 @@
      "review": false
     },
     {
+     "title": "CoreWeave 債務風暴引 AI 產業賣壓 美晶片股市值蒸發 2 兆美元",
+     "source": "Life 生活網",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWl9CUHR3YVVJanJjbWxLQm1JMnJLMzRqd2RkR2dLSkhfY0VtcVk2RUt3U3lna2Frd1UtemR0QkhVdks3TXIzM3ZkVGxzRGVPUGdEbENlbTc0MS1pdTkzbGdmMzVjeUYzX2dlNFl3YnNaempERnRHX1R3OFRFTmlxVVMwQ0lrV3c4M0MwNVBBa0dsb1p4X3hyYjFMRmZTbWpwRjlTRW54VHRram9CVFlIc01oNHU2aWRJMXVwbEZnbnhoUlJfS0FQd2RhYWk0RTVHeUNBMHNaTmNpSGkzR2JMbDZBSGVWLXRvUUs4U0xPU3hGal9BVmJwUlFPM0x3c1l5RUQ5eDFjSTcyR0FveTZz?oc=5",
+     "date": "2026-10-16T12:33:54+08:00",
+     "review": false
+    },
+    {
      "title": "盈透證券 (IBKR) 2026年第三季法說會：淨利息收入成長19%，調升股息",
      "source": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9YVEQtN0o0cEhIZlZsS3hXTVRwbzJ4b25yeGFNaXBSOUxJdzZzTU5DYy1QbGNaVFFUUWVpWlMzaE5fRXQ2UjA4OXdJaHJsdGFXN0ZuTTRsWDBYbEtJLVRBOGZnMDBxcmdSUFI5M2VGdTFsZ2M4ekdraFpwY0M?oc=5",
@@ -2916,13 +2930,6 @@
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xZ1FVeTd4TVVmVHc4NWtMNWRKSGMzdG9LNnFRVk5mZENvQm1TVjRIN2pYRnpCSnhkVmtGckFib3BuTmw4SFpmamUzTWZhN05nSFZXdmV2Z283NWlJa2dzdGVleEdlMVcwTDdWUk4xNmg?oc=5",
      "date": "2026-10-13T15:00:00+08:00",
      "review": false
-    },
-    {
-     "title": "德意志銀行給予盈透證券買入評級，目標價102.00美元 作者 Investing.com",
-     "source": "Investing.com 香港 - 股市報價& 財經新聞",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nZWdsNl9ubGF6QXh3NllWSmVCUUVnMmtrQ2ZTeHVKb1BnZ25SeHc0c1p2Y2lCa2Y2VnV6NHpxV0Nud0V4SnRlbEthc1JGWFE5R0g0V08zU3F3d0xJTGM4SVd4VEEwTDNqb29oanJKY0cyaGsz?oc=5",
-     "date": "2026-10-12T20:17:35+08:00",
-     "review": false
     }
    ],
    "history": [
@@ -2981,7 +2988,7 @@
       "港股": null,
       "美股": null,
       "期權": 25,
-      "股票": 46,
+      "股票": 45,
       "炒股": null,
       "ETF": 24,
       "stock": null,
@@ -3286,7 +3293,7 @@
      "rank": null,
      "kw": {
       "stock": 20,
-      "trading": 20,
+      "trading": 25,
       "options": 20,
       "invest": 30,
       "brokerage": null
@@ -3606,6 +3613,13 @@
      "review": true
     },
     {
+     "title": "Best ETF Trading Platforms Australia 2026: 5 Tested & Ranked",
+     "source": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UUVQxbjM3REhyWWk1Z0lzc3VlUHpSVi1neGktZS11M0Y1TlJvTVRIMVF2cS1XdkxYcFZob2U0Q1RGUjdONy01MHZQU0ZHeFpfT3JZUG1TSXBGSXp5ZzRFQndETFNrLXJGU2Z5ZUNseTNJSkRnWWNfcQ?oc=5",
+     "date": "2026-10-20T15:00:00+08:00",
+     "review": false
+    },
+    {
      "title": "Webull promo code & referral bonus for 2026: Claim exclusive offers",
      "source": "Sportsgambler",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WRFF5Q1dpSjZMbGVsTnpuV21TbEFpSGhlV1RWeFl2TXZTdnJ5NU5CbFpyVDR2MkdaRWZQVnNTbXJTTWFaVkxPdC1XSEhOczlwMldld3ZMV25lUnJ0U3Ftd25jV0hlR001Y3NTVUt5bzVPZjJyVWc?oc=5",
@@ -3708,13 +3722,6 @@
      "source": "openPR.com",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbTJXNE9hYW5faVpvOTRJM1JvejZoeENGZmY2RXJCdlU5NWYyVEs1RVZiQzJtZ1J4UDF2X1FKZ1l3SDMzeWFYOXEtckpZQzBoNmJGRk5sQ0VkdjR2TGdmNDN1ZDRyVEdZUHpERWxMSmdDaHMzbEwtRlJPT291T0swLS1GQzR0dWg1SmxxTEJKNnBfUWhrQ3dlVg?oc=5",
      "date": "2026-10-14T22:18:12+08:00",
-     "review": false
-    },
-    {
-     "title": "10 Best Crypto Exchanges Of 2026",
-     "source": "Forbes",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLVZtY3F3d0w5U0lneDdFM1dCN291TmJTSlBLbGNZT09xQWtDTlBoZHRBUkZWS0NFRksxVUhyTDBMbUFIai0tYWFLdTMxWEZQRHVPbzBCa0tfcXRRM1ZiRFV2c3YxTFFYcmhMOG8zeG4xNjhaUWtlZTQ2VzMtaWVoWnZ5Q28?oc=5",
-     "date": "2026-10-14T13:55:00+08:00",
      "review": false
     }
    ],
@@ -4831,6 +4838,13 @@
    },
    "news": [
     {
+     "title": "BloFin releases App Update 3.39.0 with new risk management features",
+     "source": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWElkOEtVeUNXQ21MMi1lOWdDRkxoNTR2UVlnX2JkNWxsMEZSeUc3OVA2amYwSS1tbjBsNnRFcGg5cFNrdkdCM1RWV1R6cmgyMWZTMWFtQktjRWptS3ZfUXlqTXd4Q3dVQkhhUW5kOTJrcFpQWVlMZ3E1M0RCUWgtMXNjV000MlZXaHQwZ1dfSDFjZw?oc=5",
+     "date": "2026-10-22T12:33:19+08:00",
+     "review": false
+    },
+    {
      "title": "Interactive Brokers Launches Autonomous AI Trading That Can Buy and Sell Shares Without Approval",
      "source": "Good Money Guide",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeGtDbjJkdkhEcC1MU0puTWZnRWVYdXFXSGFzdkJRcnFxYXBKM2xud1c5dUpMTE11aFJfd1lUNHFic1VPY3V1QnVtWG1taUV6WmU3QmtrRF9FazMtMkpOZE9zaXFycWZjNFZyR3daTGNHVF9pMTFCZGxPR3ZTdmNUaVIyZkpVSDVJWmNLQ3VDRQ?oc=5",
@@ -4866,6 +4880,13 @@
      "review": false
     },
     {
+     "title": "Best ETF Trading Platforms Australia 2026: 5 Tested & Ranked",
+     "source": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UUVQxbjM3REhyWWk1Z0lzc3VlUHpSVi1neGktZS11M0Y1TlJvTVRIMVF2cS1XdkxYcFZob2U0Q1RGUjdONy01MHZQU0ZHeFpfT3JZUG1TSXBGSXp5ZzRFQndETFNrLXJGU2Z5ZUNseTNJSkRnWWNfcQ?oc=5",
+     "date": "2026-10-20T15:00:00+08:00",
+     "review": false
+    },
+    {
      "title": "Google Broadens UAE Crypto Ad Eligibility, Clarifies CFD and Forex Rules",
      "source": "Finance Magnates",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmVaMHlMa3ljQUVnT1NJOHN1Xy1zU29TZTBCcHBnV2VsalQxQjhweDlHbzRDYS1QdXZBMWlYelJGbzZBUF9FME5QeXZTbFlvbjFib0lNcmU5bmJGUWNIX0s4bXR5OWhXUVdjQlUyVXdHSmExcGpXRnNRS05FQXlPSHNjRmZfeDJVRVFuUlBpYXgtWW5jX1Noc2M5QzIzcG5JV2piVE9oZWNFOEVibzk4?oc=5",
@@ -4889,7 +4910,7 @@
     {
      "title": "The Top 10 Best Stock Trading Companies in Dubai 2026:",
      "source": "Nubia Magazine!",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2cHdYU0lJQkJ5OVJwQVB0eFlOUjMzNHhiMDVubEY5R1Z0Unh6eVJpck5tRFVrTXgwdlRkN01wbkdPM1lCVWgtS1hYU0Rqc1FkdTRXY1dKMmJhUzFGeU4wZXpnWlVkMFBjZm94c0JDOHdXYVdOaHc?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YVVhyRDhUbW9xTVYwU2lDdC1SdmpTbld4UzlVYl9XR2JnTGlVUkV1Ni1PQmE3RXd1d2wydzU0Z3VmMmdKRDl1eG5Vb0s2Y2pTZTNyRk5rMzViNmtGbHFPdTRWN1ZyQ0lodDBiSUVDR2JydHRn?oc=5",
      "date": "2026-10-19T16:48:00+08:00",
      "review": false
     },
@@ -5006,6 +5027,13 @@
      "review": false
     },
     {
+     "title": "How to Trade in the US in 2026: Beginner's Guide to Trading",
+     "source": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9NckpyeGtOSXYtU2F2eE9JVkhpMnJBSTNrNEVtLU9pS3FmY0lfUzdvVGJMNVlicThJM29XbWFzUHc?oc=5",
+     "date": "2026-10-16T15:00:00+08:00",
+     "review": false
+    },
+    {
      "title": "Meta Arena Review 2026: Is the Prediction Markets App Legit?",
      "source": "NEXT.io",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MY3RRdC1iaTlrRzM1TVFJM0ZjYktxY1p4Tzc0eUk2VHNISml6YzF4bTZfNEw0bFYwT2FSRnZnbXI4Rzk1eFhVTHRvNWpCTUt2Q1doUW8zWTQxUQ?oc=5",
@@ -5013,32 +5041,11 @@
      "review": true
     },
     {
-     "title": "Interactive Brokers' Board Raises Dividend Following Net Revenue Gain -- Company Talk",
+     "title": "Interactive Brokers' Customer Account Expansion Drives Margin Loan Surge -- Company Talk",
      "source": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNREUwb1BBbVlLS05xZW1FWjQxQnFzUnExWmFRLXVNVWNTeXFVcXVjcU5jLVJqQ1NaQnNQQmNsQlBsTk9fcDE3dldyOFY1QVU0VnczLW5JSlhPRm1VUGZxVkVRN1EzelhvTFJqOE5oMVRNTElfUC1MdHpfZ1BVZFdHY2h3VWdVYlk2cUFBcmI0bHktSDlTTFBfVGI4US1YbTBsN3JpRi04RWNfT2d5WHNPeWYzTHU5ZldHSzlzVg?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS1JieWtRcmFZSk4xV0FrWmd6VC12VDNDTWhEYmRHWFBqNVhycEJ6ZlFHcGlXQ2tOV3RRa2pYQjBKYXVBSGJ2X1hSRFlrYnNEUzRfSzU4U1U1MlBiNjBOMHFmQV9YbkhNQ0x4UFl3TVRDMHFaX0Q1WUx6YW1ndkxqZTFWdGYzR3V1ZW9EMnljZlBvX042cWJkbUVDblF0ZEU5TVhaSlZjM2ZCcExvc1N4VWdJYVZQNGpzdEJFU3JXWGU?oc=5",
      "date": "2026-10-16T10:57:36+08:00",
      "review": false
-    },
-    {
-     "title": "Interactive Brokers Group, Inc. Q3 2026 Earnings: Recap of $IBKR Earnings Call, Stock Forecast",
-     "source": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ1FjS2VXMXBkRnEzZmpYb01ob2F6Tk05NHlsTGJ6YUhlNFlrS0pXd213M09kWWktZ05rU1hhaV9kZlhOMFNfMzFOVHViUHRRNUd2RmpPaVhkaXJLbWk4ZHkzYngyWWJJZ1BZSGluUlN1MUxRWmhuSXhJMlM3aktDU093?oc=5",
-     "date": "2026-10-16T03:40:57+08:00",
-     "review": false
-    },
-    {
-     "title": "Lynx Opens Warsaw Office With Fewer Clients Than XTB Adds in Six Weeks",
-     "source": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSGZ0c3dpR2cwNVFGMnhISHo4Z2ZoVTZfa0NvNDdvTGxSVmlmRTVNYnhJNWo3R0pTVzgzbF9TSEMwWEtFNGplMF9rQVBuWDlVdlh0SkV3ZnB3M01qVFFONlB3NHlnNVRQUkoyaEpEUkhUU0NKNUhVWkJBbHpyTDdpbWd5bEVVU3Zac3g0cFRTa3VCY0FQNlI4OXN3d1plU2FUTmR0X1k5VGliUEV4bC1xaUpZd2wzQ1pqRDVLcVZET3QycDBnRWJVSWVWU0JhRER6?oc=5",
-     "date": "2026-10-15T20:42:58+08:00",
-     "review": false
-    },
-    {
-     "title": "Robinhood App Review 2026: Top Features Explained",
-     "source": "Phandroid",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xeklfa053dWlYbHVwdmplSHlNVGRtcDhGWkVzbzhUVmhoOGg2S3RzU0Z5U25sSGhhNTZMZTNYbGFtNTBPSDFleVJWUzFZZzZIUnQzdW5PWjllSWs0cUt1eHE3ekxxZw?oc=5",
-     "date": "2026-10-15T15:00:00+08:00",
-     "review": true
     }
    ],
    "history": [
@@ -5089,7 +5096,7 @@
      "rank": null,
      "kw": {
       "stock": null,
-      "trading": 46,
+      "trading": 54,
       "options": 25,
       "invest": 25,
       "brokerage": 9
@@ -6310,7 +6317,7 @@
     ]
    },
    "prev_day": "2026-10-21",
-   "updated": "2026-10-22T12:35:36+08:00"
+   "updated": "2026-10-22T12:47:58+08:00"
   },
   "us": {
    "entries": [
@@ -7524,7 +7531,7 @@
     ]
    },
    "prev_day": "2026-10-21",
-   "updated": "2026-10-22T12:35:36+08:00"
+   "updated": "2026-10-22T12:47:58+08:00"
   }
  }
 }
